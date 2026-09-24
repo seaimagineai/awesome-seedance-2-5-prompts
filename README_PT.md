@@ -1,6 +1,6 @@
 # Prompts do Seedance 2.5: veja, copie e crie
 
-[English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
 ![Um bonde laranja percorre trilhos curvos; a rua passa do esboço a modelos de papel e edifícios realistas com iluminação quente. Capa criada com IA, não um vídeo do Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
 
@@ -12,13 +12,7 @@ Edição SeaImagine baseada no repositório Flaq da nossa empresa: 120 receitas,
 
 Escolha uma cena no índice, copie o prompt e ajuste o assunto, os materiais e a câmera. Para usar uma imagem, tenha autorização para utilizá-la. No SeaImagine, selecione o modo de entrada e a duração disponíveis; avalie o resultado antes de estendê-lo.
 
-[Índice de 120 receitas](prompts/README.md) · [Seis exercícios em português](prompts/i18n/prompt-library.pt-BR.md)
-
-## Criar com SeaImagine
-
-Abra a página Seedance para usar o modelo. Use Create para preparar referências visuais e encontrar ferramentas de imagem e vídeo. Consulte disponibilidade, preços e limites na interface. As durações sugeridas são orientações criativas, não garantias do serviço.
-
-[SeaImagine · Seedance 2.5](https://seaimagine.com/pt/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/pt/create/)
+[Seis exercícios em português](prompts/i18n/prompt-library.pt-BR.md) · [Índice de 120 receitas · em chinês simplificado](prompts/README.md)
 
 ## Aprenda com vídeos da comunidade
 
@@ -40,7 +34,7 @@ Observe como os detalhes dos ingredientes e os sons sincronizados preparam a con
 
 Mantenha a cor e a construção da roupa e conecte os looks com movimentos semelhantes.
 
-[Todos os 12 exemplos da comunidade](README.md) · [Exemplos oficiais e fontes](docs/official-examples.md)
+[Todos os 12 exemplos da comunidade · em inglês](README.md) · [Exemplos oficiais e fontes · em inglês](docs/official-examples.md)
 
 ## Estrutura do prompt
 
@@ -70,6 +64,20 @@ Use a garrafa de vidro da Imagem 1 como única referência do produto. Preserve 
 Som: tampa, gás, gelo e ritmo original mínimo. Sem garrafas extras, rótulo se movendo, vidro deformado, líquido atravessando objetos, texto falso, logotipo, marca ou marca-d'água.
 ```
 
-[Seis exercícios em português](prompts/i18n/prompt-library.pt-BR.md) · [Índice de 120 receitas](prompts/README.md) · [Guia de criação](docs/seaimagine-workflow.md) · [Fontes e atribuição](docs/PROVENANCE.md)
+## Criar com SeaImagine
+
+![Um veleiro dourado num mar de papel, iluminado por um farol.](assets/seaimagine-paper-sea.jpg)
+
+Ilustração original criada com IA para este repositório; não é um resultado de vídeo do Seedance.
+
+Use o que praticou no exemplo do produto — manter a forma, definir a textura e guiar a câmera — para contar uma pequena história. No SeaImagine, comece com texto e experimente esta proposta de 5 segundos. É um exercício, sem resultado de geração verificado.
+
+```text
+5 segundos, plano único. Um veleiro de papel dourado avança lentamente sobre ondas de papel azul-petróleo. A câmera acompanha o barco de um ângulo baixo; um farol distante projeta luz quente. Preserve o casco, a vela e as fibras do papel. Termine suavemente. Sem texto, logotipos, barcos extras ou deformações.
+```
+
+[SeaImagine · Seedance 2.5](https://seaimagine.com/pt/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/pt/create/)
+
+[Seis exercícios em português](prompts/i18n/prompt-library.pt-BR.md) · [Índice de 120 receitas · em chinês simplificado](prompts/README.md) · [Guia de criação · em inglês](docs/seaimagine-workflow.md) · [Fontes e atribuição · em inglês](docs/PROVENANCE.md)
 
 [Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)

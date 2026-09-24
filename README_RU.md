@@ -1,6 +1,6 @@
 # Промпты Seedance 2.5: смотрите, копируйте, создавайте
 
-[English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
 ![Оранжевый трамвай едет по изогнутым рельсам; улица меняется от наброска и бумажных макетов до реалистичных зданий в тёплом свете. Обложка создана ИИ, это не видео Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
 
@@ -12,13 +12,7 @@
 
 Выберите сцену в каталоге, скопируйте промпт и замените объект, материалы и движение камеры. Подготовьте изображение, на использование которого у вас есть разрешение. В SeaImagine выберите доступный режим ввода и длительность; проверьте результат перед продлением.
 
-[Каталог 120 рецептов](prompts/README.md) · [Шесть упражнений на русском](prompts/i18n/prompt-library.ru.md)
-
-## Создать в SeaImagine
-
-Откройте страницу Seedance для работы с моделью. В Create можно подготовить изображения-референсы и найти инструменты для изображений и видео. Доступность, цены и ограничения указаны в интерфейсе. Длительность в примере — творческое задание, а не гарантия сервиса.
-
-[SeaImagine · Seedance 2.5](https://seaimagine.com/ru/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/ru/create/)
+[Шесть упражнений на русском](prompts/i18n/prompt-library.ru.md) · [Каталог 120 рецептов · на упрощённом китайском](prompts/README.md)
 
 ## Учитесь на видео сообщества
 
@@ -40,7 +34,7 @@
 
 Сохраняйте цвет и крой одежды, связывайте смену образов похожими движениями.
 
-[Все 12 примеров сообщества](README.md) · [Официальные примеры и источники](docs/official-examples.md)
+[Все 12 примеров сообщества · на английском](README.md) · [Официальные примеры и источники · на английском](docs/official-examples.md)
 
 ## Структура промпта
 
@@ -72,6 +66,20 @@
 Звук: крышка, пузырьки, лёд, минимальный оригинальный ритм. Без дополнительных бутылок, дрейфа этикетки, деформации стекла, пересечения жидкости, псевдотекста, логотипов, марок и водяных знаков.
 ```
 
-[Шесть упражнений на русском](prompts/i18n/prompt-library.ru.md) · [Каталог 120 рецептов](prompts/README.md) · [Руководство по созданию](docs/seaimagine-workflow.md) · [Источники и авторство](docs/PROVENANCE.md)
+## Создать в SeaImagine
+
+![Золотой парусник на бумажном море в свете маяка.](assets/seaimagine-paper-sea.jpg)
+
+Оригинальная иллюстрация, созданная с помощью ИИ для этого репозитория; это не кадр из видео Seedance.
+
+Примените приёмы из примера с товаром — сохранение формы, описание фактуры и движение камеры — к небольшой истории. В SeaImagine начните с текста и попробуйте этот замысел на 5 секунд. Это упражнение без проверенного результата генерации.
+
+```text
+5 секунд, один непрерывный план. Золотой бумажный парусник медленно плывёт по сине-зелёным бумажным волнам. Камера следует за ним с низкой точки; далёкий маяк даёт тёплый свет. Сохранять корпус, парус и бумажные волокна. Плавное завершение. Без текста, логотипов, дополнительных лодок и деформаций.
+```
+
+[SeaImagine · Seedance 2.5](https://seaimagine.com/ru/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/ru/create/)
+
+[Шесть упражнений на русском](prompts/i18n/prompt-library.ru.md) · [Каталог 120 рецептов · на упрощённом китайском](prompts/README.md) · [Руководство по созданию · на английском](docs/seaimagine-workflow.md) · [Источники и авторство · на английском](docs/PROVENANCE.md)
 
 [Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)

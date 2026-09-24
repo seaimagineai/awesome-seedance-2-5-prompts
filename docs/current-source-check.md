@@ -4,7 +4,7 @@ Checked: **2026-09-24**. This record separates fresh checks from the source repo
 
 ## Official material
 
-The [official model page](https://seed.bytedance.com/en/seedance2_5) and [official launch article](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) were retrieved this round. The article is dated 2026-07-31. Ten video URLs were extracted from its HTML, including the opening film; all returned HTTP 200 and `video/mp4` to HEAD requests. [Nine teaching examples](official-examples.md) link directly to those official files. No media was downloaded or end-to-end playback tested.
+The [official model page](https://seed.bytedance.com/en/seedance2_5) and [official launch article](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) were retrieved this round. The article is dated 2026-07-31. Ten video URLs were extracted from its HTML, including the opening film; all returned HTTP 200 and `video/mp4` to HEAD requests. [Nine teaching examples](official-examples.md) link directly to those official files. At the initial link-check stage no media was downloaded or end-to-end playback tested. A later still-extraction check is recorded below.
 
 ## X community material
 
@@ -59,3 +59,11 @@ These numbers were returned by FxTwitter on 2026-09-24. They are approximate thi
 ## Fresh media reachability check
 
 On 2026-09-24, all 12 community MP4 URLs and all 12 thumbnail URLs returned HTTP 200 with the expected `video/mp4` or `image/jpeg` content type. See the [machine-readable results](../data/media-link-check.json). This is a separate current check; the original 2026-09-20 source record remains unchanged. No end-to-end playback was tested. All 30 unique homepage brand URLs also responded successfully using a browser user agent; [results and request limitations](../data/brand-link-check.json).
+
+## Official still extraction
+
+On 2026-09-24, the three official videos selected for the homepage were downloaded temporarily for frame extraction. Six frames were extracted and visually inspected: backstage/stage at 3/24 seconds, concert hall/choir at 12/27 seconds, and the official breakfast camera comparison at 6/9 seconds. These timestamps refer to the hosted demonstration files, including introductory cards where present, not the prompt timelines.
+
+Frames are proportionally resized to 800 pixels wide and exported as JPEG. No compositing, retouching, re-generation or removal of embedded labels was applied. The breakfast frames retain the official side-by-side comparison. Local assets and their original URLs are mapped in [the case manifest](official-homepage-cases.json).
+
+This confirms the selected visible frames, not uninterrupted playback, sound synchronization or reproduction on SeaImagine. Prompt summaries paraphrase the source instructions; the separate transfer exercises remain untested. ByteDance Seed retains rights in the excerpted official frames; these assets are excluded from the repository's MIT license.

@@ -1,6 +1,6 @@
 # Seedance 2.5 提示詞：看案例、複製、開始製作
 
-[English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
 ![橘色電車沿彎軌前進，街區從線稿、紙模型過渡到暖燈照亮的寫實建築。AI 製作封面，非 Seedance 影片輸出。](assets/seaimagine-seedance-hero-v5.jpg)
 
@@ -12,13 +12,7 @@
 
 在索引選擇用途，複製提示詞，再替換主體、素材與運鏡。如果使用圖片，請準備有權使用的參考圖。在 SeaImagine 介面確認可用的輸入模式與片長，檢查生成結果後再延長。
 
-[120 組配方索引](prompts/README.md) · [繁體中文練習 6 組](prompts/i18n/prompt-library.zh-TW.md)
-
-## 使用 SeaImagine 製作
-
-使用模型請前往 Seedance 頁面。準備參考圖片或尋找圖片、影片工具，可從 Create 入口開始。供應狀態、價格及限制以實際介面為準。提示詞的秒數是創作設定，不是服務保證。
-
-[SeaImagine · Seedance 2.5](https://seaimagine.com/tw/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/tw/create/)
+[繁體中文練習 6 組](prompts/i18n/prompt-library.zh-TW.md) · [120 組配方索引 · 簡體中文](prompts/README.md)
 
 ## 從社群影片學習
 
@@ -40,7 +34,7 @@
 
 保持服裝顏色與結構一致，用相似動作銜接不同搭配。
 
-[完整 12 組社群案例](README.md) · [官方案例與來源](docs/official-examples.md)
+[完整 12 組社群案例 · 簡體中文](README_ZH.md) · [官方案例與來源 · 英文](docs/official-examples.md)
 
 ## 提示詞基本結構
 
@@ -72,6 +66,20 @@
 聲音：瓶蓋、氣泡、冰塊與極簡原創節奏。禁止多餘瓶子、標籤漂移、玻璃變形、液體穿模、偽文字、標誌、商標與浮水印。
 ```
 
-[繁體中文練習 6 組](prompts/i18n/prompt-library.zh-TW.md) · [120 組配方索引](prompts/README.md) · [製作步驟](docs/seaimagine-workflow.md) · [來源與歸屬說明](docs/PROVENANCE.md)
+## 使用 SeaImagine 製作
+
+![金色紙帆船駛向紙海中的暖光燈塔。](assets/seaimagine-paper-sea.jpg)
+
+本庫以 AI 製作的原創插畫，不是 Seedance 影片生成結果。
+
+把前面商品練習的「保持外形、指定材質、安排運鏡」，用在一個小故事裡。打開 SeaImagine，從文字生成影片開始，先試試下面這個 5 秒構想。這是練習提示詞，尚未完成生成實測。
+
+```text
+5 秒，一鏡到底。金色紙帆船緩緩穿過藍綠色紙浪。鏡頭從低處跟隨帆船，遠方燈塔投下暖光。保持船身、船帆與紙張纖維，結尾平穩停住。不出現文字、標誌、多餘船隻或變形。
+```
+
+[SeaImagine · Seedance 2.5](https://seaimagine.com/tw/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/tw/create/)
+
+[繁體中文練習 6 組](prompts/i18n/prompt-library.zh-TW.md) · [120 組配方索引 · 簡體中文](prompts/README.md) · [製作步驟 · 英文](docs/seaimagine-workflow.md) · [來源與歸屬說明 · 英文](docs/PROVENANCE.md)
 
 [Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)

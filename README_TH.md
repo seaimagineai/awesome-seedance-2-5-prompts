@@ -1,6 +1,6 @@
 # พรอมต์ Seedance 2.5: ดูตัวอย่าง คัดลอก แล้วสร้าง
 
-[English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
 ![รถรางสีส้มเคลื่อนไปตามรางโค้ง ถนนเปลี่ยนจากภาพร่างเป็นโมเดลกระดาษ แล้วเป็นอาคารสมจริงใต้แสงไฟอุ่น ภาพปกสร้างด้วย AI ไม่ใช่วิดีโอจาก Seedance](assets/seaimagine-seedance-hero-v5.jpg)
 
@@ -12,13 +12,7 @@
 
 เลือกฉากจากสารบัญ คัดลอกพรอมต์ แล้วปรับตัวแบบ วัสดุ และการเคลื่อนกล้อง หากใช้ภาพ ให้เตรียมภาพที่คุณมีสิทธิ์ใช้งาน เลือกโหมดและความยาวที่รองรับใน SeaImagine แล้วตรวจผลก่อนต่อความยาว
 
-[สารบัญ 120 สูตร](prompts/README.md) · [แบบฝึกหัดภาษาไทย 6 ชุด](prompts/i18n/prompt-library.th.md)
-
-## สร้างด้วย SeaImagine
-
-เปิดหน้า Seedance เพื่อใช้โมเดล ใช้ Create เพื่อเตรียมภาพอ้างอิงและค้นหาเครื่องมือภาพและวิดีโอ ตรวจสอบการเปิดให้ใช้ ราคา และข้อจำกัดในหน้าจอใช้งาน ระยะเวลาในตัวอย่างเป็นแนวทางสร้างสรรค์ ไม่ใช่การรับประกันบริการ
-
-[SeaImagine · Seedance 2.5](https://seaimagine.com/th/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/th/create/)
+[แบบฝึกหัดภาษาไทย 6 ชุด](prompts/i18n/prompt-library.th.md) · [สารบัญ 120 สูตร · ภาษาจีนตัวย่อ](prompts/README.md)
 
 ## เรียนรู้จากวิดีโอของชุมชน
 
@@ -40,7 +34,7 @@
 
 รักษาสีและโครงสร้างเสื้อ ใช้การเคลื่อนไหวที่คล้ายกันเชื่อมแต่ละลุค
 
-[ตัวอย่างชุมชนทั้ง 12 ชุด](README.md) · [ตัวอย่างและแหล่งข้อมูลทางการ](docs/official-examples.md)
+[ตัวอย่างชุมชนทั้ง 12 ชุด · ภาษาอังกฤษ](README.md) · [ตัวอย่างและแหล่งข้อมูลทางการ · ภาษาอังกฤษ](docs/official-examples.md)
 
 ## โครงสร้างพรอมต์
 
@@ -72,6 +66,20 @@
 เสียง: เสียงเปิดฝา ฟองซ่า น้ำแข็งเบา ๆ และจังหวะต้นฉบับแบบมินิมอล ห้ามมีขวดเพิ่ม ฉลากเลื่อน แก้วบิดเบี้ยว ของเหลวทะลุภาชนะ ข้อความปลอม โลโก้ เครื่องหมายการค้า หรือลายน้ำ
 ```
 
-[แบบฝึกหัดภาษาไทย 6 ชุด](prompts/i18n/prompt-library.th.md) · [สารบัญ 120 สูตร](prompts/README.md) · [คู่มือการสร้าง](docs/seaimagine-workflow.md) · [แหล่งที่มาและเครดิต](docs/PROVENANCE.md)
+## สร้างด้วย SeaImagine
+
+![เรือใบกระดาษสีทองบนทะเลกระดาษใต้แสงอุ่นจากประภาคาร](assets/seaimagine-paper-sea.jpg)
+
+ภาพประกอบต้นฉบับที่สร้างด้วย AI สำหรับคลังนี้ ไม่ใช่ผลลัพธ์วิดีโอจาก Seedance
+
+นำสิ่งที่ฝึกจากตัวอย่างสินค้า ทั้งการรักษารูปทรง การระบุพื้นผิว และการเคลื่อนกล้อง มาเล่าเรื่องสั้น ๆ เปิด SeaImagine แล้วเริ่มสร้างวิดีโอจากข้อความด้วยแนวคิด 5 วินาทีนี้ เป็นแบบฝึกหัดที่ยังไม่ได้ทดสอบผลการสร้างจริง
+
+```text
+5 วินาที ช็อตเดียวต่อเนื่อง เรือใบกระดาษสีทองแล่นช้า ๆ บนคลื่นกระดาษสีน้ำเงินอมเขียว กล้องติดตามเรือจากมุมต่ำ ประภาคารไกลออกไปส่องแสงอุ่น รักษารูปทรงตัวเรือ ใบเรือ และเส้นใยกระดาษ จบด้วยการหยุดอย่างนุ่มนวล ไม่มีข้อความ โลโก้ เรือเพิ่ม หรือรูปทรงบิดเบี้ยว
+```
+
+[SeaImagine · Seedance 2.5](https://seaimagine.com/th/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/th/create/)
+
+[แบบฝึกหัดภาษาไทย 6 ชุด](prompts/i18n/prompt-library.th.md) · [สารบัญ 120 สูตร · ภาษาจีนตัวย่อ](prompts/README.md) · [คู่มือการสร้าง · ภาษาอังกฤษ](docs/seaimagine-workflow.md) · [แหล่งที่มาและเครดิต · ภาษาอังกฤษ](docs/PROVENANCE.md)
 
 [Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)

@@ -475,13 +475,31 @@
 
 ## 模型官方演示
 
-看官方案例时，可以带着一个问题：**这些效果，可以怎样拆成清楚的提示词？** 下面从[字节跳动 Seed 发布文章](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)选出三种写法，先拆解效果，再给出可以修改的练习提示词。
+先看**同一官方案例的提示词要点与真实画面**，再展开练习，把写法用到自己的故事里。下列图片均截取自[字节跳动 Seed 发布文章](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)所链接的视频，保留原画面；不是本库生成的插图，也不是 SeaImagine 实测结果。
 
-官方效果说明依据发布文章；代码框是本库另写的练习，**不是官方原词，也不是下方来源视频的生成提示词**，尚未实测。涉及参考素材时，需要自行准备有使用权的素材。
+代码框是官方提示词的中文简要转述，便于对照画面，**不是完整原词或复现配方**。完整提示词与素材要求见每例来源；折叠区是另写、尚未实测的迁移练习。
 
-### 1. 一镜到底：把路线写出来
+<a id="official-route"></a>
 
-**官方示范：** 歌手从后台走向舞台，用连续运镜串起沿途动作。关键不是反复强调“电影感”，而是交代人物去哪、途中做什么、镜头最后停在哪。
+### 1. 一镜到底：从后台走上舞台
+
+| 后台化妆间 · 3 秒 | 走上舞台 · 24 秒 |
+|---|---|
+| ![后台化妆间，官方视频 3 秒帧](assets/official-route-1.jpg) | ![走上舞台，官方视频 24 秒帧](assets/official-route-2.jpg) |
+
+**对应的提示词要点（简要转述）**
+
+```text
+连续跟拍歌手，依次经过化妆间、走廊和舞台。
+途中安排接话筒与同伴互动；上台后绕至人物背后，再拉远展示观众。
+```
+
+**看画面学什么：** 对照两帧，观察场景从近距离后台转为舞台空间。静态图只显示路径两端，连续运镜需参考原视频。
+
+[官方原文与完整提示词](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [辅助参考：官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4)
+
+<details>
+<summary>迁移练习：换一个故事试写（未实测）</summary>
 
 **换成自己的故事：** 让陶艺师把刚完成的杯子送到店门口。以下练习可直接用于文字创作。
 
@@ -495,11 +513,29 @@
 
 **预期效果与检查点：** 观众能跟着人物认清“工作台→陈列架→门口”的路线；若中途跳了场景，先减少转弯和遮挡，再调整风格词。
 
-[官方案例出处与原词：后台到舞台](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [辅助对照：原视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4)
+</details>
 
-### 2. 多参考：让每张图只负责一件事
+<a id="official-references"></a>
 
-**官方示范：** 乐团与合唱团案例为多份参考素材分配人物、乐器和场地等职责。可借鉴的是清楚的分工，不是一次上传越多越好。
+### 2. 多参考：为人物与场地分配素材
+
+| 演出场景 · 12 秒 | 合唱段落 · 27 秒 |
+|---|---|
+| ![演出场景，官方视频 12 秒帧](assets/official-references-1.jpg) | ![合唱段落，官方视频 27 秒帧](assets/official-references-2.jpg) |
+
+**对应的提示词要点（简要转述）**
+
+```text
+分别指定场地、钢琴师、主唱、弦乐、合唱团和观众的参考图。
+先展示全场，再依次呈现演奏与合唱，最后以观众掌声收尾。
+```
+
+**看画面学什么：** 对照画面中的舞台布局与不同表演者，理解多参考要分别控制哪些主体。是否与输入图完全一致，仍需同时检查官方参考素材。
+
+[官方原文与完整提示词](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [辅助参考：官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8au6q0.mp4)
+
+<details>
+<summary>迁移练习：换一个故事试写（未实测）</summary>
 
 **先准备素材：** 一张原创人物图、一张花店场景图、一张花束图。仅在当前工具支持分别指定多张参考图时使用。
 
@@ -514,11 +550,29 @@
 
 **预期效果与检查点：** 人物、空间和花束各自保持一致。若人物图的背景混进场景，先重写素材职责；若花材变了，先缩短动作或减少遮挡。
 
-[官方案例出处与原词：乐团与合唱](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [辅助对照：原视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8au6q0.mp4)
+</details>
 
-### 3. 只改运镜：先锁定不变的内容
+<a id="official-camera"></a>
 
-**官方示范：** 早餐视频编辑保留人物、动作与风格，通过分段指令调整机位。适合学习怎样把“修改项”和“保留项”写清楚。
+### 3. 视频编辑：保留动作，只改观看角度
+
+| 咖啡与早餐视角对照 · 6 秒 | 煎蛋动作视角对照 · 9 秒 |
+|---|---|
+| ![咖啡与早餐视角对照，官方视频 6 秒帧](assets/official-camera-1.jpg) | ![煎蛋动作视角对照，官方视频 9 秒帧](assets/official-camera-2.jpg) |
+
+**对应的提示词要点（简要转述）**
+
+```text
+保留早餐原片的人物、动作和画风，只改变运镜。
+按时间段安排贴近厨具、跟随煎蛋、转为俯拍，最后回到人物双人镜头。
+```
+
+**看画面学什么：** 官方视频自带左右画面对照。两帧分别展示早餐场景与煎蛋动作在不同机位下的样子；帧图时间是演示文件位置，不是提示词分段时间。
+
+[官方原文与完整提示词](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [辅助参考：官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awtl3.mp4)
+
+<details>
+<summary>迁移练习：换一个故事试写（未实测）</summary>
 
 **先准备素材：** 一段 10 秒的手冲咖啡视频，前 7 秒注水、最后 3 秒放下水壶；若原片动作时间不同，应同步调整下面的时间段。仅用于支持参考视频编辑的入口。
 
@@ -533,9 +587,9 @@
 
 **预期效果与检查点：** 咖啡仍按原来的顺序制作，变化集中在观看角度。若动作也被改写，先简化镜头路径，并再次明确保留原动作。
 
-[官方案例出处与原词：早餐镜头编辑](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [辅助对照：原视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awtl3.mp4)
+</details>
 
-其余示范涵盖故事延长、京剧调度、白模、绿幕、历史课堂与汽车装配，保留在[全部 9 个官方案例及来源](docs/official-examples.md)。多参考和视频编辑是否开放，请查看所用产品的当前界面。[来源核查记录](docs/current-source-check.md)。
+其余六个示范保留在[全部 9 个官方案例及来源](docs/official-examples.md)。多参考和视频编辑需相应入口支持，不能仅靠复制文字复现。[帧图来源与核查范围](docs/current-source-check.md#official-still-extraction)。
 
 ## Seedance 2.5 适合做什么
 

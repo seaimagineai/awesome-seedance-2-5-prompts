@@ -4,7 +4,7 @@
 
 <div dir="ltr">
 
-[English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
 </div>
 
@@ -18,13 +18,7 @@
 
 اختر مشهداً من الفهرس وانسخ المطالبة، ثم عدّل الموضوع والخامات وحركة الكاميرا. جهّز صورة تملك حق استخدامها. اختر في SeaImagine وضع الإدخال والمدة المتاحين، وافحص النتيجة قبل تمديدها.
 
-[فهرس الوصفات الـ120](prompts/README.md) · [ستة تمارين بالعربية](prompts/i18n/prompt-library.ar.md)
-
-## أنشئ باستخدام SeaImagine
-
-افتح صفحة Seedance لاستخدام النموذج. استخدم Create لتجهيز الصور المرجعية والعثور على أدوات الصور والفيديو. راجع التوافر والأسعار والحدود في الواجهة. المدد المذكورة توجيهات إبداعية وليست ضماناً للخدمة.
-
-[SeaImagine · Seedance 2.5](https://seaimagine.com/ar/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/ar/create/)
+[ستة تمارين بالعربية](prompts/i18n/prompt-library.ar.md) · [فهرس الوصفات الـ120 · بالصينية المبسطة](prompts/README.md)
 
 ## تعلّم من فيديوهات المجتمع
 
@@ -46,7 +40,7 @@
 
 حافظ على لون القطعة وتفاصيلها، واربط الإطلالات بحركات متشابهة.
 
-[أمثلة المجتمع الـ12 كاملة](README.md) · [الأمثلة الرسمية والمصادر](docs/official-examples.md)
+[أمثلة المجتمع الـ12 كاملة · بالإنجليزية](README.md) · [الأمثلة الرسمية والمصادر · بالإنجليزية](docs/official-examples.md)
 
 ## بنية المطالبة
 
@@ -78,7 +72,21 @@
 الصوت: الغطاء والفقاعات والثلج وإيقاع أصلي بسيط. لا زجاجات إضافية، ولا تحرك للملصق، أو تشوه للزجاج، أو اختراق للسائل، أو نص زائف، أو شعار، أو علامة مائية.
 ```
 
-[ستة تمارين بالعربية](prompts/i18n/prompt-library.ar.md) · [فهرس الوصفات الـ120](prompts/README.md) · [دليل الإنشاء](docs/seaimagine-workflow.md) · [المصادر ونسب المحتوى](docs/PROVENANCE.md)
+## أنشئ باستخدام SeaImagine
+
+![قارب شراعي ذهبي على بحر ورقي تحت ضوء منارة دافئ.](assets/seaimagine-paper-sea.jpg)
+
+رسم أصلي أُنشئ بالذكاء الاصطناعي لهذا المستودع؛ ليس نتيجة فيديو من Seedance.
+
+طبّق ما تعلمته في مثال المنتج — الحفاظ على الشكل ووصف الخامة وتوجيه الكاميرا — على قصة صغيرة. افتح SeaImagine وابدأ من النص لتجربة الفكرة التالية ومدتها 5 ثوانٍ. هذا تمرين لم تُختبر نتيجة توليده.
+
+```text
+5 ثوانٍ، لقطة واحدة متصلة. قارب شراعي من الورق الذهبي يتحرك ببطء فوق أمواج ورقية زرقاء مخضرة. تتبعه الكاميرا من زاوية منخفضة، وتلقي منارة بعيدة ضوءاً دافئاً. حافظ على الهيكل والشراع وألياف الورق. نهاية هادئة بتوقف تدريجي. دون نصوص أو شعارات أو قوارب إضافية أو تشوهات.
+```
+
+[SeaImagine · Seedance 2.5](https://seaimagine.com/ar/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/ar/create/)
+
+[ستة تمارين بالعربية](prompts/i18n/prompt-library.ar.md) · [فهرس الوصفات الـ120 · بالصينية المبسطة](prompts/README.md) · [دليل الإنشاء · بالإنجليزية](docs/seaimagine-workflow.md) · [المصادر ونسب المحتوى · بالإنجليزية](docs/PROVENANCE.md)
 
 [Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
 

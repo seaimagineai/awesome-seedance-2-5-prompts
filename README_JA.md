@@ -1,6 +1,6 @@
 # Seedance 2.5 プロンプト集：見て、コピーして、作る
 
-[English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
 ![オレンジ色の路面電車が曲線の線路を進み、街並みは線画から紙模型、暖かな光に照らされた写実的な建物へと変化します。AI制作の表紙で、Seedanceの動画出力ではありません。](assets/seaimagine-seedance-hero-v5.jpg)
 
@@ -12,13 +12,7 @@
 
 索引で用途を選び、プロンプトをコピーして、被写体・素材・カメラの動きを置き換えます。画像を使う場合は、使用権限のある画像を用意してください。SeaImagine の画面で対応する入力方式と尺を確認し、生成結果を見てから延長します。
 
-[120本の索引](prompts/README.md) · [日本語の練習6本](prompts/i18n/prompt-library.ja.md)
-
-## SeaImagine で作成
-
-モデルの利用は Seedance ページへ。参照画像の準備や画像・動画ツールの選択には Create を使います。提供状況、料金、制限は利用画面で確認してください。例の秒数は演出案であり、サービスの保証ではありません。
-
-[SeaImagine · Seedance 2.5](https://seaimagine.com/ja/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/ja/create/)
+[日本語の練習6本](prompts/i18n/prompt-library.ja.md) · [120本の索引 · 簡体字中国語](prompts/README.md)
 
 ## コミュニティの動画から学ぶ
 
@@ -40,7 +34,7 @@
 
 服の色と構造を保ち、似た動きをつないで着こなしを切り替えます。
 
-[コミュニティ全12例](README.md) · [公式の作例と出典](docs/official-examples.md)
+[コミュニティ全12例 · 英語](README.md) · [公式の作例と出典 · 英語](docs/official-examples.md)
 
 ## プロンプトの基本構造
 
@@ -72,6 +66,20 @@ Flaq 元リポジトリの参照画像です。動画の生成結果ではあり
 音：キャップ、炭酸、氷、最小限のオリジナルリズム。瓶の追加、ラベルのずれ、ガラス変形、液体の貫通、偽文字、ロゴ、商標、透かしは禁止。
 ```
 
-[日本語の練習6本](prompts/i18n/prompt-library.ja.md) · [120本の索引](prompts/README.md) · [作成手順](docs/seaimagine-workflow.md) · [出典と帰属](docs/PROVENANCE.md)
+## SeaImagine で作成
+
+![紙の海を進む金色の帆船と、暖かな灯台。](assets/seaimagine-paper-sea.jpg)
+
+本リポジトリ用に AI で制作したオリジナルイラストです。Seedance の動画出力ではありません。
+
+商品例で練習した「形を保つ」「質感を指定する」「カメラを動かす」を、小さな物語に使ってみましょう。SeaImagine で文字から動画を作成し、まずは次の 5 秒の演出案を試せます。生成結果を保証するものではありません。
+
+```text
+5秒、ワンカット。金色の紙の帆船が青緑色の紙の波をゆっくり進む。低い位置からカメラが船を追い、遠くの灯台が暖かく照らす。船体、帆、紙の繊維を保ち、最後は穏やかに停止。文字、ロゴ、船の追加、変形は不要。
+```
+
+[SeaImagine · Seedance 2.5](https://seaimagine.com/ja/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/ja/create/)
+
+[日本語の練習6本](prompts/i18n/prompt-library.ja.md) · [120本の索引 · 簡体字中国語](prompts/README.md) · [作成手順 · 英語](docs/seaimagine-workflow.md) · [出典と帰属 · 英語](docs/PROVENANCE.md)
 
 [Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)

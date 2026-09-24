@@ -439,31 +439,127 @@ Videos and thumbnails remain on the original media host. If a media URL changes,
 
 ## Official demonstrations
 
-These ByteDance Seed demos show camera planning and reference control. They are official model demonstrations, not SeaImagine outputs.
+Start with **prompt instructions and real frames from the same official example**, then expand a practice exercise to apply the technique to your own story. Every image below is an unretouched frame from a video linked in the [ByteDance Seed launch article](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5). These are official demonstrations, not illustrations generated for this library or SeaImagine test results.
 
-| Case | Official video |
+The code blocks briefly paraphrase the official prompts. They are **not the complete original prompts or reproduction recipes**. Follow each source for the full instructions and required inputs. The expandable exercises are original adaptations that have not been generation-tested.
+
+<a id="official-route"></a>
+
+### 1. One continuous shot: backstage to stage
+
+| Dressing room · 3 seconds | On stage · 24 seconds |
 |---|---|
-| Backstage to stage: a continuous camera route | [▶ MP4](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4) |
-| Clay render to fantasy: separate structure and appearance | [▶ MP4](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8avi1f.mp4) |
+| ![Dressing room, frame at 3 seconds in the official video](assets/official-route-1.jpg) | ![On stage, frame at 24 seconds in the official video](assets/official-route-2.jpg) |
 
-[All nine official demos and learning notes](docs/official-examples.md) · [ByteDance Seed](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)
+**Corresponding prompt instructions, briefly paraphrased**
+
+```text
+Follow a singer continuously through the dressing room, corridor, and stage.
+Include a microphone handover and interactions along the route. Move behind the singer on stage, then pull back to reveal the audience.
+```
+
+**What to learn from the frames:** Compare the intimate backstage setting with the open stage space. The stills show two points along the route; use the source video to examine the continuous camera movement.
+
+[Official article and full prompt](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [Supporting reference: official video](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4)
+
+<details>
+<summary>Practice: apply the technique to another story (untested)</summary>
+
+**Make it your own:** Follow a potter carrying a finished cup to the shop entrance. This exercise can be used as a text-to-video prompt.
+
+```text
+15 seconds, 16:9, a realistic slice-of-life film in one continuous shot.
+0–5 seconds: The camera rises slowly from a white porcelain cup on the workbench. A potter picks it up with both hands and turns toward the entrance.
+5–10 seconds: Follow two meters behind her through narrow pottery display shelves. She turns her body naturally to avoid the shelves, keeping the cup level.
+10–15 seconds: At the entrance, she places the cup on a wooden table. The camera moves slowly past her shoulder to the front of the cup, stopping on a close-up of morning light across its rim.
+Keep the same person, cup, and continuous space. No cuts, teleportation, or additional people. Only footsteps, clothing rustle, and the gentle sound of the cup touching wood.
+```
+
+**Intended result and checks:** Viewers should understand the route from workbench to shelves to entrance. If the scene jumps midway, reduce turns and occlusions before adding more style descriptions.
+
+</details>
+
+<a id="official-references"></a>
+
+### 2. Multiple references: assign inputs to people and places
+
+| Performance scene · 12 seconds | Choir passage · 27 seconds |
+|---|---|
+| ![Performance scene, frame at 12 seconds in the official video](assets/official-references-1.jpg) | ![Choir passage, frame at 27 seconds in the official video](assets/official-references-2.jpg) |
+
+**Corresponding prompt instructions, briefly paraphrased**
+
+```text
+Assign separate reference images to the venue, pianist, lead singer, strings, choir, and audience.
+Establish the full scene, move through the performances and choir, and end with audience applause.
+```
+
+**What to learn from the frames:** Compare the stage layout and performers to identify which subjects need separate references. Checking whether they match the inputs also requires examining the official reference images.
+
+[Official article and full prompt](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [Supporting reference: official video](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8au6q0.mp4)
+
+<details>
+<summary>Practice: apply the technique to another story (untested)</summary>
+
+**Prepare the inputs:** One original character image, one flower-shop image, and one bouquet image. Use this exercise only in an interface that lets you assign separate roles to multiple reference images.
+
+```text
+10 seconds, 16:9. A quiet moment before a flower shop opens.
+Reference image 1 defines only the shopkeeper's face, hairstyle, and apron. Reference image 2 defines only the shop layout, wooden table position, and morning light. Reference image 3 defines only the bouquet's flowers, colors, and wrapping.
+0–4 seconds: Medium shot. The shopkeeper stands behind the wooden table and gently straightens the bouquet.
+4–8 seconds: Push slowly toward her hands as she folds the wrapping paper edge and ties it with cotton string.
+8–10 seconds: Stop on a close-up of the bouquet. Her hands leave the frame; the bouquet stays on the table.
+Keep the character's appearance, flower varieties, and shop layout unchanged throughout. Do not import the character reference's background into the shop. Retain paper-rustling sounds; no dialogue.
+```
+
+**Intended result and checks:** The person, space, and bouquet should each remain consistent. If the character image's background leaks into the scene, clarify the input roles. If the flowers change, shorten the action or reduce occlusion.
+
+</details>
+
+<a id="official-camera"></a>
+
+### 3. Video editing: preserve the action, change the viewpoint
+
+| Coffee and breakfast viewpoints · 6 seconds | Egg-cooking viewpoints · 9 seconds |
+|---|---|
+| ![Coffee and breakfast viewpoint comparison, frame at 6 seconds in the official video](assets/official-camera-1.jpg) | ![Egg-cooking viewpoint comparison, frame at 9 seconds in the official video](assets/official-camera-2.jpg) |
+
+**Corresponding prompt instructions, briefly paraphrased**
+
+```text
+Preserve the breakfast clip's people, actions, and visual style; change only the camera movement.
+Plan timed views near the cookware, tracking the egg, moving overhead, and returning to a two-person shot.
+```
+
+**What to learn from the frames:** The official video includes its own side-by-side comparison. These frames show the breakfast scene and egg-cooking action from different viewpoints. Frame timestamps locate images in the demonstration file; they are not the prompt's timeline instructions.
+
+[Official article and full prompt](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [Supporting reference: official video](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awtl3.mp4)
+
+<details>
+<summary>Practice: apply the technique to another story (untested)</summary>
+
+**Prepare the input:** A ten-second pour-over coffee video: pouring during the first seven seconds, then setting down the kettle during the final three. Adjust the timing below to match your actual clip. Use an interface that supports reference-video editing.
+
+```text
+Edit this ten-second pour-over coffee video. Change only the camera position and movement.
+Preserve the original person, sequence of hand movements, dripper, kettle, tabletop arrangement, lighting, and sound. Do not add or remove objects or extend the actions.
+0–4 seconds: Begin with a side close-up of the dripper. Move slowly to the right, keeping the water stream and dripper fully visible.
+4–7 seconds: Rise smoothly to an oblique overhead view of the water meeting the coffee grounds. Avoid letting the arm obscure the dripper.
+7–10 seconds: Pull back slowly to a medium shot, showing the complete original action of setting down the kettle. Come to a stable stop.
+Do not change the pouring speed, insert new actions, or add cuts.
+```
+
+**Intended result and checks:** The coffee should still be made in the original order, with changes concentrated in the viewpoint. If the action changes too, simplify the camera path and restate what must remain unchanged.
+
+</details>
+
+The other six demonstrations remain in [all nine official examples and sources](docs/official-examples.md). Multiple-reference and video-editing exercises require corresponding interface support; copying the text alone cannot reproduce them. [Frame sources and verification scope](docs/current-source-check.md#official-still-extraction).
 
 ## Share your Seedance 2.5 prompt
 
 Built something that other creators or developers can reproduce? [Open the guided submission form](https://github.com/seaimagineai/awesome-seedance-2-5-prompts/issues/new?template=prompt.yml) and share one original, tested prompt with its model settings, input roles, real output, and iteration notes. Useful submissions may be edited for clarity and added with attribution.
 
 We especially welcome multilingual prompts, real business workflows, accessibility-focused examples, controlled video edits, multi-reference tests, honest failure reports, and original reference assets. Do not submit copied collections, secrets, private data, unauthorized likenesses, protected characters, unlicensed media, unverifiable claims, or undisclosed affiliate links. See [CONTRIBUTING.md](CONTRIBUTING.md) for the review checklist.
-
-## Create with SeaImagine
-
-Start with [Seedance 2.5 on SeaImagine](https://seaimagine.com/model/seedance-2-5/) for text-led shots or an existing product, portrait or illustration. Use [SeaImagine Create](https://seaimagine.com/create/) as the creative workspace and [AI Image Generator](https://seaimagine.com/ai-image-generator/) to prepare reference artwork.
-
-1. Pick one prompt and replace its subject, setting and visual anchors.
-2. Upload the matching reference image when the prompt requires one.
-3. Select settings offered by the live interface; begin with a short motion test.
-4. Review hands, product shape, sound and the final frame before extending the sequence.
-
-The public model page describes 5–30 seconds in five-second steps and 480p/720p output. Advanced library recipes may require controls available on other implementations of the model. Public page descriptions are not a completed generation test or an uptime guarantee. See [the practical workflow and capability notes](docs/seaimagine-workflow.md).
 
 ## Find the right prompt in under a minute
 
@@ -603,6 +699,31 @@ Each language file contains six complete, copy-ready recipes rather than transla
 - Reserve the final 4–6 seconds for deceleration and a deliberate end frame.
 - Add dialogue, ambience, foley, and music as separate audio layers.
 - Use original or properly licensed people, music, products, and visual assets.
+
+## Create with SeaImagine
+
+The paper animation above uses material to establish its style; the continuous-shot examples use a clear route to organize movement. Bring both ideas into one small story: **send a paper boat across a miniature sea toward a lighthouse.**
+
+[![An original SeaImagine paper-art scene: an amber paper boat faces a deep-teal paper sea and a warmly lit lighthouse](assets/seaimagine-paper-sea.jpg)](https://seaimagine.com/model/seedance-2-5/)
+
+*Original brand concept artwork made with an image-generation tool to illustrate the idea below—not a frame from a Seedance 2.5 video. [Image-generation notes](assets/BRAND_IMAGE_PROMPT.md).*
+
+### Start with a five-second shot
+
+Open [Seedance 2.5 on SeaImagine](https://seaimagine.com/model/seedance-2-5/) and try the text prompt below. To guide the boat's shape and colors more closely, first make a **scene image without a title** in the [AI Image Generator](https://seaimagine.com/ai-image-generator/), then upload it to the video tool as the starting image.
+
+```text
+5 seconds, 16:9. A miniature paper-art scene with a stop-motion feel.
+An amber origami sailboat floats on a deep-teal paper sea, with a warmly lit paper lighthouse in the distance. Preserve visible paper fibers, folds, and the handmade set texture.
+The boat moves slowly along one low paper wave toward the lighthouse, bobbing gently. The camera follows slowly from behind and to one side of the stern, then comes to a complete stop for the final second.
+Keep the number of sails, the hull shape, and the lighthouse position unchanged. Do not turn the paper sea into real water or add other boats. Soft paper-rustling sounds; no dialogue, subtitles, or on-screen text.
+```
+
+Check three things first: **does the boat keep its shape, does the sea still look like paper, and does the ending settle?** Once the short shot works, try a longer journey. For your own product film, return to the advertising prompt above, replace its subject with your product, and start with one clear reveal.
+
+SeaImagine provides text and image creation entry points. Its public model page lists 5–30 seconds in five-second steps and 480p/720p options. Refine one short shot at a time, or use [SeaImagine Create](https://seaimagine.com/create/) to explore other image and video projects. The exercise above has not been generation-tested; advanced controls such as multiple references and video editing depend on the current interface. See [the practical workflow and capability notes](docs/seaimagine-workflow.md).
+
+**[Start creating with this prompt →](https://seaimagine.com/model/seedance-2-5/)**
 
 ## Seedance 2.5 prompt FAQ
 

@@ -1,0 +1,49 @@
+{
+  "extracted_on": "2026-09-24",
+  "method": "ffmpeg, original video timestamps, proportional resize to 800px wide; no compositing or retouching",
+  "rights": "ByteDance Seed; third-party excerpt frames excluded from repository MIT license",
+  "entries": [
+    {
+      "id": "official-route",
+      "source_url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4",
+      "image_path": "assets/official-route-1.jpg",
+      "image_paths": [
+        "assets/official-route-1.jpg",
+        "assets/official-route-2.jpg"
+      ],
+      "frame_seconds": [
+        3,
+        24
+      ]
+    },
+    {
+      "id": "official-references",
+      "source_url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8au6q0.mp4",
+      "image_path": "assets/official-references-1.jpg",
+      "image_paths": [
+        "assets/official-references-1.jpg",
+        "assets/official-references-2.jpg"
+      ],
+      "frame_seconds": [
+        12,
+        27
+      ]
+    },
+    {
+      "id": "official-camera",
+      "source_url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "video_url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awtl3.mp4",
+      "image_path": "assets/official-camera-1.jpg",
+      "image_paths": [
+        "assets/official-camera-1.jpg",
+        "assets/official-camera-2.jpg"
+      ],
+      "frame_seconds": [
+        6,
+        9
+      ]
+    }
+  ]
+}

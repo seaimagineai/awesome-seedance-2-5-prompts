@@ -46,18 +46,80 @@ for p in ROOT.rglob('*.md'):
 require('Copyright (c) 2026 Flaq AI' in (ROOT/'LICENSE').read_text(),'Missing upstream copyright')
 entries=json.loads((ROOT/'docs/x-showcase-sources.json').read_text())['entries']
 require(len({e['original_post'] for e in entries})==12,'Expected 12 unique X posts')
+def case_section(home, case_id, filename):
+    marker=f'<a id="{case_id}"></a>'
+    require(home.count(marker)==1,f'{filename}: expected one case anchor {case_id}')
+    if marker not in home:return ''
+    # Stop at the next case or top-level section; a missing resource in the
+    # final case must not be satisfied by a later catalogue or source list.
+    return re.split(r'<a\s+id=|^## ',home.split(marker,1)[1],maxsplit=1,flags=re.M)[0]
+
+def check_case_resources(home, records, resource_keys, filename):
+    for record in records:
+        case=case_section(home,record['id'],filename)
+        for key in resource_keys:
+            require(record[key] in case,f"{filename}: {record['id']} missing its {key}")
+            # Shared source articles are valid; another case's distinct image
+            # or video in this block usually means an accidental mismatch.
+            for other in records:
+                if other[key]!=record[key]:
+                    require(other[key] not in case,f"{filename}: {record['id']} contains {other['id']}'s {key}")
+        require(any(block.strip() for block in re.findall(r'```text[ \t]*\n(.*?)```',case,re.S)),
+                f"{filename}: {record['id']} missing nonempty prompt code block")
+        if record['id'].startswith('official-'):
+            source_explanation=case.split('<details>',1)[0]
+            require(any(block.strip() for block in re.findall(r'```text[ \t]*\n(.*?)```',source_explanation,re.S)),
+                    f"{filename}: {record['id']} missing visible official prompt summary")
+            for image_path in record.get('image_paths',[]):
+                require(image_path in case,f"{filename}: {record['id']} missing its still {image_path}")
+            for other in records:
+                if other['id']!=record['id']:
+                    for image_path in other.get('image_paths',[]):
+                        require(image_path not in case,f"{filename}: {record['id']} contains another case's still {image_path}")
+        if record['id'].startswith('x'):
+            require('<details>' in case and '</details>' in case,
+                    f"{filename}: missing copyable adaptation {record['id']}")
+
+official_path=ROOT/'docs/official-homepage-cases.json'
+require(official_path.is_file(),'Missing official homepage case manifest')
+official=json.loads(official_path.read_text())['entries'] if official_path.is_file() else []
+require(len(official)==3 and {e['id'] for e in official}==
+        {'official-route','official-references','official-camera'},'Expected three official teaching cases')
+for record in official:
+    require(record['image_path'] in record.get('image_paths',[]),f"{record['id']}: primary still missing from image_paths")
+    for image_path in record.get('image_paths',[]):
+        require((ROOT/image_path).is_file(),f'Missing official still: {image_path}')
 for filename in ['README.md', 'README_ZH.md']:
     home=(ROOT/filename).read_text()
-    for e in entries:
-        require(e['original_post'] in home and e['video_url'] in home and e['thumbnail_url'] in home,f"{filename}: missing showcase {e['id']}")
-        marker=f'<a id="{e["id"]}"></a>'
-        require(marker in home,f'{filename}: missing case anchor {e["id"]}')
-        if marker in home:
-            case=home.split(marker,1)[1].split('<a id=',1)[0]
-            case=case.split('</details>',1)[0]
-            require('<details>' in case and '```text' in case,f'{filename}: missing copyable adaptation {e["id"]}')
+    check_case_resources(home,entries,['original_post','video_url','thumbnail_url'],filename)
+    check_case_resources(home,official,['video_url','image_path','source_url'],filename)
     for asset in ['cinematic-rescue-reference.png','product-sparkling-tea-reference.png','paper-fox-story-reference.png','night-garden-storyboard.png']:
         require(home.count(f'assets/{asset}')==1,f'{filename}: expected one display of {asset}')
+    headings=list(re.finditer(r'^## (.+)$',home,re.M))
+    brand_title='Create with SeaImagine' if filename=='README.md' else '在 SeaImagine 使用 Seedance 2.5'
+    faq_title='Seedance 2.5 prompt FAQ' if filename=='README.md' else '常见问题'
+    brand=[i for i,h in enumerate(headings) if h.group(1)==brand_title]
+    require(len(brand)==1,f'{filename}: expected one brand section')
+    if len(brand)==1:
+        i=brand[0]
+        require(i+1<len(headings) and headings[i+1].group(1)==faq_title,
+                f'{filename}: brand section must immediately precede FAQ')
+        end=headings[i+1].start() if i+1<len(headings) else len(home)
+        require('assets/seaimagine-paper-sea.jpg' in home[headings[i].end():end],
+                f'{filename}: brand section missing its image')
+for lang in manifest['languages']:
+    filename=lang['readme']
+    home=(ROOT/filename).read_text()
+    english_links=re.findall(r'\[English\]\((README[^)]*)\)',home)
+    require(bool(english_links) and all(link=='README.md' for link in english_links),
+            f'{filename}: English navigation must point to README.md')
+    if lang['code'] not in ['en','cn']:
+        require('assets/seaimagine-paper-sea.jpg' in home,f'{filename}: missing localized brand image')
+alias=(ROOT/'README_EN.md').read_text()
+require(bool(re.search(r'\[[^]]+\]\(README\.md\)',alias)),
+        'README_EN.md: missing redirect link to complete English homepage')
+require(len(alias.splitlines())<=20 and not re.search(r'^## |<a id="x',alias,re.M),
+        'README_EN.md must remain a concise redirect, not a second English homepage')
 if errors:
     print('\n'.join(errors));sys.exit(1)
-print('PASS: 120 intact recipes, 15 language entry pages, 14 six-scene sets, 12 X cases, copyright and local links.')
+print('PASS: 120 intact recipes, 15 locales, 14 practice sets, matched X/official cases, brand placement, navigation and local links.')

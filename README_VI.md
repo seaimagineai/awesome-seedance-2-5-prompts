@@ -1,6 +1,6 @@
 # Prompt Seedance 2.5: xem, sao chép và tạo
 
-[English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
 ![Tàu điện màu cam đi theo đường ray cong; phố chuyển từ nét phác thảo sang mô hình giấy rồi thành những tòa nhà chân thực trong ánh đèn ấm. Ảnh bìa tạo bằng AI, không phải video Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
 
@@ -12,13 +12,7 @@ Bản SeaImagine được biên soạn từ kho Flaq của công ty: 120 công t
 
 Chọn cảnh trong mục lục, sao chép prompt rồi thay chủ thể, chất liệu và chuyển động máy quay. Hãy chuẩn bị ảnh mà bạn có quyền sử dụng. Chọn chế độ đầu vào và thời lượng được hỗ trợ trong SeaImagine; kiểm tra kết quả trước khi kéo dài video.
 
-[Mục lục 120 công thức](prompts/README.md) · [Sáu bài thực hành tiếng Việt](prompts/i18n/prompt-library.vi.md)
-
-## Tạo với SeaImagine
-
-Mở trang Seedance để dùng mô hình. Vào Create để chuẩn bị ảnh tham chiếu và tìm công cụ ảnh, video. Kiểm tra tình trạng cung cấp, giá và giới hạn trong giao diện. Thời lượng trong ví dụ là đề bài sáng tạo, không phải cam kết của dịch vụ.
-
-[SeaImagine · Seedance 2.5](https://seaimagine.com/vi/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/vi/create/)
+[Sáu bài thực hành tiếng Việt](prompts/i18n/prompt-library.vi.md) · [Mục lục 120 công thức · tiếng Trung giản thể](prompts/README.md)
 
 ## Học từ video cộng đồng
 
@@ -40,7 +34,7 @@ Quan sát cách các cảnh cận nguyên liệu và âm thanh đồng bộ chu�
 
 Giữ nguyên màu và cấu trúc áo; nối các bộ đồ bằng những chuyển động tương tự.
 
-[Đủ 12 ví dụ cộng đồng](README.md) · [Ví dụ và nguồn chính thức](docs/official-examples.md)
+[Đủ 12 ví dụ cộng đồng · tiếng Anh](README.md) · [Ví dụ và nguồn chính thức · tiếng Anh](docs/official-examples.md)
 
 ## Cấu trúc prompt
 
@@ -72,6 +66,20 @@ Dùng chai thủy tinh trong ở Hình 1 làm điểm neo sản phẩm duy nhấ
 Âm thanh: tiếng mở nắp, ga nhẹ, tiếng băng nhỏ và nhịp nền nguyên bản tối giản. Không thêm chai, không trôi nhãn, méo thủy tinh, chất lỏng xuyên thành chai, chữ giả, logo, nhãn hiệu hoặc watermark.
 ```
 
-[Sáu bài thực hành tiếng Việt](prompts/i18n/prompt-library.vi.md) · [Mục lục 120 công thức](prompts/README.md) · [Hướng dẫn tạo video](docs/seaimagine-workflow.md) · [Nguồn và ghi công](docs/PROVENANCE.md)
+## Tạo với SeaImagine
+
+![Thuyền buồm giấy màu vàng trên biển giấy dưới ánh đèn hải đăng.](assets/seaimagine-paper-sea.jpg)
+
+Minh họa gốc được tạo bằng AI cho kho này; không phải kết quả video của Seedance.
+
+Áp dụng cách giữ hình dáng, mô tả chất liệu và điều khiển máy quay trong ví dụ sản phẩm vào một câu chuyện nhỏ. Mở SeaImagine, bắt đầu tạo video từ văn bản và thử ý tưởng 5 giây dưới đây. Đây là bài tập chưa được kiểm chứng bằng kết quả tạo video.
+
+```text
+5 giây, một cảnh quay liên tục. Thuyền buồm giấy màu vàng chậm rãi đi qua những con sóng giấy xanh ngọc đậm. Máy quay bám theo thuyền từ góc thấp; ngọn hải đăng phía xa tỏa ánh sáng ấm. Giữ nguyên thân thuyền, cánh buồm và thớ giấy. Kết thúc bằng chuyển động dừng nhẹ nhàng. Không chữ, logo, thuyền thừa hay biến dạng.
+```
+
+[SeaImagine · Seedance 2.5](https://seaimagine.com/vi/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/vi/create/)
+
+[Sáu bài thực hành tiếng Việt](prompts/i18n/prompt-library.vi.md) · [Mục lục 120 công thức · tiếng Trung giản thể](prompts/README.md) · [Hướng dẫn tạo video · tiếng Anh](docs/seaimagine-workflow.md) · [Nguồn và ghi công · tiếng Anh](docs/PROVENANCE.md)
 
 [Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)

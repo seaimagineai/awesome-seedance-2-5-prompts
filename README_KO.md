@@ -1,6 +1,6 @@
 # Seedance 2.5 프롬프트: 보고, 복사하고, 만들기
 
-[English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
 ![주황색 전차가 굽은 선로를 따라가고, 거리는 선화에서 종이 모형, 따뜻한 조명의 사실적인 건물로 변합니다. AI로 만든 표지이며 Seedance 영상 출력이 아닙니다.](assets/seaimagine-seedance-hero-v5.jpg)
 
@@ -12,13 +12,7 @@
 
 목록에서 장면을 고르고 프롬프트를 복사한 뒤 피사체, 재질, 카메라 움직임을 바꾸세요. 이미지는 사용 권한이 있는 자료를 준비하세요. SeaImagine 화면에서 지원하는 입력 방식과 길이를 선택하고, 결과를 확인한 뒤 연장하세요.
 
-[레시피 120개 목록](prompts/README.md) · [한국어 연습 6개](prompts/i18n/prompt-library.ko.md)
-
-## SeaImagine에서 만들기
-
-모델을 사용하려면 Seedance 페이지를 여세요. 참조 이미지 준비와 이미지·영상 도구 선택은 Create에서 시작할 수 있습니다. 제공 여부, 가격, 제한은 실제 화면에서 확인하세요. 예시 길이는 연출 제안이며 서비스 보장이 아닙니다.
-
-[SeaImagine · Seedance 2.5](https://seaimagine.com/ko/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/ko/create/)
+[한국어 연습 6개](prompts/i18n/prompt-library.ko.md) · [레시피 120개 목록 · 중국어 간체](prompts/README.md)
 
 ## 커뮤니티 영상에서 배우기
 
@@ -40,7 +34,7 @@
 
 옷의 색과 구조를 유지하고 비슷한 동작으로 스타일 전환을 연결하세요.
 
-[커뮤니티 사례 12개 전체](README.md) · [공식 사례와 출처](docs/official-examples.md)
+[커뮤니티 사례 12개 전체 · 영어](README.md) · [공식 사례와 출처 · 영어](docs/official-examples.md)
 
 ## 프롬프트 기본 구조
 
@@ -70,6 +64,20 @@ Flaq 원본 저장소의 참조 이미지이며, 영상 생성 결과가 아닙�
 소리: 캡, 탄산, 얼음, 최소한의 오리지널 리듬. 추가 병, 라벨 이동, 유리 변형, 액체 관통, 가짜 문자, 로고, 상표, 워터마크 금지.
 ```
 
-[한국어 연습 6개](prompts/i18n/prompt-library.ko.md) · [레시피 120개 목록](prompts/README.md) · [제작 안내](docs/seaimagine-workflow.md) · [출처와 기여 표기](docs/PROVENANCE.md)
+## SeaImagine에서 만들기
+
+![종이 바다 위의 금빛 돛단배와 따뜻한 빛을 비추는 등대.](assets/seaimagine-paper-sea.jpg)
+
+이 저장소를 위해 AI로 제작한 원본 일러스트이며, Seedance 영상의 생성 결과가 아닙니다.
+
+제품 예제의 형태 유지, 질감 지정, 카메라 움직임을 작은 이야기에 적용해 보세요. SeaImagine에서 텍스트로 영상을 만들며 다음 5초 구성을 시도할 수 있습니다. 생성 결과를 검증한 프롬프트는 아닙니다.
+
+```text
+5초, 하나의 연속 장면. 금빛 종이 돛단배가 청록색 종이 파도 위를 천천히 나아간다. 카메라는 낮은 위치에서 배를 따라가고, 먼 등대가 따뜻한 빛을 비춘다. 선체, 돛, 종이 섬유를 유지한다. 마지막에는 부드럽게 멈춘다. 글자, 로고, 추가 배, 변형은 넣지 않는다.
+```
+
+[SeaImagine · Seedance 2.5](https://seaimagine.com/ko/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/ko/create/)
+
+[한국어 연습 6개](prompts/i18n/prompt-library.ko.md) · [레시피 120개 목록 · 중국어 간체](prompts/README.md) · [제작 안내 · 영어](docs/seaimagine-workflow.md) · [출처와 기여 표기 · 영어](docs/PROVENANCE.md)
 
 [Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)

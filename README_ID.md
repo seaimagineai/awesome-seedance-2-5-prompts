@@ -1,6 +1,6 @@
 # Prompt Seedance 2.5: tonton, salin, lalu buat
 
-[English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
+[English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
 ![Trem oranye mengikuti rel melengkung; jalan berubah dari sketsa menjadi model kertas, lalu bangunan realistis dengan cahaya hangat. Sampul buatan AI, bukan video Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
 
@@ -12,13 +12,7 @@ Edisi SeaImagine ini diadaptasi dari repositori Flaq perusahaan kami: 120 resep,
 
 Pilih adegan di indeks, salin prompt, lalu sesuaikan subjek, bahan, dan gerakan kamera. Siapkan gambar yang berhak Anda gunakan. Pilih mode masukan dan durasi yang tersedia di SeaImagine; periksa hasil sebelum memperpanjangnya.
 
-[Indeks 120 resep](prompts/README.md) · [Enam latihan bahasa Indonesia](prompts/i18n/prompt-library.id.md)
-
-## Buat dengan SeaImagine
-
-Buka halaman Seedance untuk menggunakan model. Gunakan Create untuk menyiapkan referensi visual dan menemukan alat gambar serta video. Periksa ketersediaan, harga, dan batasan di antarmuka. Durasi contoh adalah arahan kreatif, bukan jaminan layanan.
-
-[SeaImagine · Seedance 2.5](https://seaimagine.com/id/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/id/create/)
+[Enam latihan bahasa Indonesia](prompts/i18n/prompt-library.id.md) · [Indeks 120 resep · bahasa Mandarin sederhana](prompts/README.md)
 
 ## Belajar dari video komunitas
 
@@ -40,7 +34,7 @@ Perhatikan cara gambar dekat bahan dan suara yang selaras dengan gerakan menyiap
 
 Pertahankan warna dan struktur pakaian; sambungkan setiap gaya dengan gerakan yang serupa.
 
-[Semua 12 contoh komunitas](README.md) · [Contoh resmi dan sumber](docs/official-examples.md)
+[Semua 12 contoh komunitas · bahasa Inggris](README.md) · [Contoh resmi dan sumber · bahasa Inggris](docs/official-examples.md)
 
 ## Struktur prompt
 
@@ -72,6 +66,20 @@ Gunakan botol kaca pada Gambar 1 sebagai satu-satunya acuan produk. Pertahankan 
 Audio: tutup, gelembung, es, dan ritme orisinal minimal. Tanpa botol tambahan, label bergeser, kaca berubah bentuk, cairan menembus objek, teks palsu, logo, merek, atau watermark.
 ```
 
-[Enam latihan bahasa Indonesia](prompts/i18n/prompt-library.id.md) · [Indeks 120 resep](prompts/README.md) · [Panduan pembuatan](docs/seaimagine-workflow.md) · [Sumber dan atribusi](docs/PROVENANCE.md)
+## Buat dengan SeaImagine
+
+![Perahu layar emas di lautan kertas dengan cahaya hangat mercusuar.](assets/seaimagine-paper-sea.jpg)
+
+Ilustrasi orisinal yang dibuat dengan AI untuk repositori ini; bukan hasil video Seedance.
+
+Terapkan latihan produk — menjaga bentuk, menjelaskan tekstur, dan mengarahkan kamera — pada cerita kecil. Buka SeaImagine, mulai dari teks, lalu coba ide 5 detik berikut. Ini latihan yang hasil generasinya belum diuji.
+
+```text
+5 detik, satu pengambilan gambar tanpa potongan. Perahu layar kertas emas bergerak perlahan di atas ombak kertas biru kehijauan. Kamera mengikuti dari sudut rendah; mercusuar jauh memancarkan cahaya hangat. Pertahankan lambung, layar, dan serat kertas. Akhiri dengan berhenti perlahan. Tanpa teks, logo, perahu tambahan, atau perubahan bentuk.
+```
+
+[SeaImagine · Seedance 2.5](https://seaimagine.com/id/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/id/create/)
+
+[Enam latihan bahasa Indonesia](prompts/i18n/prompt-library.id.md) · [Indeks 120 resep · bahasa Mandarin sederhana](prompts/README.md) · [Panduan pembuatan · bahasa Inggris](docs/seaimagine-workflow.md) · [Sumber dan atribusi · bahasa Inggris](docs/PROVENANCE.md)
 
 [Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
