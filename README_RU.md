@@ -2,7 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Оригинальная иллюстрация для руководства, не результат генерации модели](assets/seaimagine-seedance-hero.svg)
+![Обложка создана с помощью ИИ, это не результат генерации видео Seedance](assets/seaimagine-seedance-hero-v2.png)
+
+Референс → указания для камеры → доработка кадров. На обложке — спасение в шторм, газированный чай и бумажная лиса из библиотеки.
 
 Версия SeaImagine основана на репозитории Flaq нашей компании: 120 рецептов, 60 на китайском и 60 на английском. Дополнения на 14 языках содержат по шесть упражнений. Все 120 рецептов не переведены на каждый язык.
 

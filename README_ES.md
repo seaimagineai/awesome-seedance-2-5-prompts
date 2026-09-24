@@ -2,7 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Ilustración original de la guía, no una muestra generada por el modelo](assets/seaimagine-seedance-hero.svg)
+![Portada creada con IA, no un resultado de vídeo de Seedance](assets/seaimagine-seedance-hero-v2.png)
+
+Imagen de referencia → dirección de cámara → planos refinados. Rescate en el mar, té con gas y zorro de papel: tres ejemplos de la biblioteca.
 
 Edición de SeaImagine basada en el repositorio de Flaq de nuestra empresa: 120 recetas, 60 en chino y 60 en inglés. Los suplementos de 14 idiomas incluyen seis ejercicios por idioma; no son traducciones completas de las 120 recetas.
 

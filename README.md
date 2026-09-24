@@ -11,7 +11,9 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [繁體中文](README_TW.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![SeaImagine editorial cover — not model output](assets/seaimagine-seedance-hero.svg)
+![SeaImagine prompt library: AI-created cover, not a Seedance video output](assets/seaimagine-seedance-hero-v2.png)
+
+Reference image → camera direction → refined shots. Illustrated with the library’s storm rescue, sparkling tea and paper fox.
 
 A SeaImagine edition of the company’s [Flaq prompt library](https://github.com/flaqai/awesome_seedance_2_5), with **120 complete recipes and 15 language entry points**. The main catalog contains 60 Chinese and 60 English recipes; 14 localized practice files each offer six shared scenes, not a full translation of all 120 recipes. Find copy-ready recipes for text-to-video, image-to-video, multi-reference control, local video editing, extension, synchronized sound, match cuts, tutorials, digital presenters, batch SKU production, long-form chaining, green screen, white-model previs, advertising, ecommerce, genre filmmaking, social video, original animation, visual experiments, education, and cinematic storytelling.
 
@@ -636,6 +638,6 @@ New original scenarios, careful localizations, accessibility improvements, and r
 - [Official Seedance 2.0 launch notes](https://seed.bytedance.com/en/blog/seedance-2-0-official-launch)
 - [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) — reviewed for broad use-case discovery; no prompt text, branded example, named style, or visual asset was copied.
 
-The 120 library recipes and six retained PNG reference/illustration assets come from the Flaq source collection; SeaImagine adaptation and the SVG cover are new. See [provenance and license boundaries](docs/PROVENANCE.md). The X showcase separately credits external posts, videos, thumbnails, and short prompt excerpts; its copyable editorial variants are clearly labeled. Linking a community video does not make it a repository-owned asset or grant permission to reuse it. Review generated output and input rights before commercial use.
+The 120 library recipes and six retained PNG reference/illustration assets come from the Flaq source collection; SeaImagine adaptation and the AI-created cover are new. See [provenance and license boundaries](docs/PROVENANCE.md). The X showcase separately credits external posts, videos, thumbnails, and short prompt excerpts; its copyable editorial variants are clearly labeled. Linking a community video does not make it a repository-owned asset or grant permission to reuse it. Review generated output and input rights before commercial use.
 
 The reproducible visual briefs are documented in [Original Image Prompt Notes](assets/IMAGE_PROMPTS.md).

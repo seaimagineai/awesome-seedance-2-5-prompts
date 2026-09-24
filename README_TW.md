@@ -2,7 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![原創指南設計圖，並非模型生成成果](assets/seaimagine-seedance-hero.svg)
+![AI 製作的封面：暴雨救援、產品廣告與紙藝動畫，非 Seedance 影片輸出](assets/seaimagine-seedance-hero-v2.png)
+
+參考圖 → 鏡頭指令 → 分鏡完善。封面取材於庫內的暴雨救援、氣泡茶廣告與紙狐狸動畫。
 
 本頁由本公司 Flaq 原始儲存庫改編為 SeaImagine 版本。120 組配方包含中文 60 組、英文 60 組；另有 14 種語言的補充檔案，各含 6 組練習提示詞，並非將全部 120 組翻譯成每一種語言。
 

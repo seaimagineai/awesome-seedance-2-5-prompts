@@ -2,7 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![ภาพประกอบที่ออกแบบสำหรับคู่มือ ไม่ใช่ผลงานจากโมเดล](assets/seaimagine-seedance-hero.svg)
+![ภาพปกสร้างด้วย AI ไม่ใช่ผลลัพธ์วิดีโอจาก Seedance](assets/seaimagine-seedance-hero-v2.png)
+
+ภาพอ้างอิง → คำสั่งกล้อง → ปรับปรุงช็อต ภาพปกใช้ตัวอย่างกู้ภัยกลางพายุ ชาซ่า และสุนัขจิ้งจอกกระดาษจากคลังนี้
 
 ฉบับ SeaImagine ดัดแปลงจากคลัง Flaq ของบริษัท รวม 120 สูตร แบ่งเป็นภาษาจีน 60 สูตรและภาษาอังกฤษ 60 สูตร มีไฟล์เสริม 14 ภาษา ภาษาละ 6 แบบฝึกหัด ไม่ได้แปลทั้ง 120 สูตรเป็นทุกภาษา
 
