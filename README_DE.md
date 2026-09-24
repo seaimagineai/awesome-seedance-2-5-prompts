@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![KI-generiertes Cover, kein Seedance-Videoergebnis](assets/seaimagine-seedance-hero-v2.png)
+![KI-generiertes Cover, kein Seedance-Videoergebnis](assets/seaimagine-seedance-hero-v3.png)
 
-Referenzbild → Kameraführung → verfeinerte Einstellungen. Seenotrettung, sprudelnder Tee und Papierfuchs stammen aus der Bibliothek.
+Vom Referenzbild zur Bewegung: Der Papierfuchs tritt aus dem Skizzenbuch.
 
 Die SeaImagine-Ausgabe basiert auf dem Flaq-Repository unseres Unternehmens: 120 Rezepte, davon 60 auf Chinesisch und 60 auf Englisch. Ergänzungen in 14 Sprachen enthalten jeweils sechs Übungen. Die 120 Rezepte wurden nicht vollständig in jede Sprache übersetzt.
 

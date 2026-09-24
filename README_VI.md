@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Ảnh bìa tạo bằng AI, không phải video do Seedance tạo](assets/seaimagine-seedance-hero-v2.png)
+![Ảnh bìa tạo bằng AI, không phải video do Seedance tạo](assets/seaimagine-seedance-hero-v3.png)
 
-Ảnh tham chiếu → chỉ dẫn máy quay → hoàn thiện cảnh quay. Ảnh bìa dùng các ví dụ cứu hộ trong bão, trà có ga và cáo giấy trong thư viện.
+Từ ảnh tham chiếu đến chuyển động: cáo giấy bước ra khỏi sổ phác thảo.
 
 Bản SeaImagine được biên soạn từ kho Flaq của công ty: 120 công thức, gồm 60 bằng tiếng Trung và 60 bằng tiếng Anh. Các tệp bổ sung cho 14 ngôn ngữ có sáu bài thực hành mỗi ngôn ngữ; không phải toàn bộ 120 công thức đều đã được dịch.
 

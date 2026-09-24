@@ -1,6 +1,6 @@
 # Original Image Prompt Notes
 
-The six inherited PNG assets were created for the Flaq source repository and retained with attribution. Their original generation briefs follow. The new SeaImagine PNG cover was generated with the built-in image tool using three of those references. It illustrates the creative workflow; it is not a Seedance-generated video frame. See [the exact cover prompt](COVER_PROMPT.md). See [provenance](../docs/PROVENANCE.md).
+The six inherited PNG assets were created for the Flaq source repository and retained with attribution. Their original generation briefs follow. The new SeaImagine PNG cover was generated with the built-in image tool using the paper-fox reference. It illustrates the creative workflow; it is not a Seedance-generated video frame. See [the exact cover prompt](COVER_PROMPT.md). See [provenance](../docs/PROVENANCE.md).
 
 ## `seedance-2-5-prompt-guide-hero.png`
 

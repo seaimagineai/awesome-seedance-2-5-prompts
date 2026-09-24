@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![参照画像を基にAIで制作した表紙。Seedanceの動画出力ではありません](assets/seaimagine-seedance-hero-v2.png)
+![参照画像を基にAIで制作した表紙。Seedanceの動画出力ではありません](assets/seaimagine-seedance-hero-v3.png)
 
-参照画像 → カメラの指示 → ショットの調整。表紙はライブラリの嵐の救助、炭酸ティー、紙のキツネを題材にしています。
+参照画像から動きへ。紙のキツネがスケッチブックから歩き出す。
 
 社内の Flaq 元リポジトリを SeaImagine 向けに編集したものです。120本のレシピは中国語60本と英語60本で構成され、14言語の補足資料には各6本の練習用プロンプトがあります。120本すべてを各言語に翻訳したものではありません。
 
