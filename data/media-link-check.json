@@ -1,0 +1,150 @@
+{
+  "checked_on": "2026-09-24",
+  "method": "curl HEAD; no playback or generation test",
+  "results": [
+    {
+      "case": "x01-galley-food-comedy",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2099186062715404288/vid/avc1/1920x1080/H8uxwKxVsSU09_LW.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x01-galley-food-comedy",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2099186062715404288/img/D-iYamhA_iFRBooM.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x02-one-garment-fashion",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x02-one-garment-fashion",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2095216899445649408/img/690ykZJzst5uQLwH.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x03-rainy-pet-selfie",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2098256097547309056/vid/avc1/1920x1080/mPxvxfjQ4VcrZg5r.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x03-rainy-pet-selfie",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2098256097547309056/img/QKhG3cYjfcBbxiuc.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x04-live-action-doodle",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2095748601087688705/vid/avc1/1280x720/vqE5gA1Hrf63bAyB.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x04-live-action-doodle",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2095748601087688705/img/0d5gq8yGWQZdSVch.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x05-minidv-everyday",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2090287723961847808/vid/avc1/1920x1080/sNtaxz9M_3wvzoTP.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x05-minidv-everyday",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2090287723961847808/img/z8kZQAvTTG7cWPHN.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x06-two-person-vlog",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2097967562604875776/vid/avc1/1920x1080/EB48uw1_u7MU2RJl.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x06-two-person-vlog",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2097967562604875776/img/uK9lzSMYEeRFhAvI.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x07-talent-show-reversal",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2090399674129940480/vid/avc1/854x480/8-BwGw71f6WF0sF4.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x07-talent-show-reversal",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2090399674129940480/img/zvDQqERbmMVkeaIT.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x08-pressed-flower-tutorial",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x08-pressed-flower-tutorial",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2084268630556983296/img/OXmdFhcGjZVL1k5f.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x09-energy-action-geography",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2096146403064254464/vid/avc1/1280x720/MZwL0tlYUawV8djb.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x09-energy-action-geography",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2096146403064254464/img/IsPJq2tLkew3sJuO.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x10-day-trip-story-arc",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2087164966864556033/vid/avc1/1280x720/CxZZE_2r3pzjndH-.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x10-day-trip-story-arc",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2087164966864556033/img/MY7hA0RJIHNj81nD.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x11-visible-object-handover",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x11-visible-object-handover",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2096424851888300032/img/GsfbwnQVERijOEJp.jpg",
+      "response": "200 image/jpeg"
+    },
+    {
+      "case": "x12-tropical-location-sound",
+      "kind": "video_url",
+      "url": "https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29",
+      "response": "200 video/mp4"
+    },
+    {
+      "case": "x12-tropical-location-sound",
+      "kind": "thumbnail_url",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2089204070997532672/img/UAx5Q6w1RA3C8pNG.jpg",
+      "response": "200 image/jpeg"
+    }
+  ]
+}

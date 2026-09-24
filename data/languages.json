@@ -1,0 +1,113 @@
+{
+  "checked_on": "2026-09-24",
+  "source": "https://seaimagine.com/model/seedance-2-5/",
+  "evidence": "Public page language-menu links parsed from HTML",
+  "scope": "15 localized entry pages; 120 core recipes (60 Chinese,60 English); 14 six-scene practice sets",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "readme": "README.md",
+      "model_url": "https://seaimagine.com/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.en.md"
+    },
+    {
+      "code": "cn",
+      "name": "简体中文",
+      "readme": "README_ZH.md",
+      "model_url": "https://seaimagine.com/cn/model/seedance-2-5/",
+      "practice_file": "prompts/prompt-library.md"
+    },
+    {
+      "code": "ja",
+      "name": "日本語",
+      "readme": "README_JA.md",
+      "model_url": "https://seaimagine.com/ja/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.ja.md"
+    },
+    {
+      "code": "pt",
+      "name": "Português",
+      "readme": "README_PT.md",
+      "model_url": "https://seaimagine.com/pt/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.pt-BR.md"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "readme": "README_ES.md",
+      "model_url": "https://seaimagine.com/es/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.es.md"
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "readme": "README_DE.md",
+      "model_url": "https://seaimagine.com/de/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.de.md"
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "readme": "README_RU.md",
+      "model_url": "https://seaimagine.com/ru/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.ru.md"
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "readme": "README_FR.md",
+      "model_url": "https://seaimagine.com/fr/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.fr.md"
+    },
+    {
+      "code": "tw",
+      "name": "繁體中文",
+      "readme": "README_TW.md",
+      "model_url": "https://seaimagine.com/tw/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.zh-TW.md"
+    },
+    {
+      "code": "ko",
+      "name": "한국어",
+      "readme": "README_KO.md",
+      "model_url": "https://seaimagine.com/ko/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.ko.md"
+    },
+    {
+      "code": "th",
+      "name": "ไทย",
+      "readme": "README_TH.md",
+      "model_url": "https://seaimagine.com/th/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.th.md"
+    },
+    {
+      "code": "vi",
+      "name": "Tiếng Việt",
+      "readme": "README_VI.md",
+      "model_url": "https://seaimagine.com/vi/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.vi.md"
+    },
+    {
+      "code": "ar",
+      "name": "العربية",
+      "readme": "README_AR.md",
+      "model_url": "https://seaimagine.com/ar/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.ar.md"
+    },
+    {
+      "code": "id",
+      "name": "Bahasa Indonesia",
+      "readme": "README_ID.md",
+      "model_url": "https://seaimagine.com/id/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.id.md"
+    },
+    {
+      "code": "it",
+      "name": "Italiano",
+      "readme": "README_IT.md",
+      "model_url": "https://seaimagine.com/it/model/seedance-2-5/",
+      "practice_file": "prompts/i18n/prompt-library.it.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "upstream_commit": "ef5a6b8d62cb58f9c6137637d1f650e8758a95fe",
+  "prompt_blocks": {
+    "prompts/prompt-library.md": {
+      "blocks": 24,
+      "sha256": "8142b79849bf2bd1e2955e0e640d34630b7f2f9bfa419b3373f428f144c21c42"
+    },
+    "prompts/extended-scenarios.md": {
+      "blocks": 36,
+      "sha256": "259220f9cad1b6881f6d86cd791441a5ee0e2d2b208a4eb8dbd3bc8ff83cf8a5"
+    },
+    "prompts/advanced-workflows.en.md": {
+      "blocks": 12,
+      "sha256": "3088da24058479e3161d31e12b4c84ee151bb4f57ca1ce87caf2db099a2ed0b3"
+    },
+    "prompts/creative-techniques.en.md": {
+      "blocks": 28,
+      "sha256": "8a2400c8182f85abab343191e9180edb674aa147d4c795aed32dfa3d9d54dfaa"
+    },
+    "prompts/genre-social-experiments.en.md": {
+      "blocks": 20,
+      "sha256": "35fae5dae8060b9e7e923b04856092afd2fc391d67011d2fcf1e4f890bfc8f9c"
+    }
+  }
+}

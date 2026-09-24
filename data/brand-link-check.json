@@ -1,0 +1,248 @@
+{
+  "checked_on": "2026-09-24",
+  "method": "HEAD with Mozilla/5.0 user agent; reachability only, not generation or uptime. Default Python user agent returned 403.",
+  "results": [
+    {
+      "url": "https://seaimagine.com/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/cn/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/cn/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/ja/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ja/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/pt/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/pt/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/es/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/es/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/de/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/de/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/ru/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ru/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/fr/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/fr/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/tw/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/tw/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/ko/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ko/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/th/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/th/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/vi/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/vi/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/ar/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ar/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/id/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/id/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/it/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/it/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/create/"
+    },
+    {
+      "url": "https://seaimagine.com/ai-image-generator/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ai-image-generator/"
+    },
+    {
+      "url": "https://seaimagine.com/pricing/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/pricing/"
+    }
+  ],
+  "readme_link_results": [
+    {
+      "url": "https://seaimagine.com/ai-image-generator/",
+      "status": 200,
+      "verified_with": "curl HEAD retry"
+    },
+    {
+      "url": "https://seaimagine.com/ar/create/",
+      "status": 200,
+      "verified_with": "curl HEAD retry"
+    },
+    {
+      "url": "https://seaimagine.com/ar/model/seedance-2-5/",
+      "status": 200,
+      "verified_with": "curl HEAD retry"
+    },
+    {
+      "url": "https://seaimagine.com/cn/model/seedance-2-5/",
+      "status": 200,
+      "verified_with": "curl HEAD retry"
+    },
+    {
+      "url": "https://seaimagine.com/create/",
+      "status": 200,
+      "verified_with": "curl HEAD retry"
+    },
+    {
+      "url": "https://seaimagine.com/de/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/de/create/"
+    },
+    {
+      "url": "https://seaimagine.com/de/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/de/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/es/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/es/create/"
+    },
+    {
+      "url": "https://seaimagine.com/es/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/es/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/fr/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/fr/create/"
+    },
+    {
+      "url": "https://seaimagine.com/fr/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/fr/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/id/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/id/create/"
+    },
+    {
+      "url": "https://seaimagine.com/id/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/id/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/it/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/it/create/"
+    },
+    {
+      "url": "https://seaimagine.com/it/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/it/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/ja/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ja/create/"
+    },
+    {
+      "url": "https://seaimagine.com/ja/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ja/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/ko/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ko/create/"
+    },
+    {
+      "url": "https://seaimagine.com/ko/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ko/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/pt/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/pt/create/"
+    },
+    {
+      "url": "https://seaimagine.com/pt/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/pt/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/ru/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ru/create/"
+    },
+    {
+      "url": "https://seaimagine.com/ru/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/ru/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/th/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/th/create/"
+    },
+    {
+      "url": "https://seaimagine.com/th/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/th/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/tw/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/tw/create/"
+    },
+    {
+      "url": "https://seaimagine.com/tw/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/tw/model/seedance-2-5/"
+    },
+    {
+      "url": "https://seaimagine.com/vi/create/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/vi/create/"
+    },
+    {
+      "url": "https://seaimagine.com/vi/model/seedance-2-5/",
+      "status": 200,
+      "final_url": "https://seaimagine.com/vi/model/seedance-2-5/"
+    }
+  ]
+}
