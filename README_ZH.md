@@ -491,14 +491,6 @@
 
 链接与媒体类型于 2026-09-24 核验，未完成全片播放或生成复现测试。需要的编辑、多参考或延长控制是否在品牌入口开放，应查看当前界面。[详细核查记录（英文）](docs/current-source-check.md)。
 
-## 在 SeaImagine 使用 Seedance 2.5
-
-打开 [SeaImagine Seedance 2.5](https://seaimagine.com/cn/model/seedance-2-5/)，按手头素材选择文字或图片创作。需要准备参考图，可使用 [AI 图片生成器](https://seaimagine.com/ai-image-generator/)；也可从 [Create 创作入口](https://seaimagine.com/create/) 开始。
-
-先复制一条提示词，替换主体、场景和需要保持不变的细节。有参考图就先上传，再按当前界面选择时长与画幅。先生成短片检查动作、产品外形、声音和结尾，再做更长的版本。
-
-品牌公开页面列出 5–30 秒（每档 5 秒）、480p/720p 等规格。本库也收录模型的进阶用法；视频编辑、多参考等控制是否在此入口开放，以实际界面为准。详见[操作说明与能力区别](docs/seaimagine-workflow.md)。
-
 ## Seedance 2.5 适合做什么
 
 下表说明模型的创作方向，不表示 SeaImagine 已开放全部控制。白模是尚未添加表面材质的三维模型，用来预先安排空间与运动；绿幕则用于后期替换背景。
@@ -754,6 +746,14 @@ Seedance 2.5 可使用自然语言描述。仓库提供简体中文主库，以�
 完整语言矩阵、本地化规则与人工检查清单见 [多语言 Prompts 目录](prompts/i18n/README.md)。另保留[八语言单场景逐句对照](prompts/multilingual-pack.md)，用于比较不同语言的导演结构。
 
 跨语言使用时，建议保留时间码、素材编号和固定字段名，减少翻译造成的职责混淆。对白使用目标语言书写，并明确“逐字说出、不要字幕、不要额外台词”。
+
+## 在 SeaImagine 使用 Seedance 2.5
+
+打开 [SeaImagine Seedance 2.5](https://seaimagine.com/cn/model/seedance-2-5/)，按手头素材选择文字或图片创作。需要准备参考图，可使用 [AI 图片生成器](https://seaimagine.com/ai-image-generator/)；也可从 [Create 创作入口](https://seaimagine.com/create/) 开始。
+
+先复制一条提示词，替换主体、场景和需要保持不变的细节。有参考图就先上传，再按当前界面选择时长与画幅。先生成短片检查动作、产品外形、声音和结尾，再做更长的版本。
+
+品牌公开页面列出 5–30 秒（每档 5 秒）、480p/720p 等规格。本库也收录模型的进阶用法；视频编辑、多参考等控制是否在此入口开放，以实际界面为准。详见[操作说明与能力区别](docs/seaimagine-workflow.md)。
 
 ## 常见问题
 
