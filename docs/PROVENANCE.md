@@ -11,6 +11,7 @@ This SeaImagine edition adapts the company’s [Flaq source repository](https://
 | Six PNG illustrations, reference boards and storyboard | Flaq source collection | Retained with original generation briefs in [IMAGE_PROMPTS](../assets/IMAGE_PROMPTS.md) |
 | SeaImagine cover (`seaimagine-seedance-hero-v5.jpg`, PNG master retained) | Original v4 concept generated without input images; v5 edited from that artwork with the built-in image tool | A tram rounding a wet curve in a street that develops from drawing and paper structure to detailed materials. Editorial interpretation of structure, lighting and motion; not a Seedance output or a verified workflow demonstration. [Generation record](../assets/COVER_PROMPT.md) |
 | 12 X showcase adaptations and source records | Flaq source collection; creators credited per post | Retained; source prompt, excerpt and editorial adaptation are separate |
+| SeaImagine paper-sea brand illustration | Original artwork generated with the built-in image tool, without reference images | Paper-craft scene paired with an untested practice prompt; not a Seedance output. [Generation record](../assets/BRAND_IMAGE_PROMPT.md) |
 | Official demonstrations | ByteDance Seed | Linked to original hosts; not relicensed or claimed as SeaImagine output |
 | Brand workflow, language entry pages, source research | This adaptation | Product links and evidence boundaries added |
 

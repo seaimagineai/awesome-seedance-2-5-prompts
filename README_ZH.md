@@ -35,7 +35,7 @@
 | 做软件、课程、珠宝、文化或无障碍内容 | [专业场景 61–72](prompts/advanced-workflows.en.md)，英文正文 |
 | 练转场、一镜到底、编辑、延长或白模预演 | [创作技法 73–100](prompts/creative-techniques.en.md)，英文正文 |
 | 做类型片、社媒喜剧或动态海报 | [场景 101–120](prompts/genre-social-experiments.en.md)，英文正文；[本页九格分镜解读](#用九格分镜安排画面变化) |
-| 了解模型官方示范 | [9 个官方视频与中文学习要点](#模型官方演示) |
+| 了解模型官方示范 | [官方效果拆解与 3 条练习提示词](#模型官方演示) |
 
 [提示词写法](#seedance-25-提示词公式) · [快速开始](#快速开始) · [图生视频排错](#失败时如何改) · [常见问题](#常见问题) · [在 SeaImagine 使用](#在-seaimagine-使用-seedance-25)
 
@@ -475,21 +475,67 @@
 
 ## 模型官方演示
 
-以下视频出自[字节跳动 Seed 官方发布文章](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)，不是本库或 SeaImagine 的实测输出。先看演示，再回到官方原文阅读完整提示词；涉及参考素材的例子，仅复制文字不能复现。
+看官方案例时，可以带着一个问题：**这些效果，可以怎样拆成清楚的提示词？** 下面从[字节跳动 Seed 发布文章](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)选出三种写法，先拆解效果，再给出可以修改的练习提示词。
 
-| 案例 | 观看视频 | 可以学什么 |
-|---|---|---|
-| 从后台走向舞台 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4) | 先写清一条连续的行进路线，再安排人物在沿途做什么。 |
-| 地铁故事延长 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8athfv.mp4) | 衔接已有角色、地点和声音，让下一段接得上。 |
-| 京剧舞台调度 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8atnr8.mp4) | 用演员的转身和水袖动作带动镜头，而不是无理由切换。 |
-| 乐团与合唱 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8au6q0.mp4) | 明确每份参考素材分别负责人物、乐器还是场景。 |
-| 白模变成幻想短片 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8avi1f.mp4) | 用无材质的三维预演确定结构与运动，再指定外观。 |
-| 足球绿幕编辑 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awohg.mp4) | 按时间段说明需要替换的背景与物体。 |
-| 早餐镜头编辑 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awtl3.mp4) | 保留人物和动作，只改变拍摄路径。 |
-| 历史课堂演示 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awvr0.mp4) | 让讲解对应画面中可见的人物与动作。 |
-| 汽车装配 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8ax35t.mp4) | 先确定装配顺序与位置，再处理材质和光照。 |
+官方效果说明依据发布文章；代码框是本库另写的练习，**不是官方原词，也不是下方来源视频的生成提示词**，尚未实测。涉及参考素材时，需要自行准备有使用权的素材。
 
-链接与媒体类型于 2026-09-24 核验，未完成全片播放或生成复现测试。需要的编辑、多参考或延长控制是否在品牌入口开放，应查看当前界面。[详细核查记录（英文）](docs/current-source-check.md)。
+### 1. 一镜到底：把路线写出来
+
+**官方示范：** 歌手从后台走向舞台，用连续运镜串起沿途动作。关键不是反复强调“电影感”，而是交代人物去哪、途中做什么、镜头最后停在哪。
+
+**换成自己的故事：** 让陶艺师把刚完成的杯子送到店门口。以下练习可直接用于文字创作。
+
+```text
+15 秒，16:9，写实生活短片，一个连续镜头。
+0–5 秒：镜头从工作台上的白瓷杯缓缓抬起，陶艺师用双手端起杯子，转身走向门口。
+5–10 秒：镜头在人物身后保持两米距离，跟随她穿过狭窄的陶器陈列架；身体自然侧转避开架子，杯子始终水平。
+10–15 秒：她在门口把杯子放上木桌，镜头从她肩旁缓慢移到杯子前方，停在杯沿被晨光照亮的近景。
+保持同一人物、同一只杯子和连续空间；不切镜、不瞬移、不新增人物。声音只有脚步、衣料摩擦和杯底轻触木桌。
+```
+
+**预期效果与检查点：** 观众能跟着人物认清“工作台→陈列架→门口”的路线；若中途跳了场景，先减少转弯和遮挡，再调整风格词。
+
+[官方案例出处与原词：后台到舞台](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [辅助对照：原视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4)
+
+### 2. 多参考：让每张图只负责一件事
+
+**官方示范：** 乐团与合唱团案例为多份参考素材分配人物、乐器和场地等职责。可借鉴的是清楚的分工，不是一次上传越多越好。
+
+**先准备素材：** 一张原创人物图、一张花店场景图、一张花束图。仅在当前工具支持分别指定多张参考图时使用。
+
+```text
+10 秒，16:9，花店开门前的安静片段。
+参考图 1 只定义店员的脸、发型和围裙；参考图 2 只定义花店布局、木桌位置与晨间光线；参考图 3 只定义花束的花材、配色和包装。
+0–4 秒：中景，店员站在木桌后，轻轻扶正桌上的花束。
+4–8 秒：镜头缓慢推近双手，她将包装纸边缘折好，用一条棉绳系住。
+8–10 秒：镜头停在花束近景，店员双手离开画面，花束留在桌上。
+全程保持人物外貌、花束品种和店内布局不变；不要把人物参考图的背景带入花店。保留纸张摩擦声，无对白。
+```
+
+**预期效果与检查点：** 人物、空间和花束各自保持一致。若人物图的背景混进场景，先重写素材职责；若花材变了，先缩短动作或减少遮挡。
+
+[官方案例出处与原词：乐团与合唱](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [辅助对照：原视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8au6q0.mp4)
+
+### 3. 只改运镜：先锁定不变的内容
+
+**官方示范：** 早餐视频编辑保留人物、动作与风格，通过分段指令调整机位。适合学习怎样把“修改项”和“保留项”写清楚。
+
+**先准备素材：** 一段 10 秒的手冲咖啡视频，前 7 秒注水、最后 3 秒放下水壶；若原片动作时间不同，应同步调整下面的时间段。仅用于支持参考视频编辑的入口。
+
+```text
+编辑这段 10 秒手冲咖啡视频，只修改拍摄机位和镜头运动。
+保持原视频中的人物、手部动作顺序、滤杯、水壶、桌面陈设、光线和声音不变，不增删物体，不延长动作。
+0–4 秒：从滤杯侧面近景开始，镜头缓慢向右移动，保持水流和滤杯完整可见。
+4–7 秒：平稳抬升至斜上方，看见水流落在咖啡粉表面，避免手臂遮住滤杯。
+7–10 秒：缓慢拉回中景，完整呈现原视频中放下水壶的动作，最后停稳。
+不要改变注水速度，不插入新动作，不新增剪切。
+```
+
+**预期效果与检查点：** 咖啡仍按原来的顺序制作，变化集中在观看角度。若动作也被改写，先简化镜头路径，并再次明确保留原动作。
+
+[官方案例出处与原词：早餐镜头编辑](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [辅助对照：原视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awtl3.mp4)
+
+其余示范涵盖故事延长、京剧调度、白模、绿幕、历史课堂与汽车装配，保留在[全部 9 个官方案例及来源](docs/official-examples.md)。多参考和视频编辑是否开放，请查看所用产品的当前界面。[来源核查记录](docs/current-source-check.md)。
 
 ## Seedance 2.5 适合做什么
 
@@ -749,11 +795,28 @@ Seedance 2.5 可使用自然语言描述。仓库提供简体中文主库，以�
 
 ## 在 SeaImagine 使用 Seedance 2.5
 
-打开 [SeaImagine Seedance 2.5](https://seaimagine.com/cn/model/seedance-2-5/)，按手头素材选择文字或图片创作。需要准备参考图，可使用 [AI 图片生成器](https://seaimagine.com/ai-image-generator/)；也可从 [Create 创作入口](https://seaimagine.com/create/) 开始。
+前面的纸艺动画靠材质建立风格，一镜到底靠路线组织动作。现在，把这两种写法用在一个小故事里：**让桌上的纸船，驶向灯塔。**
 
-先复制一条提示词，替换主体、场景和需要保持不变的细节。有参考图就先上传，再按当前界面选择时长与画幅。先生成短片检查动作、产品外形、声音和结尾，再做更长的版本。
+[![SeaImagine 原创纸艺场景：琥珀色纸船面向深青色纸海与暖光灯塔](assets/seaimagine-paper-sea.jpg)](https://seaimagine.com/cn/model/seedance-2-5/)
 
-品牌公开页面列出 5–30 秒（每档 5 秒）、480p/720p 等规格。本库也收录模型的进阶用法；视频编辑、多参考等控制是否在此入口开放，以实际界面为准。详见[操作说明与能力区别](docs/seaimagine-workflow.md)。
+*原创品牌概念图，由图像工具生成，用来说明下方创作构想，并非 Seedance 2.5 视频效果截图。[配图生成记录](assets/BRAND_IMAGE_PROMPT.md)。*
+
+### 从一个 5 秒镜头开始
+
+打开 [SeaImagine Seedance 2.5](https://seaimagine.com/cn/model/seedance-2-5/)，先用下面的文字试做纸船短片。如果想更明确地控制纸船形状和色彩，可以先在 [AI 图片生成器](https://seaimagine.com/cn/ai-image-generator/)制作一张**不带标题的场景图**，再上传到视频入口作为起始图。
+
+```text
+5 秒，16:9，定格动画质感的纸艺微缩场景。
+一只琥珀色折纸帆船漂在深青色纸海上，远处是亮着暖灯的纸灯塔。保留纸纤维、折痕和手工搭建的质感。
+纸船沿着一道低矮纸浪缓慢向灯塔前进，船身轻轻起伏；镜头从船尾斜后方缓慢跟随，最后一秒停稳。
+保持船帆数量、船身形状和灯塔位置不变；纸海不要变成真实海水，不增加其他船只。轻柔纸张摩擦声，无对白、字幕或画面文字。
+```
+
+先看三个细节：**船有没有变形、纸海是否保住材质、结尾有没有停稳。** 满意后，再试更长的航行；若想做自己的品牌短片，也可以沿用前面的产品广告写法，把主体换成你的商品，先完成一个清楚的展示动作。
+
+SeaImagine 提供文字和图片创作入口，公开页面列出 5–30 秒（每档 5 秒）、480p/720p 选项。你可以从短镜头逐步调整，再通过 [Create 创作入口](https://seaimagine.com/cn/create/)继续准备其他作品。上面的练习尚未生成实测；多参考、视频编辑等进阶控制以实际界面为准，详见[操作说明与能力区别](docs/seaimagine-workflow.md)。
+
+**[用这条提示词开始创作 →](https://seaimagine.com/cn/model/seedance-2-5/)**
 
 ## 常见问题
 
