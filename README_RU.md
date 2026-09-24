@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Обложка создана с помощью ИИ, это не результат генерации видео Seedance](assets/seaimagine-seedance-hero-v3.png)
+![Обложка создана с помощью ИИ, это не результат генерации видео Seedance](assets/seaimagine-seedance-hero-v4.png)
 
-От референса к движению: бумажная лиса выходит из альбома.
+Оригинальная улица превращается из рисунка в бумажный макет и кинематографическую сцену, передавая работу с референсами, материалами и камерой.
 
 Версия SeaImagine основана на репозитории Flaq нашей компании: 120 рецептов, 60 на китайском и 60 на английском. Дополнения на 14 языках содержат по шесть упражнений. Все 120 рецептов не переведены на каждый язык.
 

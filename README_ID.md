@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Sampul dibuat dengan AI, bukan hasil video Seedance](assets/seaimagine-seedance-hero-v3.png)
+![Sampul dibuat dengan AI, bukan hasil video Seedance](assets/seaimagine-seedance-hero-v4.png)
 
-Dari referensi menjadi gerakan: rubah kertas melangkah keluar dari buku sketsa.
+Adegan orisinal berkembang dari sketsa menjadi konstruksi kertas lalu gerak sinematik, mencerminkan kendali referensi, perubahan material, dan perencanaan kamera.
 
 Edisi SeaImagine ini diadaptasi dari repositori Flaq perusahaan kami: 120 resep, terdiri dari 60 berbahasa Mandarin dan 60 berbahasa Inggris. Suplemen dalam 14 bahasa masing-masing memuat enam latihan; bukan terjemahan lengkap seluruh 120 resep.
 

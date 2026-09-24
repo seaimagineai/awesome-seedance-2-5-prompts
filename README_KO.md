@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![참조 이미지로 AI가 제작한 표지이며 Seedance 영상 출력이 아닙니다](assets/seaimagine-seedance-hero-v3.png)
+![AI로 제작한 독창적인 거리 풍경 표지이며 Seedance 영상 출력이 아닙니다](assets/seaimagine-seedance-hero-v4.png)
 
-참조 이미지에서 움직임으로: 종이 여우가 스케치북 밖으로 걸어 나옵니다.
+선화에서 종이 모형, 영화 같은 움직임으로 이어지는 독창적인 거리 장면으로 참조 제어, 재질 변화, 카메라 설계를 표현했습니다.
 
 사내 Flaq 원본 저장소를 SeaImagine에 맞게 편집했습니다. 레시피 120개는 중국어 60개와 영어 60개로 구성됩니다. 14개 언어의 보충 자료에는 언어별 연습 프롬프트 6개가 있으며, 120개 전체를 각 언어로 번역한 것은 아닙니다.
 

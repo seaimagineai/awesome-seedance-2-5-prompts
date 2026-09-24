@@ -11,9 +11,9 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [繁體中文](README_TW.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![SeaImagine prompt library: AI-created cover, not a Seedance video output](assets/seaimagine-seedance-hero-v3.png)
+![SeaImagine prompt library: AI-created cover, not a Seedance video output](assets/seaimagine-seedance-hero-v4.png)
 
-From reference to motion: the paper fox steps out of a sketchbook.
+An original scene unfolds from drawing to paper construction to cinematic motion, inspired by the library’s reference control, material transformation and camera planning.
 
 A SeaImagine edition of the company’s [Flaq prompt library](https://github.com/flaqai/awesome_seedance_2_5), with **120 complete recipes and 15 language entry points**. The main catalog contains 60 Chinese and 60 English recipes; 14 localized practice files each offer six shared scenes, not a full translation of all 120 recipes. Find copy-ready recipes for text-to-video, image-to-video, multi-reference control, local video editing, extension, synchronized sound, match cuts, tutorials, digital presenters, batch SKU production, long-form chaining, green screen, white-model previs, advertising, ecommerce, genre filmmaking, social video, original animation, visual experiments, education, and cinematic storytelling.
 

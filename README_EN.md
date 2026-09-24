@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![AI-created cover based on library references, not a Seedance video output](assets/seaimagine-seedance-hero-v3.png)
+![Original AI-created editorial cover, not a Seedance video output](assets/seaimagine-seedance-hero-v4.png)
 
-From reference to motion: the paper fox steps out of a sketchbook.
+An original scene unfolds from drawing to paper construction to cinematic motion, inspired by the library’s reference control, material transformation and camera planning.
 
 A SeaImagine edition of the company’s Flaq source library: 120 recipes, comprising 60 Chinese and 60 English entries. Fourteen language supplements provide six practice prompts each; the 120 recipes have not all been translated into every language.
 

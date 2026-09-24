@@ -9,7 +9,7 @@ This SeaImagine edition adapts the company’s [Flaq source repository](https://
 | 120 numbered recipes in five library files | Flaq source collection | Retained complete, with brand navigation adapted |
 | 14 localized practice files, six scenes each | Flaq source collection | Retained; these are not translations of all 120 recipes |
 | Six PNG illustrations, reference boards and storyboard | Flaq source collection | Retained with original generation briefs in [IMAGE_PROMPTS](../assets/IMAGE_PROMPTS.md) |
-| SeaImagine PNG cover (`seaimagine-seedance-hero-v3.png`) | This adaptation, generated with the built-in image tool using the attributed paper-fox library reference | AI-created single-scene artwork: a paper fox steps off a sketchbook, suggesting the transition from a reference to motion. Not a Seedance video output. [Generation prompt](../assets/COVER_PROMPT.md) |
+| SeaImagine PNG cover (`seaimagine-seedance-hero-v4.png`) | Original concept for this edition, generated with the built-in image tool without input images | A single street develops from drawing to paper maquette to cinematic materials, expressing reference control, material transformation and camera planning. Not a Seedance video output. [Generation prompt](../assets/COVER_PROMPT.md) |
 | 12 X showcase adaptations and source records | Flaq source collection; creators credited per post | Retained; source prompt, excerpt and editorial adaptation are separate |
 | Official demonstrations | ByteDance Seed | Linked to original hosts; not relicensed or claimed as SeaImagine output |
 | Brand workflow, language entry pages, source research | This adaptation | Product links and evidence boundaries added |

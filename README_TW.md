@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![AI 製作的紙狐狸封面，非 Seedance 影片輸出](assets/seaimagine-seedance-hero-v3.png)
+![AI 製作的原創街區封面，非 Seedance 影片輸出](assets/seaimagine-seedance-hero-v4.png)
 
-從參考圖到動態畫面：紙狐狸走出速寫本。
+原創街區從線稿、紙藝逐漸走向電影畫面，呈現庫內的參考控制、材質變化與鏡頭設計。
 
 本頁由本公司 Flaq 原始儲存庫改編為 SeaImagine 版本。120 組配方包含中文 60 組、英文 60 組；另有 14 種語言的補充檔案，各含 6 組練習提示詞，並非將全部 120 組翻譯成每一種語言。
 
