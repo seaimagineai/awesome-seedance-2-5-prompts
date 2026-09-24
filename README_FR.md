@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Couverture créée avec l’IA, pas un résultat vidéo de Seedance](assets/seaimagine-seedance-hero-v4.png)
+![Un tramway orange suit des rails courbes dans une rue qui passe du croquis aux maquettes en papier, puis aux bâtiments réalistes éclairés de lumière chaude. Couverture créée avec l’IA, pas une vidéo Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
 
-Une scène originale passe du dessin au volume en papier, puis au mouvement cinématographique : références, transformation des matières et mise en scène.
+Une scène originale évoque la création, de l’esquisse des structures aux matières, à la lumière et au mouvement.
 
 Cette édition SeaImagine reprend le dépôt Flaq de notre entreprise : 120 recettes, dont 60 en chinois et 60 en anglais. Les compléments en 14 langues proposent six exercices chacun ; les 120 recettes ne sont pas toutes traduites dans chaque langue.
 

@@ -1,22 +1,29 @@
-# SeaImagine cover — an original scene taking shape
+# SeaImagine cover — a scene in motion
 
-Created with the built-in image generation tool, without input images. Output: `seaimagine-seedance-hero-v4.png`. This is original AI-created editorial artwork, not a Seedance video output or a verified workflow demonstration.
+The original street concept was generated without input images. This revision uses that v4 artwork as its sole image input to the built-in image generation tool. No community image or existing library case was assembled into the cover. The v4 artwork and its original prompt remain in [commit bfe9993](https://github.com/seaimagineai/awesome-seedance-2-5-prompts/tree/bfe999302e4b399bccb43333abb994126a594ac1/assets).
 
-## Concept and relation to the library
+Files: [PNG master](seaimagine-seedance-hero-v5.png), [JPEG homepage image](seaimagine-seedance-hero-v5.jpg). The JPEG is a quality-85 export with unchanged dimensions, 1942 × 809. Its 491,671 bytes are about 78% smaller than the previous 2,219,708-byte homepage PNG.
 
-A single tram travels through one continuous street that develops from graphite lines into paper construction and finally cinematic materials. The new scene translates the collection’s methods into a visual idea: preserve perspective and subject identity, assign structure before appearance, direct motion, and refine lighting and materials. Tactile paper animation, white-model previs and photographic lighting are integrated into one world. No existing case image is pasted in or used as the generation input.
+## What the picture expresses
 
-## Exact generation prompt
+A tram rounds a wet curve while one continuous street changes from drawing and paper construction to detailed, warmly lit materials. The sharp tram, localized spray and directional background blur suggest a tracking shot. This is an editorial idea about structure, materials, lighting and motion—not evidence of identity consistency across frames or a demonstration of a completed video workflow. It is AI-created cover art, not a Seedance video output.
+
+The visual idea draws on methods actually present in the collection:
+
+- [99: White-model blocking to final materials](../prompts/creative-techniques.en.md#99-white-model-café-blocking-to-final-materials): distinguish structural guidance from appearance.
+- [115: Cumulative paper construction](../prompts/genre-social-experiments.en.md#115-night-garden-dynamic-event-poster): let the scene develop coherently.
+- [120: Material changes](../prompts/genre-social-experiments.en.md#120-four-material-fluid-morph-study): keep shape and lighting intelligible during transformation.
+
+The cover depicts a newly invented scene, not these recipes’ generated results. Larger typography and a 360-pixel-wide image preview were checked; this was not a live mobile-browser test. Localized text under the image supplies the concept without depending on fine image details.
+
+## Exact revision prompt
 
 ```text
-Use case: stylized-concept / editorial book cover.
-Create ONE ORIGINAL cinematic visual metaphor for a video prompting library, not a collage of sample outputs and not a picture of an existing example. Wide landscape 2.4:1.
+Edit this existing original SeaImagine cover with a focused revision. Keep its SINGLE continuous original street developing from graphite drawing into folded-paper architecture and then warm photoreal buildings, the orange tram identity, wet curved rails, blue dusk/amber light, wide 2.4:1 composition and elegant typography. NO collage, panels, arrows, filmstrips or extra scene subjects.
 
-Concept: "A scene being directed into existence." A single small original burnt-orange tram travels along one graceful curved track through an impossible but coherent miniature city constructed from ONE continuous sheet of ivory paper. The sheet lies low in the foreground with a few precise graphite architectural and camera-perspective construction lines; as it curls gently upward, those very same drawn street facades fold into tactile white paper maquettes, then acquire rich actual brick, glass and warm window light toward the far right. This transition must be physically continuous in ONE city block, all sharing ONE perspective, road and lighting system. Not three separate stages, no dividing lines. The one real tram, with stable geometry and warm-lit windows, is the focal subject in the middle-right; rails and a restrained trace of wet reflections suggest its movement and guide the eye through the scene. A small section of wet cobbled street at the right reaches believable cinematic realism. The miniature's intentional material progression quietly expresses reference structure, consistent subject, directed motion, controlled lighting, and refinement into a finished shot. No text labels explaining it.
-
-Art direction: highly original polished practical-effects cinema miniature photographed on a large-format lens, exquisite paper fibers and folded edges, accurate glass reflections, amber practical lighting against petrol-blue dusk, selective focus, simple strong silhouette. Subtle warm/cool palette rooted in cinematic storytelling, tactile paper animation and premium product-photography craftsmanship. All of these styles must belong to this single invented world, never pasted together. Only 4–6 architectural facades, generous breathing room, no clutter, no vast dense skyline. One elegant sweeping paper curve, no chaotic flying sheets. Low three-quarter eye level gives depth and atmosphere, not an infographic or isometric dashboard. Empty dark blue background softens naturally behind the left 38% for typography. City and tram dominate right 60% and bottom area. Original location and vehicle, no real brands.
-
-Typography: exact text only "SEAIMAGINE" small above a large editorial serif "Seedance 2.5", followed by restrained small sans-serif "PROMPT LIBRARY". Place in left negative space with excellent hierarchy and generous margins, legible on GitHub. No other letters anywhere, no tram route signage.
-Avoid: paper fox, beverage bottle, rescue boat, lighthouse, copying library reference images, montage, triptych, panels, floating screens, storyboard frames, filmstrip, arrows, cameras as props, robots, magic neon trails, excessive particles, badges, tiny explanatory text, diagrams.
-The result should feel like a premium original film-poster concept: one captivating scene telling how an idea becomes controlled motion. AI editorial artwork, not a purported Seedance output.
+Critical improvements:
+1. Make this unmistakably a MOVING cinematic moment, not an architectural still. Move the ONE orange tram forward into the near part of the curve, with a compelling three-quarter angle as it rounds the bend toward the viewer and left. Its wheels remain accurately on the two rails, chassis rigid, realistic modest banking only. The front and cabin stay sharply resolved. Add modest directional panning blur to near cobblestones and rear/background textures, physically localized spray fanning backward from wheels contacting shallow rainwater, and short warm reflections stretched along its recent path. Camera feels like a low tracking shot matching the tram's movement. No speed streak graphics, no unrealistic long light trails, no repeated trams, no warped vehicle. Movement should read immediately even in a small cover.
+2. Remove ALL pencils, ruler, compass and drafting tools from the left foreground. Retain clean paper with just a few perspective construction lines. This is a scene coming to life rather than an architect's desk. Make several actual ivory paper folds/edges and contact shadows easy to distinguish while maintaining the same continuous street geometry.
+3. Make typography readable at small size: exact "SEAIMAGINE" prominently at upper left, approximately 2.5x its current letter height, solid ivory, moderate tracking. Keep "Seedance 2.5" as the biggest title, similarly placed and still clearly dominant. Enlarge exact "PROMPT LIBRARY" about 1.8x relative to current height. All text remains in the calm left negative space, safely inside edges, no more words. Maintain breathing room between the three lines. Letters perfectly spelled.
+Keep rich but uncluttered craftsmanship. One tram, one curve, one continuous invented scene. No new interface elements or explaining labels. AI editorial artwork, not a real Seedance video result.
 ```

@@ -1,6 +1,6 @@
 # Original Image Prompt Notes
 
-The six inherited PNG assets were created for the Flaq source repository and retained with attribution. Their original generation briefs follow. The new SeaImagine PNG cover is an original concept generated with the built-in image tool without reference-image inputs. One continuous street transforms from a drawing through paper construction into a cinematic scene. It expresses the library’s working methods, without reproducing or assembling existing examples; it is not a Seedance-generated video frame. See [the exact cover prompt](COVER_PROMPT.md). See [provenance](../docs/PROVENANCE.md).
+The six inherited PNG assets were created for the Flaq source repository and retained with attribution. Their original generation briefs follow. The current SeaImagine cover was edited from the original v4 concept using the built-in image tool. The v4 concept had no image inputs; v5 uses only that earlier artwork. A tram rounds a wet curve while a continuous street develops from drawing and paper structure into detailed materials. This is an editorial interpretation of structure, lighting and motion, not a Seedance video result. See [the exact cover prompt](COVER_PROMPT.md). See [provenance](../docs/PROVENANCE.md).
 
 ## `seedance-2-5-prompt-guide-hero.png`
 

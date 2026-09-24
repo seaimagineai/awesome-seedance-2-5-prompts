@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![ภาพปกสร้างด้วย AI ไม่ใช่ผลลัพธ์วิดีโอจาก Seedance](assets/seaimagine-seedance-hero-v4.png)
+![รถรางสีส้มเคลื่อนไปตามรางโค้ง ถนนเปลี่ยนจากภาพร่างเป็นโมเดลกระดาษ แล้วเป็นอาคารสมจริงใต้แสงไฟอุ่น ภาพปกสร้างด้วย AI ไม่ใช่วิดีโอจาก Seedance](assets/seaimagine-seedance-hero-v5.jpg)
 
-ฉากถนนที่ออกแบบใหม่เปลี่ยนจากภาพร่างเป็นโมเดลกระดาษและภาพแบบภาพยนตร์ ถ่ายทอดการควบคุมภาพอ้างอิง การเปลี่ยนวัสดุ และการวางแผนกล้อง
+ฉากที่ออกแบบขึ้นใหม่ถ่ายทอดแนวคิดการสร้างสรรค์ จากภาพร่างโครงสร้างสู่วัสดุ แสง และการเคลื่อนไหว
 
 ฉบับ SeaImagine ดัดแปลงจากคลัง Flaq ของบริษัท รวม 120 สูตร แบ่งเป็นภาษาจีน 60 สูตรและภาษาอังกฤษ 60 สูตร มีไฟล์เสริม 14 ภาษา ภาษาละ 6 แบบฝึกหัด ไม่ได้แปลทั้ง 120 สูตรเป็นทุกภาษา
 

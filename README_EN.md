@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Original AI-created editorial cover, not a Seedance video output](assets/seaimagine-seedance-hero-v4.png)
+![An orange tram follows curved rails through a street changing from sketch to paper models to warmly lit realistic buildings. AI-created cover, not a Seedance video output.](assets/seaimagine-seedance-hero-v5.jpg)
 
-An original scene unfolds from drawing to paper construction to cinematic motion, inspired by the library’s reference control, material transformation and camera planning.
+An original scene imagines the creative journey from structural sketches to materials, lighting and motion.
 
 A SeaImagine edition of the company’s Flaq source library: 120 recipes, comprising 60 Chinese and 60 English entries. Fourteen language supplements provide six practice prompts each; the 120 recipes have not all been translated into every language.
 

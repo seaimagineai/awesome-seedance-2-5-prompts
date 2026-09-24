@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Capa criada com IA, não um resultado de vídeo do Seedance](assets/seaimagine-seedance-hero-v4.png)
+![Um bonde laranja percorre trilhos curvos; a rua passa do esboço a modelos de papel e edifícios realistas com iluminação quente. Capa criada com IA, não um vídeo do Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
 
-Uma cena original passa do desenho à construção em papel e ao movimento cinematográfico: referências, transformação de materiais e planejamento de câmera.
+Uma cena original expressa uma ideia de criação: do esboço estrutural aos materiais, à luz e ao movimento.
 
 Edição SeaImagine baseada no repositório Flaq da nossa empresa: 120 receitas, sendo 60 em chinês e 60 em inglês. Os suplementos em 14 idiomas trazem seis exercícios por idioma; não são traduções integrais das 120 receitas.
 

@@ -9,9 +9,9 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [繁體中文](README_TW.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![AI 制作的原创街区封面，非 Seedance 视频输出](assets/seaimagine-seedance-hero-v4.png)
+![橙色电车沿弯轨前进，街区从线稿、纸模型过渡到暖灯照亮的写实建筑。AI 制作封面，非 Seedance 视频输出。](assets/seaimagine-seedance-hero-v5.jpg)
 
-原创街区从线稿、纸艺逐渐走向电影画面，表现库内的参考控制、材质变化与镜头设计。
+以原创场景表现从结构草图到材质、光照与运动的创作构想。
 
 这是一个面向 **Seedance 2.5 文生视频、图生视频、多参考控制、视频编辑与延长** 的 SeaImagine 品牌提示词库，改编自[本司 Flaq 源库](https://github.com/flaqai/awesome_seedance_2_5)，现已收录 **120 个完整实用场景、15 种语言支持和 14 份独立外语 prompts 文件**。其中包含 60 个中文通用场景与 60 个英文专业及创作工作流，覆盖电影叙事、节拍剪辑、一镜到底、品牌广告、电商、UGC、社媒喜剧、动态海报、原创动画、材质变形、教程、数字人、批量 SKU、长视频、教育、无障碍、局部编辑、绿幕与白模预演。
 

@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![AIで制作したオリジナルの街並みの表紙。Seedanceの動画出力ではありません](assets/seaimagine-seedance-hero-v4.png)
+![オレンジ色の路面電車が曲線の線路を進み、街並みは線画から紙模型、暖かな光に照らされた写実的な建物へと変化します。AI制作の表紙で、Seedanceの動画出力ではありません。](assets/seaimagine-seedance-hero-v5.jpg)
 
-線画から紙の立体、映画のような動きへ。参照制御、素材の変化、カメラ設計を一つのオリジナル風景で表現しました。
+構造のスケッチから質感、光、動きへと発展する創作のアイデアを、オリジナルの風景で表現しました。
 
 社内の Flaq 元リポジトリを SeaImagine 向けに編集したものです。120本のレシピは中国語60本と英語60本で構成され、14言語の補足資料には各6本の練習用プロンプトがあります。120本すべてを各言語に翻訳したものではありません。
 

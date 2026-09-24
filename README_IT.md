@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Copertina creata con IA, non un video generato con Seedance](assets/seaimagine-seedance-hero-v4.png)
+![Un tram arancione segue binari curvi; la strada passa dal disegno ai modelli di carta e agli edifici realistici illuminati da luci calde. Copertina creata con IA, non un video di Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
 
-Una scena originale passa dal disegno alla costruzione in carta e al movimento cinematografico: riferimenti, trasformazione dei materiali e progettazione delle riprese.
+Una scena originale esprime un’idea creativa: dallo schizzo della struttura ai materiali, alla luce e al movimento.
 
 Edizione SeaImagine basata sul repository Flaq della nostra azienda: 120 ricette, 60 in cinese e 60 in inglese. I supplementi in 14 lingue contengono sei esercizi ciascuno; le 120 ricette non sono tutte tradotte in ogni lingua.
 

@@ -2,9 +2,9 @@
 
 [English](README_EN.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Ảnh bìa tạo bằng AI, không phải video do Seedance tạo](assets/seaimagine-seedance-hero-v4.png)
+![Tàu điện màu cam đi theo đường ray cong; phố chuyển từ nét phác thảo sang mô hình giấy rồi thành những tòa nhà chân thực trong ánh đèn ấm. Ảnh bìa tạo bằng AI, không phải video Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
 
-Một cảnh phố nguyên bản chuyển từ nét vẽ sang mô hình giấy rồi thành hình ảnh điện ảnh, thể hiện kiểm soát tham chiếu, biến đổi vật liệu và thiết kế máy quay.
+Một cảnh nguyên bản thể hiện ý tưởng sáng tạo, từ phác thảo cấu trúc đến chất liệu, ánh sáng và chuyển động.
 
 Bản SeaImagine được biên soạn từ kho Flaq của công ty: 120 công thức, gồm 60 bằng tiếng Trung và 60 bằng tiếng Anh. Các tệp bổ sung cho 14 ngôn ngữ có sáu bài thực hành mỗi ngôn ngữ; không phải toàn bộ 120 công thức đều đã được dịch.
 
