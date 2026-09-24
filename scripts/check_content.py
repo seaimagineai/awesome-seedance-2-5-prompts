@@ -46,8 +46,18 @@ for p in ROOT.rglob('*.md'):
 require('Copyright (c) 2026 Flaq AI' in (ROOT/'LICENSE').read_text(),'Missing upstream copyright')
 entries=json.loads((ROOT/'docs/x-showcase-sources.json').read_text())['entries']
 require(len({e['original_post'] for e in entries})==12,'Expected 12 unique X posts')
-home=(ROOT/'README.md').read_text()
-for e in entries:require(e['original_post'] in home and e['video_url'] in home and e['thumbnail_url'] in home,f"Missing showcase: {e['id']}")
+for filename in ['README.md', 'README_ZH.md']:
+    home=(ROOT/filename).read_text()
+    for e in entries:
+        require(e['original_post'] in home and e['video_url'] in home and e['thumbnail_url'] in home,f"{filename}: missing showcase {e['id']}")
+        marker=f'<a id="{e["id"]}"></a>'
+        require(marker in home,f'{filename}: missing case anchor {e["id"]}')
+        if marker in home:
+            case=home.split(marker,1)[1].split('<a id=',1)[0]
+            case=case.split('</details>',1)[0]
+            require('<details>' in case and '```text' in case,f'{filename}: missing copyable adaptation {e["id"]}')
+    for asset in ['cinematic-rescue-reference.png','product-sparkling-tea-reference.png','paper-fox-story-reference.png','night-garden-storyboard.png']:
+        require(home.count(f'assets/{asset}')==1,f'{filename}: expected one display of {asset}')
 if errors:
     print('\n'.join(errors));sys.exit(1)
 print('PASS: 120 intact recipes, 15 language entry pages, 14 six-scene sets, 12 X cases, copyright and local links.')

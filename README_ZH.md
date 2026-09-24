@@ -13,56 +13,483 @@
 
 以原创场景表现从结构草图到材质、光照与运动的创作构想。
 
-这是一个面向 **Seedance 2.5 文生视频、图生视频、多参考控制、视频编辑与延长** 的 SeaImagine 品牌提示词库，改编自[本司 Flaq 源库](https://github.com/flaqai/awesome_seedance_2_5)，现已收录 **120 个完整实用场景、15 种语言支持和 14 份独立外语 prompts 文件**。其中包含 60 个中文通用场景与 60 个英文专业及创作工作流，覆盖电影叙事、节拍剪辑、一镜到底、品牌广告、电商、UGC、社媒喜剧、动态海报、原创动画、材质变形、教程、数字人、批量 SKU、长视频、教育、无障碍、局部编辑、绿幕与白模预演。
+这里收录 **120 条完整视频提示词、12 个社区视频案例和 9 个官方演示**，供创作者学习写法、复制修改，再到 SeaImagine 尝试生成。内容涵盖产品广告、电影短片、旅行记录、纸艺动画、声音设计和视频编辑，改编自[本司 Flaq 源库](https://github.com/flaqai/awesome_seedance_2_5)。
 
-| [浏览 120 个 Prompts](prompts/README.md) | [提交你的 Prompt](https://github.com/seaimagineai/awesome-seedance-2-5-prompts/issues/new?template=prompt.yml) | [贡献指南](CONTRIBUTING.md) | [Prompt 写作教程](docs/prompting-guide.md) | [在 SeaImagine 生成](https://seaimagine.com/cn/model/seedance-2-5/) |
+120 条主库配方中，60 条为中文、60 条为英文；另有 14 份外语练习，各含 6 条完整提示词。首页覆盖官网的 15 种语言，**不代表全部 120 条均已翻译**。下面的 12 个社区案例均有中文说明和可复制的中文改写版。
+
+| [浏览 120 个 Prompts](prompts/README.md) | [提交你的 Prompt](https://github.com/seaimagineai/awesome-seedance-2-5-prompts/issues/new?template=prompt.yml) | [贡献指南](CONTRIBUTING.md) | [提示词写法](#seedance-25-提示词公式) | [在 SeaImagine 生成](https://seaimagine.com/cn/model/seedance-2-5/) |
 |---|---|---|---|---|
 
-[复制首页示例](#精选原创提示词) · [按用途选场景](docs/use-case-matrix.md) · [看官方演示](docs/official-examples.md) · [15 种语言](docs/languages.md)
+[复制首页示例](#精选原创提示词) · [按用途选场景](docs/use-case-matrix.md) · [看官方演示](#模型官方演示) · [15 种语言](#多语言提示词)
 
-14 份外语练习各含 6 条完整提示词，不代表 120 条配方均已翻译。
+## 按你的目标开始
 
-## X 社区视频案例：看成片、读原帖、改 Prompt
+| 你想做什么 | 从这里开始 |
+|---|---|
+| 看成片，再学习提示词怎么写 | [下方 12 个社区案例](#社区案例)；每例均可展开中文改写版 |
+| 先做一条简单短片 | [物件交接](#x11-visible-object-handover)或[环境声音](#x12-tropical-location-sound)，先练一个动作或声音 |
+| 已有产品图、人物照或插画 | [六条中文示例](#精选原创提示词)，前三条配有可直接使用的参考图 |
+| 找适合业务的场景 | [120 条总索引](prompts/README.md)或[按用途选择](docs/use-case-matrix.md) |
+| 做产品广告或生活化测评 | [基础库 04–09](prompts/prompt-library.md#04-无品牌气泡茶揭晓)，中文正文 |
+| 做教育、空间导览、宠物或工业内容 | [扩展场景 25–60](prompts/extended-scenarios.md)，中文正文 |
+| 做软件、课程、珠宝、文化或无障碍内容 | [专业场景 61–72](prompts/advanced-workflows.en.md)，英文正文 |
+| 练转场、一镜到底、编辑、延长或白模预演 | [创作技法 73–100](prompts/creative-techniques.en.md)，英文正文 |
+| 做类型片、社媒喜剧或动态海报 | [场景 101–120](prompts/genre-social-experiments.en.md)，英文正文；[本页九格分镜解读](#用九格分镜安排画面变化) |
+| 了解模型官方示范 | [9 个官方视频与中文学习要点](#模型官方演示) |
 
-新增 [12 个 Seedance 2.5 视频案例](README.md#seedance-25-videos-from-x--watch-inspect-remix)，涵盖美食动画、穿搭、宠物自拍、真人与二维动画混合、MiniDV 怀旧影像和双人 Vlog，并新增舞台反转、手工 ASMR、动作特效、旅行叙事、物件交接连续性和热带社区环境音。每例提供原视频封面、可打开的 MP4、X 原始链接、发布账号、原 Prompt 短摘录及完整原文入口，并附可复制的英文改写版。
+[提示词写法](#seedance-25-提示词公式) · [快速开始](#快速开始) · [图生视频排错](#失败时如何改) · [常见问题](#常见问题) · [在 SeaImagine 使用](#在-seaimagine-使用-seedance-25)
 
-案例的 2.5 版本依据发布者声明；改写版尚未在本项目实测，也不是展示视频的原始生成指令。源库于 2026-09-20 检查过视频和封面链接；[本轮核查记录](docs/current-source-check.md)单独说明可验证范围，来源与画幅差异见[核查记录](docs/x-showcase-sources.md)。这 12 个社区案例与 120 个原创场景分开计数。
+<a id="社区案例"></a>
 
+## X 社区视频案例：看成片、读原文、动手改写
 
-### 先看两个容易上手的案例
+这里整理了 12 条附带视频的社区帖子：作者明确标注 Seedance 2.5，并在正文公开完整提示词。点击预览图可播放视频，前往 X 可阅读作者完整原文，展开每例下方的折叠区则可复制中文编辑改写版。**上游来源与素材检查日期：2026-09-20；另见[当前核验记录与限制](docs/current-source-check.md)。**
 
-**物件交接：把连续性写清楚**
+模型归属来自发帖者的声明；这些是外部创作者的社区作品，生成平台尚未独立核实。下列分辨率描述上传的视频文件，不一定是生成时的设置。它们与本库原有的 120 条完整提示词分别收录。
 
-[![点击观看：物件交接：把连续性写清楚](https://pbs.twimg.com/amplify_video_thumb/2096424851888300032/img/GsfbwnQVERijOEJp.jpg)](https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29)
+| 案例 | 适用方向 | 原帖与作者完整提示词 | 视频 |
+|---|---|---|---|
+| [X01 · 烹饪声效与角色互动，收在一个笑点上](#x01-galley-food-comedy) | 美食 / 三维动画 | [@Goodmanprotocol](https://x.com/Goodmanprotocol/status/2099186117769822462) | [▶ MP4](https://video.twimg.com/amplify_video/2099186062715404288/vid/avc1/1920x1080/H8uxwKxVsSU09_LW.mp4?tag=29) |
+| [X02 · 同一件衬衫，拍出五种穿搭](#x02-one-garment-fashion) | 时尚 / 电商 | [@Goodmanprotocol](https://x.com/Goodmanprotocol/status/2095216981624721691) | [▶ MP4](https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29) |
+| [X03 · 雨天自拍，被一只小猫打断](#x03-rainy-pet-selfie) | 宠物 / 自拍短视频 | [@Strength04_X](https://x.com/Strength04_X/status/2098256490238755226) | [▶ MP4](https://video.twimg.com/amplify_video/2098256097547309056/vid/avc1/1920x1080/mPxvxfjQ4VcrZg5r.mp4?tag=29) |
+| [X04 · 用记号笔把真实街景变成动画](#x04-live-action-doodle) | 实拍与动画结合 / 视觉特效 | [@Strength04_X](https://x.com/Strength04_X/status/2095748874942263601) | [▶ MP4](https://video.twimg.com/amplify_video/2095748601087688705/vid/avc1/1280x720/vqE5gA1Hrf63bAyB.mp4?tag=29) |
+| [X05 · 拍出家用磁带摄像机的日常感](#x05-minidv-everyday) | 生活记录 / 纪实风格 | [@john_my07](https://x.com/john_my07/status/2090287853532266748) | [▶ MP4](https://video.twimg.com/amplify_video/2090287723961847808/vid/avc1/1920x1080/sNtaxz9M_3wvzoTP.mp4?tag=29) |
+| [X06 · 两位朋友的便利店视频日记](#x06-two-person-vlog) | 生活记录 / 对话 / 连贯性 | [@Strength04_X](https://x.com/Strength04_X/status/2097968347430482177) | [▶ MP4](https://video.twimg.com/amplify_video/2097967562604875776/vid/avc1/1920x1080/EB48uw1_u7MU2RJl.mp4?tag=29) |
+| [X07 · 跟着音乐节拍完成舞台反转](#x07-talent-show-reversal) | 表演 / 喜剧 | [@Strength04_X](https://x.com/Strength04_X/status/2090399966988550435) | [▶ MP4](https://video.twimg.com/amplify_video/2090399674129940480/vid/avc1/854x480/8-BwGw71f6WF0sF4.mp4?tag=29) |
+| [X08 · 能听见手作细节的压花教程](#x08-pressed-flower-tutorial) | 手作 / 教程 / 细节声效 | [@Strength04_X](https://x.com/Strength04_X/status/2084269139556761919) | [▶ MP4](https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29) |
+| [X09 · 让能量特效与动作位置都交代清楚](#x09-energy-action-geography) | 动作 / 视觉特效 / 叙事 | [@Strength04_X](https://x.com/Strength04_X/status/2096147092188311749) | [▶ MP4](https://video.twimg.com/amplify_video/2096146403064254464/vid/avc1/1280x720/MZwL0tlYUawV8djb.mp4?tag=29) |
+| [X10 · 有起有落的一日旅行日记](#x10-day-trip-story-arc) | 旅行 / 人物一致性 | [@Goodmanprotocol](https://x.com/Goodmanprotocol/status/2087165084397420849) | [▶ MP4](https://video.twimg.com/amplify_video/2087164966864556033/vid/avc1/1280x720/CxZZE_2r3pzjndH-.mp4?tag=29) |
+| [X11 · 用一次物件交接讲清善意小故事](#x11-visible-object-handover) | 叙事 / 物件交接 | [@AIwithkhan](https://x.com/AIwithkhan/status/2096424933366931946) | [▶ MP4](https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29) |
+| [X12 · 用细小声响呈现热带街区生活](#x12-tropical-location-sound) | 环境声音 / 地域生活 | [@RishuaVR](https://x.com/RishuaVR/status/2089204108175741157) | [▶ MP4](https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29) |
 
-[观看视频](https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29) · [原帖与提示词：@AIwithkhan](https://x.com/AIwithkhan/status/2096424933366931946)
+**按学习重点挑选：**[舞台反转](#x07-talent-show-reversal) · [手作声效](#x08-pressed-flower-tutorial) · [动作特效](#x09-energy-action-geography) · [旅行日记](#x10-day-trip-story-arc) · [物件交接](#x11-visible-object-handover) · [环境声音](#x12-tropical-location-sound)
 
-交接前、交接中和交接后，分别写清物件由谁持有。 模型版本为作者自述，未核实作者使用的生成平台。
+第一次尝试，可先选较短的“物件交接”或“环境声音”改写版，只练一个重点。想练多镜头叙事，再看“旅行日记”或“舞台反转”。时间安排是创作设想，请按所用平台支持的时长生成，必要时拆成较短镜头。
 
-**环境声音：为每个声音找到来源**
+<a id="x01-galley-food-comedy"></a>
 
-[![点击观看：环境声音：为每个声音找到来源](https://pbs.twimg.com/amplify_video_thumb/2089204070997532672/img/UAx5Q6w1RA3C8pNG.jpg)](https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29)
+### X01 · 烹饪声效与角色互动，收在一个笑点上
 
-[观看视频](https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29) · [原帖与提示词：@RishuaVR](https://x.com/RishuaVR/status/2089204108175741157)
+[![观看 @Goodmanprotocol 发布的 Seedance 2.5 案例：烹饪声效与角色互动，收在一个笑点上](https://pbs.twimg.com/amplify_video_thumb/2099186062715404288/img/D-iYamhA_iFRBooM.jpg)](https://video.twimg.com/amplify_video/2099186062715404288/vid/avc1/1920x1080/H8uxwKxVsSU09_LW.mp4?tag=29)
 
-用杯子接触桌面、冰块轻响和远处环境音组织声音层次。 模型版本为作者自述，未核实作者使用的生成平台。
+[▶ 观看视频](https://video.twimg.com/amplify_video/2099186062715404288/vid/avc1/1920x1080/H8uxwKxVsSU09_LW.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/Goodmanprotocol/status/2099186117769822462) · 发布者：**@Goodmanprotocol**，2026-09-13
+
+**值得学什么：**观察怎样让食物声效配合角色动作，并为最后的趣味互动铺垫。
+
+**输入素材：**文字描述；厨师与鸟的造型保持一致。 **来源规格：**来源时长为 30 秒；上传文件为 1920×1080。
+
+**原帖提示词短摘录（英文原文）：**“No dialogue, no subtitles, no text.”
+
+中文释义：不含对话、字幕或文字。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段 30 秒的动画烹饪短剧，场景设在轻轻摇晃的木船厨房内。始终只有同一位系围裙的厨师和同一只好奇的绿色小鸟，每个镜头都能认出它们。温暖的灯笼光照亮食物，让表面质感清晰可感。
+
+0–6 秒：小鸟凑近一颗蔬菜；厨师把砧板滑开，挑起眉毛。
+6–13 秒：交替呈现刀刃接触食材、油面泛起波纹、酱汁冒泡的画面；每个声音都与画面中的动作同步。
+13–22 秒：小鸟把空餐碗推向厨师，然后摆出明显等待的样子。
+22–30 秒：厨师盛好一小碟食物；两者一起安坐在窗边。
+
+使用表情生动的原创角色造型，配以安静的海上环境声，只在结尾加入一次音乐点缀。不添加对话或画面文字。
+```
+
+</details>
+
+<a id="x02-one-garment-fashion"></a>
+
+### X02 · 同一件衬衫，拍出五种穿搭
+
+[![观看 @Goodmanprotocol 发布的 Seedance 2.5 案例：同一件衬衫，拍出五种穿搭](https://pbs.twimg.com/amplify_video_thumb/2095216899445649408/img/690ykZJzst5uQLwH.jpg)](https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/Goodmanprotocol/status/2095216981624721691) · 发布者：**@Goodmanprotocol**，2026-09-02
+
+**值得学什么：**围绕同一件有辨识度的衣服，组织一组有变化、又能互相呼应的穿搭镜头。
+
+**输入素材：**一件固定的服装，以及外貌保持一致的成年模特。 **来源规格：**来源时长为 30 秒，要求 16:9；上传文件为 1920×1080。
+
+**原帖提示词短摘录（英文原文）：**“No additional dialogue or narration after the opening line.”
+
+中文释义：开场那句话之后，不再加入对话或旁白。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段 30 秒的横屏穿搭短片，由同一位成年模特穿着同一件宽松的浅黄色衬衫。场景为明亮的公寓，窗边光线始终一致。保持衬衫的纽扣、缝线和颜色不变。
+
+0–4 秒：展示挂在衣架上的衬衫，用一句简短口播引起兴趣。
+4–24 秒：展示五种搭配，每种 4 秒：敞开穿在背心外、在腰部打结、塞进长裤、叠穿在连衣裙外、搭配一条细腰带。利用袖子的动作，或前后镜头中相同的肩部位置，让每次切换自然衔接。
+24–30 秒：停留在最后一套搭配上，并为后期加入穿搭对比条预留空间。
+
+让布料的重量感真实可信。穿搭名称与字幕在生成视频后添加。
+```
+
+</details>
+
+<a id="x03-rainy-pet-selfie"></a>
+
+### X03 · 雨天自拍，被一只小猫打断
+
+[![观看 @Strength04_X 发布的 Seedance 2.5 案例：雨天自拍，被一只小猫打断](https://pbs.twimg.com/amplify_video_thumb/2098256097547309056/img/QKhG3cYjfcBbxiuc.jpg)](https://video.twimg.com/amplify_video/2098256097547309056/vid/avc1/1920x1080/mPxvxfjQ4VcrZg5r.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2098256097547309056/vid/avc1/1920x1080/mPxvxfjQ4VcrZg5r.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/Strength04_X/status/2098256490238755226) · 发布者：**@Strength04_X**，2026-09-11
+
+**值得学什么：**明确人物和宠物的数量，让自拍构图自然跟随小猫的动作调整。
+
+**输入素材：**一张已获使用授权的人像；同一只小猫。 **来源规格：**来源时长为 30 秒，要求 9:16 竖屏，但上传文件为 1920×1080 横屏。
+
+**原帖提示词短摘录（英文原文）：**“No cuts. No zoom. Exactly one kitten.”
+
+中文释义：不切镜头，不变焦，且始终只有一只小猫。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段 30 秒的手机自拍视频，地点在一扇满是雨水的窗户旁。一名成年人稳稳抱着一只虎斑小猫。提供的人像仅用于保持人物外貌一致。窗边光线柔和、色调中性。
+
+0–7 秒：人物低头看向小猫，身后的雨仍在下。
+7–15 秒：袖口的布环吸引小猫伸出一只爪子；人物把布环挪开，轻笑一声。
+15–23 秒：小猫移到人物肩头，人物继续用手托稳它；人物调整抱姿时，手机轻微倾斜。
+23–30 秒：猫须靠近镜头，焦点短暂变软，画面在笑声中结束。
+
+使用室内环境声与雨声。全程保持连续的同一拍摄视角，始终是同一只小猫。
+```
+
+</details>
+
+<a id="x04-live-action-doodle"></a>
+
+### X04 · 用记号笔把真实街景变成动画
+
+[![观看 @Strength04_X 发布的 Seedance 2.5 案例：用记号笔把真实街景变成动画](https://pbs.twimg.com/amplify_video_thumb/2095748601087688705/img/0d5gq8yGWQZdSVch.jpg)](https://video.twimg.com/amplify_video/2095748601087688705/vid/avc1/1280x720/vqE5gA1Hrf63bAyB.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2095748601087688705/vid/avc1/1280x720/vqE5gA1Hrf63bAyB.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/Strength04_X/status/2095748874942263601) · 发布者：**@Strength04_X**，2026-09-04
+
+**值得学什么：**给每次变化一个看得见的触发动作，同时保持物体在画面中的位置不变。
+
+**输入素材：**文字描述；同一只手和同一支记号笔；每次变化遵循相同规则。 **来源规格：**来源时长为 15 秒，要求 9:16 竖屏，但上传文件为 1280×720 横屏。
+
+**原帖提示词短摘录（英文原文）：**“No cuts. No scene transitions.”
+
+中文释义：不切镜头，不做场景转场。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段 15 秒的手持步行镜头，沿安静的城市人行道向前走。画面中始终能看到一只握着记号笔的手。每次指向物体，都会先短暂出现蓝色轮廓，再将被指向的物体变成平面插画。物体的位置、画面中的大小和透视关系保持不变。
+
+0–5 秒：指向停着的自行车；墨线沿车架描绘，再将表面变成赛璐璐动画式的色块与阴影。
+5–10 秒：镜头摇向一辆停着的踏板车；手势完成后，重复同样的变化。
+10–15 秒：一条手绘彩带横穿人行道，到路缘处停下；周围建筑保持实拍质感。
+
+接触阴影与下午的阳光方向一致。使用街道环境声和短促的笔触声。结尾不生成画面文字。
+```
+
+</details>
+
+<a id="x05-minidv-everyday"></a>
+
+### X05 · 拍出家用磁带摄像机的日常感
+
+[![观看 @john_my07 发布的 Seedance 2.5 案例：拍出家用磁带摄像机的日常感](https://pbs.twimg.com/amplify_video_thumb/2090287723961847808/img/z8kZQAvTTG7cWPHN.jpg)](https://video.twimg.com/amplify_video/2090287723961847808/vid/avc1/1920x1080/sNtaxz9M_3wvzoTP.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2090287723961847808/vid/avc1/1920x1080/sNtaxz9M_3wvzoTP.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/john_my07/status/2090287853532266748) · 发布者：**@john_my07**，2026-08-20
+
+**值得学什么：**用具体的拍摄小瑕疵营造家用摄像机质感，同时保持杯子等日常物件稳定。
+
+**输入素材：**文字描述；一名外貌固定的成年人。 **来源规格：**来源时长为 30 秒，要求 1080p；上传文件为 1920×1080。
+
+**原帖提示词短摘录（英文原文）：**“Only spoken dialogue: “Annyeong.””
+
+中文释义：唯一的口头台词是“Annyeong”（韩语问候语）。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段虚构的 30 秒家庭录像，场景位于安静的住宅小巷。跟随一名成年人，全程穿着同一套休闲服。采用家用摄像机质感：轻微的传感器噪点、柔和的对比度、稍慢半拍的重新构图，以及偶尔的对焦调整。
+
+0–8 秒：人物在门口理好袖子，注意到镜头后微笑。
+8–16 秒：跟着人物走向晾衣绳；一块布轻轻滑落一点，随后被固定好。
+16–23 秒：人物坐在露台上，拿起一个陶瓷杯，再放下；杯子的形状不变。
+23–30 秒：人物用一句简短问候回应拍摄者，然后走开。人物走到半步时停止录制。
+
+只保留现场声音与自然说话声。保持手部、杯子与背景物件稳定。
+```
+
+</details>
+
+<a id="x06-two-person-vlog"></a>
+
+### X06 · 两位朋友的便利店视频日记
+
+[![观看 @Strength04_X 发布的 Seedance 2.5 案例：两位朋友的便利店视频日记](https://pbs.twimg.com/amplify_video_thumb/2097967562604875776/img/uK9lzSMYEeRFhAvI.jpg)](https://video.twimg.com/amplify_video/2097967562604875776/vid/avc1/1920x1080/EB48uw1_u7MU2RJl.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2097967562604875776/vid/avc1/1920x1080/EB48uw1_u7MU2RJl.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/Strength04_X/status/2097968347430482177) · 发布者：**@Strength04_X**，2026-09-10
+
+**值得学什么：**写清谁在拿手机、谁在出镜，以及每一刻由谁拿着饮料瓶。
+
+**输入素材：**两张人物参考图；分别定义后置镜头拍摄与自拍时的人物分工。 **来源规格：**来源时长为 30 秒，要求 4:3、720p，但上传文件为 1920×1080。
+
+**原帖提示词短摘录（英文原文）：**“Fixed 1.0x lens, no zoom.”
+
+中文释义：固定使用 1.0 倍镜头，不变焦。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段 30 秒的傍晚便利店视频日记，主角是两位成年朋友。图 1 定义购物者的外貌；图 2 定义拿手机拍摄的朋友。服装与同一瓶饮料始终保持一致。
+
+0–8 秒：后置镜头跟随购物者，拍下对方发现冷藏饮料并从冰柜里取出的过程。
+8–15 秒：购物者向镜头展示饮料瓶，再拿着它走向柜台；拍摄者在画外说话。
+15–23 秒：切到店外的前置自拍镜头，两人同时入镜。一位朋友让另一位尝一小口饮料，瓶子的递交过程清楚可见。
+23–30 秒：两人笑着一起离开，饮料瓶始终留在当前持有者手中。
+
+使用轻微的手机晃动、简短的交谈停顿与店内环境声。不出现第三人旁观拍摄的角度，不配音乐。
+```
+
+</details>
+
+<a id="x07-talent-show-reversal"></a>
+
+### X07 · 跟着音乐节拍完成舞台反转
+
+[![观看 @Strength04_X 发布的 Seedance 2.5 案例：跟着音乐节拍完成舞台反转](https://pbs.twimg.com/amplify_video_thumb/2090399674129940480/img/zvDQqERbmMVkeaIT.jpg)](https://video.twimg.com/amplify_video/2090399674129940480/vid/avc1/854x480/8-BwGw71f6WF0sF4.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2090399674129940480/vid/avc1/854x480/8-BwGw71f6WF0sF4.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/Strength04_X/status/2090399966988550435) · 发布者：**@Strength04_X**，2026-08-20
+
+**值得学什么：**用安静的开场衬托按节拍发生的反转，再用观众反应让变化更容易看懂。
+
+**输入素材：**文字描述；固定表演者的外貌与服装。 **来源规格：**来源提示词要求 30 秒；上传视频约 30.08 秒，854×480。原帖注明提示词创意来自 @techhalla。
+
+**原帖提示词短摘录（英文原文）：**“Warm introduction and gentle dialogue”
+
+中文释义：温暖的介绍与轻柔的对话。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段虚构的 24 秒社区才艺表演视频。表演者是一位穿酒红色马甲和白色运动鞋的老年男子；年龄、面孔和服装始终不变。采用原创舞台设计，不出现电视节目标识。
+
+0–7 秒：全景介绍表演者，他手里拿着折好的报纸。观众逐渐安静下来，他把报纸放到凳子上。
+7–9 秒：特写拍下他用一只鞋轻点地面两次；全场安静。
+9–19 秒：原创放克节奏响起。展示他直立姿态下敏捷的脚步动作，再交替切换全身镜头与两位惊讶观众的反应。每个动作都要让人看得清楚。
+19–24 秒：他微微鞠躬收尾，取回报纸。掌声自然地响起并增强。
+
+切镜头的时机与音乐重音一致。避免年龄变化、不可能的关节姿势，以及道具无故消失。
+```
+
+</details>
+
+<a id="x08-pressed-flower-tutorial"></a>
+
+### X08 · 能听见手作细节的压花教程
+
+[![观看 @Strength04_X 发布的 Seedance 2.5 案例：能听见手作细节的压花教程](https://pbs.twimg.com/amplify_video_thumb/2084268630556983296/img/OXmdFhcGjZVL1k5f.jpg)](https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/Strength04_X/status/2084269139556761919) · 发布者：**@Strength04_X**，2026-08-03
+
+**值得学什么：**把制作过程与提前完成的成品分开呈现，避免让教程看起来像鲜花能瞬间压干。
+
+**输入素材：**文字描述；一致的工作台面与无品牌手作工具。 **来源规格：**来源分镜时长合计 32 秒；上传视频约 31.33 秒，1920×1080。
+
+**原帖提示词短摘录（英文原文）：**“petals rustling, paper pages turning, book weight settling”
+
+中文释义：花瓣的窸窣声、翻页声，以及书本压下时的声音。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段 20 秒的手作教程，场景是窗边的浅色木桌。一名成年制作者穿着鼠尾草绿色围裙；不同镜头中的工具、手部与光线保持一致。
+
+0–5 秒：俯拍三朵小花摆放在吸水纸上，花瓣之间留有间隔。
+5–10 秒：特写跟随镊子将一处卷起的边缘理平。再盖上一张纸，拧紧木制压花器。
+10–12 秒：明确切到另一托盘，里面是此前某天已经准备好的干花；不要表现鲜花瞬间干燥。
+12–17 秒：将干花摆到空白贺卡上，保持各片干花的位置稳定。
+17–20 秒：镜头停留在成品贺卡上，旁边是合上的压花器。
+
+收录纸张摩擦、镊子轻碰和螺丝转动的声音。不配音乐，不加画面文字；镜头移动克制，手指形态与动作真实可信。
+```
+
+</details>
+
+<a id="x09-energy-action-geography"></a>
+
+### X09 · 让能量特效与动作位置都交代清楚
+
+[![观看 @Strength04_X 发布的 Seedance 2.5 案例：让能量特效与动作位置都交代清楚](https://pbs.twimg.com/amplify_video_thumb/2096146403064254464/img/IsPJq2tLkew3sJuO.jpg)](https://video.twimg.com/amplify_video/2096146403064254464/vid/avc1/1280x720/MZwL0tlYUawV8djb.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2096146403064254464/vid/avc1/1280x720/MZwL0tlYUawV8djb.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/Strength04_X/status/2096147092188311749) · 发布者：**@Strength04_X**，2026-09-05
+
+**值得学什么：**把能量特效当成真正的光源处理，并保持人物、障碍物与落地区域的位置关系。
+
+**输入素材：**文字描述；虚构人物。下方改写将场景调整为成年人的特技训练。 **来源规格：**来源提示词要求 30 秒；上传视频约 30.17 秒，1280×720。来源所写的“4K 质感”不能证明视频以原生 4K 生成。
+
+**原帖提示词短摘录（英文原文）：**“Emerald light reflects realistically across tables, windows and characters”
+
+中文释义：翠绿色光线真实地映照在桌子、窗户和人物上。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段虚构的 18 秒特技训练片段，场景在空旷的工业风摄影棚内。一名穿炭灰色运动服的成年表演者面对带软垫的滚动靶。先交代靶位于画面右侧，靶后方有清楚可见的落地垫。
+
+0–5 秒：中景缓慢推近，表演者双掌周围逐渐聚起微弱的琥珀色光。光线同时照到袖子和混凝土地面上。
+5–12 秒：侧向全景跟随一次受控的侧步、短距离助跑，以及一次排练过的掌击。靶沿原有轨道向后滚动；整个接触过程清楚可见。
+12–18 秒：较近的镜头展示光芒渐渐消退，表演者放下双手并呼气。
+
+接触瞬间加入短促的低频脉冲声，并保留自然的室内混响。不出现血腥画面、人物身份变化、无缘由的越轴反打或器材瞬移。
+```
+
+</details>
+
+<a id="x10-day-trip-story-arc"></a>
+
+### X10 · 有起有落的一日旅行日记
+
+[![观看 @Goodmanprotocol 发布的 Seedance 2.5 案例：有起有落的一日旅行日记](https://pbs.twimg.com/amplify_video_thumb/2087164966864556033/img/MY7hA0RJIHNj81nD.jpg)](https://video.twimg.com/amplify_video/2087164966864556033/vid/avc1/1280x720/CxZZE_2r3pzjndH-.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2087164966864556033/vid/avc1/1280x720/CxZZE_2r3pzjndH-.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/Goodmanprotocol/status/2087165084397420849) · 发布者：**@Goodmanprotocol**，2026-08-11
+
+**值得学什么：**用反复出现的衣服与随身物件串联不同地点，不必把整趟旅行伪装成一镜到底。
+
+**输入素材：**来源要求提供一张女性参考图；请使用虚构成年人形象或已获使用授权的人像。 **来源规格：**来源提示词要求 30 秒；上传视频约 30.08 秒，1280×720。
+
+**原帖提示词短摘录（英文原文）：**“one continuous, coherent day”
+
+中文释义：连续而连贯的一天。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+使用已获授权的成年人物参考图，制作一段 24 秒的轻松一日旅行日记。所有地点中，人物的面孔、橄榄绿夹克和帆布单肩包都保持一致。由一位朋友手持相机拍摄；地点之间使用正常剪辑，不强求不可能完成的连续长镜头。
+
+0–6 秒：在电车站，旅行者查看纸质路线图，并指向正在进站的电车。
+6–12 秒：在一家小面包店外，人物将折好的地图放进包里，再打开一份糕点的包装。
+12–18 秒：跟随人物沿河边小路前行。微风吹动夹克，骑车人从安全距离外经过。
+18–24 秒：温暖的傍晚光线下，人物坐在长椅上，再次打开同一张地图。
+
+允许重新构图时稍有延迟，人物表情自然。保留交通声、脚步声与河边环境声；不出现品牌标识，也不采用夸张的网红摆拍姿势。
+```
+
+</details>
+
+<a id="x11-visible-object-handover"></a>
+
+### X11 · 用一次物件交接讲清善意小故事
+
+[![观看 @AIwithkhan 发布的 Seedance 2.5 案例：用一次物件交接讲清善意小故事](https://pbs.twimg.com/amplify_video_thumb/2096424851888300032/img/GsfbwnQVERijOEJp.jpg)](https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/AIwithkhan/status/2096424933366931946) · 发布者：**@AIwithkhan**，2026-09-06
+
+**值得学什么：**写清交接前、交接中、交接后物件分别在谁手里，比只要求“完美连贯”更有帮助。
+
+**输入素材：**文字描述；下方改写使用两名虚构成年人和一件易于辨认的物品。 **来源规格：**来源提示词要求 30 秒；上传视频约 30.04 秒，1280×720。
+
+**原帖提示词短摘录（英文原文）：**“Balloon stays with the girl after being handed over.”
+
+中文释义：气球交给女孩之后，一直由女孩拿着。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段 15 秒的街坊生活小故事，角色是两名虚构成年人。一位穿蓝色雨衣的骑车人把一只黄色手套落在长椅旁。一位左肩背着红色托特包的路人发现了它。
+
+0–4 秒：展示人行道上的手套，以及骑在自行车上回头张望的人。用同一个全景交代两人的位置。
+4–9 秒：路人弯腰，用右手拾起手套，再走近骑车人。红色托特包始终背在左肩。
+9–12 秒：交接时，双方的手都留在画面内。骑车人先用左手握住手套，路人才松手。
+12–15 秒：骑车人说“Thanks!”，再把手套放进前车筐。
+
+使用一次轻柔的手持镜头移动，配以街坊环境声，不配音乐。全程只有一只手套；保持其颜色、所在位置和持有者连续一致。
+```
+
+</details>
+
+<a id="x12-tropical-location-sound"></a>
+
+### X12 · 用细小声响呈现热带街区生活
+
+[![观看 @RishuaVR 发布的 Seedance 2.5 案例：用细小声响呈现热带街区生活](https://pbs.twimg.com/amplify_video_thumb/2089204070997532672/img/UAx5Q6w1RA3C8pNG.jpg)](https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29)
+
+[▶ 观看视频](https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29) · [X 原帖与作者完整提示词](https://x.com/RishuaVR/status/2089204108175741157) · 发布者：**@RishuaVR**，2026-08-17
+
+**值得学什么：**说明每种声音的远近和来源，比笼统地要求“电影级音效”更具体。
+
+**输入素材：**文字描述；固定一名虚构成年人，并明确当地环境细节。 **来源规格：**来源提示词要求 10 秒；上传视频约 10.08 秒，1280×720。
+
+**原帖提示词短摘录（英文原文）：**“Pure natural foley textures”
+
+中文释义：纯粹、自然的拟音质感。
+
+<details>
+<summary>展开并复制中文编辑改写版提示词</summary>
+
+以下完整译自英文首页的编辑改写版，供你作为创作起点。它不是链接视频实际使用的原始指令，也未经本库生成实测；改写时长可能与来源视频不同。
+
+```text
+制作一段虚构的 12 秒家庭录像，场景位于印度尼西亚住宅的一处阴凉露台。一名穿宽松蓝绿色衬衫的成年人，把一杯冰茶放到低矮的竹桌上。人物外貌和服装保持稳定。
+
+0–4 秒：从坐着的朋友视角拍摄桌面。玻璃杯碰到木面时发出轻响，片刻后冰块落定。
+4–8 秒：人物将椅子拉近，听到远处的自行车铃声后转头。树叶在墙上投下晃动的影子。
+8–12 秒：微风吹来，镜头轻轻移向盆栽，随后自然结束录制。
+
+近处的玻璃杯声、椅子摩擦声和衣料移动声清晰可闻。鸟叫与自行车声更轻、更远。曝光仅做轻微调整，呈现家用相机柔和的细节；不加旁白、音乐或风格化转场。
+```
+
+</details>
+
+视频和缩略图仍由原媒体平台托管；媒体地址失效时，请通过对应的 X 原帖访问。外部媒体和引用文字的权利归各自权利人所有，不适用本仓库的 MIT 许可。详见[来源记录与筛选说明](docs/x-showcase-sources.md)。
 
 ## 模型官方演示
 
-以下视频来自字节跳动 Seed 官方发布文章，适合学习运镜和参考素材分工；不是 SeaImagine 实测输出。
+以下视频出自[字节跳动 Seed 官方发布文章](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)，不是本库或 SeaImagine 的实测输出。先看演示，再回到官方原文阅读完整提示词；涉及参考素材的例子，仅复制文字不能复现。
 
-| 案例 | 观看官方视频 |
-|---|---|
-| 后台走向舞台：规划一条连续运镜路线 | [▶ MP4](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4) |
-| 白模变成幻想短片：结构与外观分开控制 | [▶ MP4](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8avi1f.mp4) |
+| 案例 | 观看视频 | 可以学什么 |
+|---|---|---|
+| 从后台走向舞台 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4) | 先写清一条连续的行进路线，再安排人物在沿途做什么。 |
+| 地铁故事延长 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8athfv.mp4) | 衔接已有角色、地点和声音，让下一段接得上。 |
+| 京剧舞台调度 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8atnr8.mp4) | 用演员的转身和水袖动作带动镜头，而不是无理由切换。 |
+| 乐团与合唱 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8au6q0.mp4) | 明确每份参考素材分别负责人物、乐器还是场景。 |
+| 白模变成幻想短片 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8avi1f.mp4) | 用无材质的三维预演确定结构与运动，再指定外观。 |
+| 足球绿幕编辑 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awohg.mp4) | 按时间段说明需要替换的背景与物体。 |
+| 早餐镜头编辑 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awtl3.mp4) | 保留人物和动作，只改变拍摄路径。 |
+| 历史课堂演示 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awvr0.mp4) | 让讲解对应画面中可见的人物与动作。 |
+| 汽车装配 | [▶ 官方视频](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8ax35t.mp4) | 先确定装配顺序与位置，再处理材质和光照。 |
 
-[9 个官方演示与学习要点](docs/official-examples.md) · [ByteDance Seed](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)
-
-## 欢迎提交原创 Prompt
-
-如果你有经过真实生成验证、对其他创作者或开发者有复用价值的 Seedance 2.5 Prompt，可以通过[结构化提交表单](https://github.com/seaimagineai/awesome-seedance-2-5-prompts/issues/new?template=prompt.yml)分享。请提供完整 Prompt、模型与参数、素材职责、实际生成结果、迭代记录以及希望展示的作者名称；通过审核的内容可在整理后署名收录。
-
-项目特别欢迎多语言 Prompt、真实业务场景、多参考测试、视频局部编辑、无障碍案例、失败经验及原创参考素材。请勿提交复制内容、密钥、隐私数据、未授权肖像、受保护角色、无许可媒体、无法验证的宣传结论或未披露的联盟链接。完整规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+链接与媒体类型于 2026-09-24 核验，未完成全片播放或生成复现测试。需要的编辑、多参考或延长控制是否在品牌入口开放，应查看当前界面。[详细核查记录（英文）](docs/current-source-check.md)。
 
 ## 在 SeaImagine 使用 Seedance 2.5
 
@@ -72,37 +499,26 @@
 
 品牌公开页面列出 5–30 秒（每档 5 秒）、480p/720p 等规格。本库也收录模型的进阶用法；视频编辑、多参考等控制是否在此入口开放，以实际界面为准。详见[操作说明与能力区别](docs/seaimagine-workflow.md)。
 
-## 目录
-
-- [Seedance 2.5 适合做什么](#seedance-25-适合做什么)
-- [在 SeaImagine 使用 Seedance 2.5](#在-seaimagine-使用-seedance-25)
-- [Seedance 2.5 提示词公式](#seedance-25-提示词公式)
-- [快速开始](#快速开始)
-- [精选原创提示词](#精选原创提示词)
-- [完整场景库](#完整场景库)
-- [图生视频技巧](#图生视频技巧)
-- [多语言提示词](#多语言提示词)
-- [常见问题](#常见问题)
-- [内容与版权说明](#内容与版权说明)
-
 ## Seedance 2.5 适合做什么
+
+下表说明模型的创作方向，不表示 SeaImagine 已开放全部控制。白模是尚未添加表面材质的三维模型，用来预先安排空间与运动；绿幕则用于后期替换背景。
 
 根据 Seedance 2.5 官方页面，模型重点面向最长 30 秒的完整叙事，并可继续延长两次；它强化了参考视频理解、音视频编辑、专业运镜、表演调度、白模控制和绿幕编辑。相较于只描述“画面长什么样”，Seedance 2.5 更适合接收一份简洁但完整的导演指令。
 
 | 能力 | 提示词中应该写什么 | 典型用途 |
 |---|---|---|
-| 30 秒叙事 | 按时间段写目标、转折和结尾 | 广告、剧情短片、MV、旅行故事 |
+| 30 秒叙事 | 按时间段写目标、转折和结尾 | 广告、剧情短片、音乐视频、旅行故事 |
 | 图生视频 | 明确保留项、主体动作、环境动作、运镜 | 产品图、人物照、插画、建筑图 |
 | 参考控制 | 给每个素材指定唯一职责 | 角色一致性、镜头参考、动作参考、声音参考 |
 | 专业运镜 | 写机位、焦段感、路径、速度和停止点 | 一镜到底、环绕、推拉、跟拍、航拍 |
 | 表演调度 | 写站位、视线、动作触发和互动顺序 | 多人戏、运动、舞蹈、采访 |
-| 音画联合 | 分开写对白、环境声、拟音和音乐 | ASMR、广告、剧情、现场感视频 |
+| 音画联合 | 分开写对白、环境声、拟音和音乐 | 细节声效、广告、剧情、现场感视频 |
 | 精准编辑 | 写“只修改什么”和“必须保持什么” | 换背景、换材质、改动作、局部修复 |
-| 白模与绿幕 | 写空间路径、遮挡关系、抠像边缘要求 | 预演、VFX、虚拟制片、角色合成 |
+| 白模与绿幕 | 写空间路径、遮挡关系、抠像边缘要求 | 预演、视觉特效、虚拟制片、角色合成 |
 
 ### 写提示词时最重要的 5 件事
 
-1. **先锁定不变量。** 图生视频先写主体身份、产品几何、服装、构图和光线哪些不能改变。
+1. **先写清不能变的部分。** 图生视频先写主体身份、产品几何、服装、构图和光线哪些不能改变。
 2. **每个时间段只放一个主要事件。** 30 秒不等于塞满 30 个动作；让动作之间存在因果关系。
 3. **把运镜写成路径。** “电影感”很模糊，“镜头从水面贴近跟拍，5 秒后升至人物肩部并停住”更可执行。
 4. **区分主体、环境和镜头的运动。** 三者混写容易产生漂移或无意义的抖动。
@@ -143,44 +559,42 @@
 
 ## 快速开始
 
-1. 准备一张干净、主体轮廓清晰、光源明确的起始图。
+1. 先选输入方式：只有想法就用文字描述；需要保留产品、人物或插画外观时，再准备一张清晰的参考图。
 2. 从下方场景或[120 个提示词总索引](prompts/README.md)复制最接近的模板。
 3. 先替换主体、动作、场景、画幅与结尾，不要一次重写所有摄影术语。
-4. 根据素材选择 SeaImagine 的 [Text-to-Video](https://seaimagine.com/cn/model/seedance-2-5/) 或 [Image-to-Video](https://seaimagine.com/cn/model/seedance-2-5/)，再粘贴提示词。
+4. 根据素材选择 SeaImagine 的[文生视频](https://seaimagine.com/cn/model/seedance-2-5/) 或[图生视频](https://seaimagine.com/cn/model/seedance-2-5/)，再粘贴提示词。
 5. 首轮先验证身份、动作和空间逻辑，再追加复杂运镜、对白或特效。
 
 ## 精选原创提示词
 
-以下示例沿用 Flaq 源库的原创配方，不包含影视 IP、名人形象或第三方品牌。
+以下六条示例沿用 Flaq 源库的原创配方。前三条附参考图，后三条可从文字开始。这些提示词均作为创作起点，尚未在本项目生成实测。
+
+**先对齐时长：**提示词中的 24 秒、27 秒等是创作时间安排，不是品牌页面的参数档位。品牌公开页列出每档 5 秒的选项；使用时应调整整段时间轴，或拆成多个镜头。提示词不能替代界面设置。
 
 ### 1. 暴雨海岸救援演练｜电影长镜头
 
-![上传这张参考图作为创作起点](assets/cinematic-rescue-reference.png)
+![暴雨中的救援艇与两名志愿者，可用作起始参考图](assets/cinematic-rescue-reference.png)
 
 参考图来自 Flaq 源库，不是视频生成结果。
-
-![暴雨海岸救援演练原创起始图](assets/cinematic-rescue-reference.png)
 
 **模式：** 图生视频 · **建议画幅：** 16:9 · **建议时长：** 24–30 秒
 
 ```text
-以输入图为第一帧和视觉锚点，保持两名成年救援志愿者的服装、救生艇结构、人数、灯塔位置和冷蓝色暴雨光线不变。创作一段写实的海上救援训练长镜头，紧张但不呈现伤亡。
+以输入图为第一帧和外观参考，保持两名成年救援志愿者的服装、救生艇结构、人数、灯塔位置和冷蓝色暴雨光线不变。创作一段写实的海上救援训练长镜头，紧张但不呈现伤亡。
 
 00:00-00:06：镜头贴近水面，在艇尾左侧稳定跟拍。救生艇迎着浪头前进，船体随浪有重量地起伏，近处水花短暂溅到镜头保护罩；灯塔光束从右向左扫过。
 00:06-00:14：镜头沿艇侧平滑前移到两人肩后。前方志愿者用手势指向安全航道，后方志愿者调整油门，两人的动作克制、专业，湿衣料贴合身体并随风轻颤。
 00:14-00:23：一股更大的侧浪推动船身向左偏转。两人同步压低重心，船首校正方向，镜头轻微升高展示礁石之间的通道；水的惯性、船体倾斜和人物平衡符合真实物理。
 00:23-00:30：救生艇穿过狭窄水道进入相对平稳的港湾。镜头越过两人缓慢推向灯塔，暖光照亮雨幕，情绪从紧张转为安心，最后稳定停在船首与灯塔同框的广角画面。
 
-声音：双声道海浪、雨点击打防水布、发动机低频、短促清晰的手势口令；不使用史诗音乐，结尾加入很轻的低音弦乐持续音。全程无对白字幕、无标志、无水印、无额外人员、无灾难伤者、无镜头瞬移。
+声音：双声道海浪、雨点击打防水布、发动机低频、短促清晰的安全口令；不使用史诗音乐，结尾加入很轻的低音弦乐持续音。全程无对白字幕、无标志、无水印、无额外人员、无灾难伤者、无镜头瞬移。
 ```
 
 ### 2. 气泡茶新品揭晓｜高级产品广告
 
-![上传这张参考图作为创作起点](assets/product-sparkling-tea-reference.png)
+![冰台上的琥珀色气泡茶玻璃瓶，可用作产品参考图](assets/product-sparkling-tea-reference.png)
 
 参考图来自 Flaq 源库，不是视频生成结果。
-
-![气泡茶产品广告原创起始图](assets/product-sparkling-tea-reference.png)
 
 **模式：** 图生视频 · **建议画幅：** 9:16 / 16:9 · **建议时长：** 15–24 秒
 
@@ -197,11 +611,9 @@
 
 ### 3. 纸狐狸走出速写本｜混合媒介动画
 
-![上传这张参考图作为创作起点](assets/paper-fox-story-reference.png)
+![雨窗旁从速写本走出的红色纸狐狸，可用作角色与场景参考图](assets/paper-fox-story-reference.png)
 
 参考图来自 Flaq 源库，不是视频生成结果。
-
-![纸狐狸混合媒介动画原创起始图](assets/paper-fox-story-reference.png)
 
 **模式：** 图生视频 · **建议画幅：** 16:9 · **建议时长：** 30 秒
 
@@ -217,7 +629,9 @@
 声音：雨声、纸张折叠声、木桌轻触声、杯中细微气泡和极简钢片琴；无对白。禁止新增动物、改变角色颜色、塑料质感、卡通品牌风格、文字、标志或水印。
 ```
 
-### 4. 清晨面包坊｜治愈系 ASMR 广告
+### 4. 清晨面包坊｜面包制作与细节声效
+
+**模式：** 文生视频 · 重点：手作动作与细节声音
 
 ```text
 30 秒、16:9、写实手工面包坊短片。人物是一位原创成年烘焙师，米色围裙、深灰衬衫、头发整齐束起；身份、服装和工作台布局全程一致。
@@ -232,6 +646,8 @@
 
 ### 5. 屋顶爵士现场｜音乐表演与连续调度
 
+**模式：** 文生视频 · 重点：三人位置与音画同步
+
 ```text
 创作一段 30 秒原创屋顶爵士三重奏现场，傍晚蓝调时刻，城市天际线虚化。三位成年乐手分别演奏立式贝斯、爵士鼓和小号，服装为无标志的深色现代正装，人物数量和乐器位置始终固定。
 
@@ -243,7 +659,9 @@
 声音必须是同一速度的原创爵士乐段，贝斯、鼓刷、小号的演奏动作与音符同步；保留屋顶风声和远处交通底噪。无观众尖叫、无伪装演奏、无乐器变形、无文字或水印。
 ```
 
-### 6. 城市通勤背包｜UGC 产品测评
+### 6. 城市通勤背包｜手机自拍视频测评
+
+**模式：** 文生视频；有产品图时可增加参考 · 重点：生活化表达与物件一致性
 
 ```text
 9:16 竖屏、24 秒、自然手机自拍视频质感。一位原创成年城市通勤者在公寓门口快速展示无品牌深绿色背包，语气真实、友好，不像棚拍广告。保持人物脸部、服装、背包口袋数量与颜色不变。
@@ -262,15 +680,29 @@
 
 | 内容包 | 数量 | 覆盖范围 |
 |---|---:|---|
-| [基础场景库](prompts/prompt-library.md) | 24 | 电影、产品、UGC、动画、运动、声音、图生视频控制、绿幕与白模 |
-| [扩展场景库](prompts/extended-scenarios.md) | 36 | 品牌、电商、时尚、VFX、UI、喜剧、教育、建筑、交通、自然、工业、酒店 |
-| [英文专业工作流](prompts/advanced-workflows.en.md) | 12 | SaaS、创作者、家具、珠宝、餐饮、博物馆、能源、医疗入口、播客、物流、无障碍、游戏 |
-| [英文创作技法库](prompts/creative-techniques.en.md) | 28 | Match Cut、一镜到底、多参考、教程、编辑、数字人、批量 SKU、长视频、延长、白模 |
+| [基础场景库](prompts/prompt-library.md) | 24 | 电影、产品、日常自拍视频、动画、运动、声音、图生视频控制、绿幕与白模 |
+| [扩展场景库](prompts/extended-scenarios.md) | 36 | 品牌、电商、时尚、视觉特效、界面、喜剧、教育、建筑、交通、自然、工业、酒店 |
+| [英文专业工作流](prompts/advanced-workflows.en.md) | 12 | 在线软件、创作者、家具、珠宝、餐饮、博物馆、能源、医疗入口、播客、物流、无障碍、游戏 |
+| [英文创作技法库](prompts/creative-techniques.en.md) | 28 | 匹配剪辑、一镜到底、多参考、教程、编辑、数字人、批量商品款式、长视频、延长、白模 |
 | [英文类型片、社媒与视觉实验](prompts/genre-social-experiments.en.md) | 20 | 类型片、受控车辆拍摄、社媒喜剧、声音同步、动态海报、原创动画、材质变形 |
 | [独立多语言 prompts](prompts/i18n/README.md) | 14 份 | 繁中、英、日、韩、西、法、德、葡、阿、俄、印尼、意大利、泰、越南语 |
 | [使用场景选择矩阵](docs/use-case-matrix.md) | 18 类目标 | 按业务、素材、渠道与画幅快速选择模板 |
 
 新增场景包括封闭赛道雨战、模拟太空维修、古代水利重建、火星取样、打击乐音画同步、镜像延迟喜剧、无障碍换装、动态海报、运动参考迁移、原创动画和材质变形等，可直接用于类型短片、社媒、商业、教育与专业制作工作流。
+
+## 用九格分镜安排画面变化
+
+![夜间花园动态海报的九格参考分镜：纸质建筑、植物和灯光逐步增加](assets/night-garden-storyboard.png)
+
+这张参考分镜来自 Flaq 源库，配套[第 115 条：夜间花园动态海报](prompts/genre-social-experiments.en.md#115-night-garden-dynamic-event-poster)，不是视频截图。九格展示的是**逐步累积的画面状态**：下一格保留上一格已经出现的东西，再增加新的变化。它不是九个需要无条件切换的独立场景。
+
+写提示词时，可按下面三步使用：
+
+1. 先写哪些东西不能变：观察角度、桌面、建筑位置和主光方向。
+2. 每个阶段只新增一个重点，例如植物展开、纸结构升起或灯光亮起。
+3. 明确前面出现的元素继续保留，并为结尾留出稳定展示的时间。不要把整张九格图误当作单张视频首帧。
+
+配套完整提示词为英文；[图片生成说明](assets/IMAGE_PROMPTS.md)保留原始制作描述。更多材质变化、动画和社媒短片可见[101–120 场景](prompts/genre-social-experiments.en.md)。
 
 ## 图生视频技巧
 
@@ -345,6 +777,12 @@ Seedance 2.5 可使用自然语言描述。仓库提供简体中文主库，以�
 
 SeaImagine 入口：[Seedance 2.5 Text-to-Video](https://seaimagine.com/cn/model/seedance-2-5/) 或 [Seedance 2.5 Image-to-Video](https://seaimagine.com/cn/model/seedance-2-5/)。
 
+## 欢迎提交原创提示词
+
+如果你有经过真实生成验证、对其他创作者或开发者有复用价值的 Seedance 2.5 提示词，可以通过[结构化提交表单](https://github.com/seaimagineai/awesome-seedance-2-5-prompts/issues/new?template=prompt.yml)分享。请提供完整 Prompt、模型与参数、素材职责、实际生成结果、迭代记录以及希望展示的作者名称；通过审核的内容可在整理后署名收录。
+
+项目特别欢迎多语言 Prompt、真实业务场景、多参考测试、视频局部编辑、无障碍案例、失败经验及原创参考素材。请勿提交复制内容、密钥、隐私数据、未授权肖像、受保护角色、无许可媒体、无法验证的宣传结论或未披露的联盟链接。完整规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
 ## 资料来源
 
 - [Seedance 2.5 官方能力页面](https://seed.bytedance.com/en/seedance2_5)
@@ -356,10 +794,10 @@ SeaImagine 入口：[Seedance 2.5 Text-to-Video](https://seaimagine.com/cn/model
 
 - 120 条配方、参考图与分镜来自本司 Flaq 源库；本版增加 SeaImagine 产品说明、品牌封面与官方演示入口。详见[来源说明](docs/PROVENANCE.md)。
 - 继承配图的可复现生成说明见 [Original Image Prompt Notes](assets/IMAGE_PROMPTS.md)。
-- 示例不使用影视 IP、名人姓名、第三方品牌口号或未经授权的角色素材。
+- 本库原创配方采用虚构、无品牌的创作设定；外部社区案例的作者与素材权利单独标注。
 - 请只上传你拥有或已获授权的图片、视频、音频、人物肖像和商标素材。
 - AI 生成结果仍需进行事实、版权、肖像权、商标、声音和平台政策检查，商业使用前应人工复核。
-- 代码与仓库文本依照 [MIT License](LICENSE) 提供；生成结果的可用权利仍取决于输入素材、服务条款与适用法律。
+- 本库可授权的代码与文本依照 [MIT 许可证](LICENSE) 提供。外部视频、缩略图和原帖引文仍属于各自权利人，不因本库引用而转为 MIT 授权；链接也不等于获得转载许可。生成结果的使用条件另取决于输入素材与服务条款。
 
 ---
 
