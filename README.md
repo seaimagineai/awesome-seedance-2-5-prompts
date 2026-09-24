@@ -7,32 +7,29 @@
 [![Prompts](https://img.shields.io/badge/Prompts-120-blue.svg)](prompts/README.en.md)
 [![X video examples](https://img.shields.io/badge/X_video_examples-12-black.svg)](#seedance-25-videos-from-x--watch-inspect-remix)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 [English](README.md) · [简体中文](README_ZH.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [繁體中文](README_TW.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![An orange tram follows curved rails through a street changing from sketch to paper models to warmly lit realistic buildings. AI-created cover, not a Seedance video output.](assets/seaimagine-seedance-hero-v5.jpg)
+![An orange tram follows curved rails through a street changing from sketch to paper models to warmly lit realistic buildings.](assets/seaimagine-seedance-hero-v5.jpg)
 
 An original scene imagines the creative journey from structural sketches to materials, lighting and motion.
 
-A SeaImagine edition of the company’s [Flaq prompt library](https://github.com/flaqai/awesome_seedance_2_5), with **120 complete recipes and 15 language entry points**. The main catalog contains 60 Chinese and 60 English recipes; 14 localized practice files each offer six shared scenes, not a full translation of all 120 recipes. Find copy-ready recipes for text-to-video, image-to-video, multi-reference control, local video editing, extension, synchronized sound, match cuts, tutorials, digital presenters, batch SKU production, long-form chaining, green screen, white-model previs, advertising, ecommerce, genre filmmaking, social video, original animation, visual experiments, education, and cinematic storytelling.
+Explore **120 complete prompts, 12 community examples and 9 official demonstrations** with SeaImagine. Start with a scene you like, study its camera work and actions, then adapt the prompt for your own film. The collection covers product stories, cinema, animation, travel, sound and video editing. The main catalog has 60 Chinese and 60 English prompts; 14 language practice files each offer six shared scenes.
 
 | [Browse 120 prompts](prompts/README.en.md) | [Submit your prompt](https://github.com/seaimagineai/awesome-seedance-2-5-prompts/issues/new?template=prompt.yml) | [Contribution guide](CONTRIBUTING.md) | [Prompting guide](docs/prompting-guide.md) | [Generate with SeaImagine](https://seaimagine.com/model/seedance-2-5/) |
 |---|---|---|---|---|
 
-[Watch community videos](#seedance-25-videos-from-x--watch-inspect-remix) · [Copy 120 original recipes](prompts/README.en.md) · [Read source notes](docs/x-showcase-sources.md)
+[Watch community videos](#seedance-25-videos-from-x--watch-inspect-remix) · [Copy 120 original recipes](prompts/README.en.md) · [Learn the prompting method](#what-makes-a-strong-seedance-25-prompt)
 
 ## Choose a starting point
 
 [Copy a short example](#nine-copy-ready-seedance-25-prompts) · [Browse by goal](docs/use-case-matrix.en.md) · [Official demos](docs/official-examples.md) · [Generate on SeaImagine](https://seaimagine.com/model/seedance-2-5/) · [All languages](docs/languages.md)
 
-New to video prompting? Try one fixed product and one camera move first. The bottle example below includes its input image. Community videos demonstrate creative approaches; their generation platform has not been independently verified.
+New to video prompting? Try one product and one camera move first. The bottle example below includes a starting image.
 
 ## Seedance 2.5 videos from X — watch, inspect, remix
 
-Twelve community posts with a video, an explicit Seedance 2.5 label, and a complete prompt in the post body. Click a preview to open its MP4, read the creator's full prompt on X, or expand a shorter editorial adaptation below. **Upstream source/media check: 2026-09-20; [current research and limits](docs/current-source-check.md).**
-
-The model attribution is the poster's claim; these are community examples, external creator works; their generation platform has not been independently verified. Published video dimensions describe the uploaded file, not necessarily generation settings. The 120 original library recipes remain a separate collection.
+Watch a preview, read the creator’s prompt, then expand an adaptation to try the technique yourself. These twelve examples explore sound, camera movement, character interaction and continuity.
 
 For a focused first experiment, use the short prop-handover or location-sound variant. For multi-shot work, study the travel diary or stage reveal. Timings are creative briefs: use durations supported by your provider, or split the sequence into shorter shots.
 
@@ -56,8 +53,6 @@ A useful reference for timing food sounds around a character-driven payoff.
 
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
-
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
 
 ```text
 Create a 30-second animated cooking sketch inside a gently rocking wooden galley. Keep one apron-wearing cook and one curious green bird recognizable in every shot. Warm lanterns illuminate tactile food surfaces.
@@ -92,8 +87,6 @@ A practical reference for building a fashion series around one recognizable item
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
 
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
-
 ```text
 Produce a 30-second landscape fashion edit featuring one adult model and the same oversized pale-yellow shirt. Use a bright apartment with consistent window light. Preserve the shirt's buttons, seams and color.
 
@@ -121,14 +114,12 @@ Keep fabric weight believable. Add outfit names and captions after generation.
 
 Reference for counting subjects and allowing framing to react to a pet's movement.
 
-**Inputs:** One authorized portrait; one consistent kitten. **Format:** 30 seconds; source requests 9:16, but published media is 1920×1080.
+**Inputs:** One portrait; one consistent kitten. **Format:** 30 seconds; source requests 9:16, but published media is 1920×1080.
 
 **Original prompt excerpt:** “No cuts. No zoom. Exactly one kitten.”
 
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
-
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
 
 ```text
 Make a 30-second phone selfie beside a rain-covered window. One adult holds one tabby kitten securely. Use the supplied portrait only to preserve the person's appearance. Keep window light soft and neutral.
@@ -162,8 +153,6 @@ Reference for giving every transformation a visible trigger and preserving spati
 
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
-
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
 
 ```text
 Create a 15-second handheld walk along a quiet city pavement. A visible hand holds a marker. Each pointing gesture triggers a brief blue outline, followed by a flat illustrated version of the targeted object. Keep its location, apparent size and perspective unchanged.
@@ -199,8 +188,6 @@ Reference for specifying camera imperfections and stable everyday props.
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
 
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
-
 ```text
 Create a fictional 30-second home-movie scene on a quiet residential lane. Follow one adult wearing the same casual clothes throughout. Use a consumer-camcorder look: mild sensor noise, soft contrast, delayed reframing and occasional focus correction.
 
@@ -233,8 +220,6 @@ Reference for explicitly assigning the phone operator and prop ownership.
 
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
-
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
 
 ```text
 Create a 30-second evening convenience-store Vlog with two adult friends. Image 1 defines the shopper; Image 2 defines the friend filming. Keep clothing and one drink bottle consistent.
@@ -271,8 +256,6 @@ Use modest phone shake, short conversational pauses and shop ambience. No extern
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
 
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
-
 ```text
 Create a fictional 24-second community talent-show clip. The performer is an older man in a burgundy waistcoat and white trainers; keep his age, face and costume unchanged. Use an original stage design without broadcast branding.
 
@@ -306,8 +289,6 @@ Keep cuts aligned with musical accents. Avoid age transformation, impossible joi
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
 
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
-
 ```text
 Make a 20-second craft tutorial at a pale wooden desk beside a window. An adult maker wears a sage apron; maintain the same tools, hands and lighting across shots.
 
@@ -337,14 +318,12 @@ Record paper friction, tweezer taps and screw turns. No music or on-screen lette
 
 **What to learn:** Treat energy as a light source, and keep the actor, obstacle and landing zone spatially consistent.
 
-**Inputs:** Text brief; fictional characters. Adaptation changes the setting to adult stunt training. **Format:** 30-second source brief; uploaded video 1280×720, about 30.17 seconds. Source wording asks for a 4K aesthetic; this is not evidence of native 4K output.
+**Inputs:** Text brief; fictional characters. Adaptation changes the setting to adult stunt training. **Format:** 30-second source brief; uploaded video 1280×720, about 30.17 seconds.
 
 **Original prompt excerpt:** “Emerald light reflects realistically across tables, windows and characters”
 
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
-
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
 
 ```text
 Create an 18-second fictional stunt-training scene inside an empty industrial studio. One adult performer in a charcoal tracksuit faces a padded rolling target. Establish the target on screen right and a clear landing mat behind it.
@@ -371,14 +350,12 @@ Use a short low-frequency pulse at contact and natural room reverb. No gore, ide
 
 **What to learn:** Use recurring wardrobe and a carried object to connect locations without pretending the whole trip is a single take.
 
-**Inputs:** Source asks for a woman reference image; use a fictional adult or a likeness you have permission to use. **Format:** 30-second source brief; uploaded video 1280×720, about 30.08 seconds.
+**Inputs:** Source asks for a woman reference image; choose a clear adult character reference. **Format:** 30-second source brief; uploaded video 1280×720, about 30.08 seconds.
 
 **Original prompt excerpt:** “one continuous, coherent day”
 
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
-
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
 
 ```text
 Using an authorized adult character reference, create a 24-second casual day-trip diary. Keep the same face, olive jacket and canvas shoulder bag in every location. A friend operates the handheld camera; use ordinary edits between places, not an impossible continuous take.
@@ -415,8 +392,6 @@ Allow brief reframing delays and natural expressions. Keep transit noise, footst
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
 
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
-
 ```text
 Create a 15-second neighborhood micro-story with two fictional adults. A cyclist wearing a blue raincoat has dropped one yellow glove beside a bench. A passerby carrying a red tote notices it.
 
@@ -450,8 +425,6 @@ Use one gentle handheld move, neighborhood ambience and no music. Exactly one gl
 <details>
 <summary>Copy the editorial prompt adaptation</summary>
 
-This upstream editorial variant is a starting point for your own generation. It is not the exact prompt used for the linked video and has not been render-tested here.
-
 ```text
 Create a 12-second fictional home-video moment on a shaded Indonesian residential terrace. An adult in a loose teal shirt sets a glass of iced tea on a low bamboo table. Keep appearance and clothing stable.
 
@@ -468,14 +441,9 @@ Mix near sounds clearly: glass, chair scrape and cloth movement. Keep birds and 
 </tr>
 </table>
 
-
-Videos and thumbnails remain on the original media host. If a media URL changes, use its X post link. External media and quoted excerpts retain their respective owners' rights and are not covered by this repository's MIT license. See the [source records and selection notes](docs/x-showcase-sources.md).
-
 ## Official demonstrations
 
-Start with **real official frames and complete exercises for the same scene**, then expand a practice exercise to apply the technique to your own story. Every image below is an unretouched frame from a video linked in the [ByteDance Seed launch article](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5). These are official demonstrations, not illustrations generated for this library or SeaImagine test results.
-
-Each complete prompt below is written by this library for the same scene, with input roles, timing, camera movement, sound and constraints. **It is not the verbatim official prompt or the actual instruction used to generate the displayed frames.** Added details are editorial choices and have not been generation-tested. The source links contain the official originals; expandable exercises apply the techniques to different stories.
+Study a backstage entrance, a concert and a breakfast camera edit. Each example pairs frames with a complete scene exercise, followed by an optional exercise that takes the same technique into a different story.
 
 <a id="official-route"></a>
 
@@ -485,7 +453,7 @@ Each complete prompt below is written by this library for the same scene, with i
 |---|---|
 | ![Dressing room, frame at 3 seconds in the official video](assets/official-route-1.jpg) | ![On stage, frame at 24 seconds in the official video](assets/official-route-2.jpg) |
 
-**Complete prompt (expanded by this library)**
+**Complete adapted scene prompt**
 
 ```text
 Create a 30-second, 16:9 live-action-style performance film in one continuous shot. Follow one original female singer from a dressing room through a corridor onto a red-and-black stage. Keep her face, curls, dark green outfit and earpiece consistent.
@@ -504,7 +472,7 @@ Sound: footsteps, fabric and the microphone handover, followed by increasingly d
 [Official article and full prompt](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [Supporting reference: official video](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8egv8p.mp4)
 
 <details>
-<summary>Practice: apply the technique to another story (untested)</summary>
+<summary>Practice: apply the technique to another story</summary>
 
 **Make it your own:** Follow a potter carrying a finished cup to the shop entrance. This exercise can be used as a text-to-video prompt.
 
@@ -528,7 +496,7 @@ Keep the same person, cup, and continuous space. No cuts, teleportation, or addi
 |---|---|
 | ![Performance scene, frame at 12 seconds in the official video](assets/official-references-1.jpg) | ![Choir passage, frame at 27 seconds in the official video](assets/official-references-2.jpg) |
 
-**Complete prompt (expanded by this library)**
+**Complete adapted scene prompt**
 
 ```text
 Create a 30-second, 16:9 original chamber-concert film using six reference images you have permission to use. Image 1 defines the hall and seating; Image 2 the lead singer; Image 3 the pianist and piano; Image 4 the string section; Image 5 the choir; Image 6 the audience. Each image controls only its assigned subject. Use an interface that supports six separately assigned images, or reduce the reference set and rewrite the assignments first.
@@ -543,12 +511,12 @@ Fixed layout: singer front center, piano on screen left, strings on the right, c
 Use moderate hall reverberation and distinct piano, strings and voices, without existing compositions or real-person voice imitation. Keep screen direction stable. No exchanged instruments, duplicated performers or audience members appearing on stage.
 ```
 
-**What to learn from the frames:** Compare the stage layout and performers to identify which subjects need separate references. Checking whether they match the inputs also requires examining the official reference images.
+**What to learn from the frames:** Compare the stage layout and performers to identify which subjects need separate references.
 
 [Official article and full prompt](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [Supporting reference: official video](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8au6q0.mp4)
 
 <details>
-<summary>Practice: apply the technique to another story (untested)</summary>
+<summary>Practice: apply the technique to another story</summary>
 
 **Prepare the inputs:** One original character image, one flower-shop image, and one bouquet image. Use this exercise only in an interface that lets you assign separate roles to multiple reference images.
 
@@ -573,7 +541,7 @@ Keep the character's appearance, flower varieties, and shop layout unchanged thr
 |---|---|
 | ![Coffee and breakfast viewpoint comparison, frame at 6 seconds in the official video](assets/official-camera-1.jpg) | ![Egg-cooking viewpoint comparison, frame at 9 seconds in the official video](assets/official-camera-2.jpg) |
 
-**Complete prompt (expanded by this library)**
+**Complete adapted scene prompt**
 
 ```text
 Edit a 15-second original breakfast clip with two people. Change only camera position and movement. The input must include breakfast preparation, an egg flipping, and the people arranging the counter. Inspect the source action timing and align the segments below to it before editing. Preserve identities, clothing, action order, utensil counts, kitchen layout, visual style and the original soundtrack.
@@ -586,12 +554,12 @@ Edit a 15-second original breakfast clip with two people. Change only camera pos
 Keep source sound synchronized and retain total duration. No replacement background, added acting, new score, text or transition effects. No duplicate people, eggs or floating utensils. Present the same breakfast action from a different viewpoint instead of restaging it.
 ```
 
-**What to learn from the frames:** The official video includes its own side-by-side comparison. These frames show the breakfast scene and egg-cooking action from different viewpoints. Frame timestamps locate images in the demonstration file; they are not the prompt's timeline instructions.
+**What to learn from the frames:** The official video includes its own side-by-side comparison. These frames show the breakfast scene and egg-cooking action from different viewpoints.
 
 [Official article and full prompt](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5) · [Supporting reference: official video](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4xfa4ms8awtl3.mp4)
 
 <details>
-<summary>Practice: apply the technique to another story (untested)</summary>
+<summary>Practice: apply the technique to another story</summary>
 
 **Prepare the input:** A ten-second pour-over coffee video: pouring during the first seven seconds, then setting down the kettle during the final three. Adjust the timing below to match your actual clip. Use an interface that supports reference-video editing.
 
@@ -608,13 +576,13 @@ Do not change the pouring speed, insert new actions, or add cuts.
 
 </details>
 
-The other six demonstrations remain in [all nine official examples and sources](docs/official-examples.md). Multiple-reference and video-editing exercises require corresponding interface support; copying the text alone cannot reproduce them. [Frame sources and verification scope](docs/current-source-check.md#official-still-extraction).
+Explore [all nine official demonstrations](docs/official-examples.md) for more techniques, including extension, clay renders and green-screen editing.
 
 ## Share your Seedance 2.5 prompt
 
 Built something that other creators or developers can reproduce? [Open the guided submission form](https://github.com/seaimagineai/awesome-seedance-2-5-prompts/issues/new?template=prompt.yml) and share one original, tested prompt with its model settings, input roles, real output, and iteration notes. Useful submissions may be edited for clarity and added with attribution.
 
-We especially welcome multilingual prompts, real business workflows, accessibility-focused examples, controlled video edits, multi-reference tests, honest failure reports, and original reference assets. Do not submit copied collections, secrets, private data, unauthorized likenesses, protected characters, unlicensed media, unverifiable claims, or undisclosed affiliate links. See [CONTRIBUTING.md](CONTRIBUTING.md) for the review checklist.
+Share multilingual prompts, practical projects, useful failures and original reference material. See the [contribution guide](CONTRIBUTING.md) for the submission format.
 
 ## Find the right prompt in under a minute
 
@@ -634,7 +602,7 @@ We especially welcome multilingual prompts, real business workflows, accessibili
 
 ### What is included
 
-- **120 full recipes**, not one-line prompt fragments: each includes mode, references, timeline, camera, sound, continuity, and exclusions. The core 60-scene catalog is in Simplified Chinese, with 60 additional professional, creative-technique, genre, social, and visual-experiment workflows in English.
+- **120 full recipes**: each includes mode, references, timeline, camera, sound, continuity, and exclusions. The core 60-scene catalog is in Simplified Chinese, with 60 additional professional, creative-technique, genre, social, and visual-experiment workflows in English.
 - **15-language support**, including 14 independent localized prompt files with six complete shared test scenes in each language.
 - **20+ practical categories** for brand, ecommerce, UGC, travel, food, fashion, beauty, cinematic, animation, sports, fantasy, VFX, UI, social, education, architecture, mobility, nature, industry, and hospitality workflows.
 - **Production guidance** for prompt debugging, aspect-ratio planning, reference ownership, final-frame design, rights review, and iteration records.
@@ -645,7 +613,7 @@ Prompts 101–120 turn popular creative patterns into production-safe, original 
 
 ![Original nine-panel night garden storyboard for Prompt 115](assets/night-garden-storyboard.png)
 
-This reference image was created in the Flaq source collection for [Prompt 115: Night Garden Dynamic Event Poster](prompts/genre-social-experiments.en.md#115-night-garden-dynamic-event-poster). Its nine panels are cumulative keyframes rather than copied frames, and the full reusable generation brief is documented in [Original Image Prompt Notes](assets/IMAGE_PROMPTS.md).
+The nine panels for [Prompt 115: Night Garden Dynamic Event Poster](prompts/genre-social-experiments.en.md#115-night-garden-dynamic-event-poster) show cumulative changes. Keep the elements already present and add one new action at a time.
 
 ## What makes a strong Seedance 2.5 prompt?
 
@@ -668,11 +636,9 @@ For the full method, see [Seedance 2.5 Prompting Guide: From Brief to Usable Vid
 
 ## Nine copy-ready Seedance 2.5 prompts
 
-The first six recipes originate in the Flaq source library; the final three are new SeaImagine exercises. Recipes 1–3 use the provided starting images; recipes 4–9 can start from text alone. None has been generation-tested in this project. These homepage exercises do not change the 120-entry full library.
+Nine scenes cover cinematic action, products, music, science, architecture and nature. Use the images for recipes 1–3 as starting references; recipes 4–9 can begin with text. Choose a scene, then adapt its subject, action and ending.
 
-Illustrations for recipes 4–9 were created with an AI image tool to show composition, materials and atmosphere. They are not tested Seedance video outputs and do not change the input modes below. [Image-generation prompts](assets/FEATURED_IMAGE_PROMPTS.md).
-
-**Match the duration setting:** some inherited recipes use 24 seconds. Where the interface offers five-second increments, retime the complete sequence or split it into shots. Prompt timestamps do not override interface settings.
+**Set the duration first:** choose a duration in the interface, then adjust the full prompt timeline to match. Split longer ideas into shorter shots when useful.
 
 <a id="cinematic-storm-rescue-training"></a>
 
@@ -680,7 +646,7 @@ Illustrations for recipes 4–9 were created with an AI image tool to show compo
 
 ![Input reference: Cinematic storm rescue training](assets/cinematic-rescue-reference.png)
 
-Use this source-library reference image as the starting image. This is a still reference, not a generated video result.
+Use this image as the starting reference.
 
 ```text
 Use the input image as the first frame and only visual anchor. Preserve the identities and orange rain gear of the two adult volunteers, the rescue boat geometry, the number of people, the lighthouse position, and the cold storm lighting.
@@ -699,7 +665,7 @@ Audio: stereo rain, waves, engine, two short safety calls, and a very soft low s
 
 ![Input reference: Premium unbranded sparkling-tea ad](assets/product-sparkling-tea-reference.png)
 
-Use this source-library reference image as the starting image. This is a still reference, not a generated video result.
+Use this image as the starting reference.
 
 ```text
 Use the bottle in the input image as the only product anchor. Preserve its silhouette, cap, blank-label proportions, amber liquid level, and lighting. Generate no text.
@@ -718,7 +684,7 @@ Audio: cap click, fine carbonation, light ice sound, minimal fresh rhythm. No fa
 
 ![Input reference: Paper fox leaves a sketchbook](assets/paper-fox-story-reference.png)
 
-Use this source-library reference image as the starting image. This is a still reference, not a generated video result.
+Use this image as the starting reference.
 
 ```text
 Use the input image as the art and character anchor. Preserve the red paper fox's triangular ears, pointed nose, folds, pencil texture, and proportions; preserve the café table, sketchbook, lamp, rainy window, and cup layout.
@@ -867,15 +833,12 @@ Each language file contains six complete, copy-ready recipes rather than transla
 - Describe the camera's start, path, speed, and final stopping point.
 - Reserve the final 4–6 seconds for deceleration and a deliberate end frame.
 - Add dialogue, ambience, foley, and music as separate audio layers.
-- Use original or properly licensed people, music, products, and visual assets.
 
 ## Create with SeaImagine
 
 The paper animation above uses material to establish its style; the continuous-shot examples use a clear route to organize movement. Bring both ideas into one small story: **send a paper boat across a miniature sea toward a lighthouse.**
 
 [![An original SeaImagine paper-art scene: an amber paper boat faces a deep-teal paper sea and a warmly lit lighthouse](assets/seaimagine-paper-sea.jpg)](https://seaimagine.com/model/seedance-2-5/)
-
-*Original brand concept artwork made with an image-generation tool to illustrate the idea below—not a frame from a Seedance 2.5 video. [Image-generation notes](assets/BRAND_IMAGE_PROMPT.md).*
 
 ### Start with a five-second shot
 
@@ -890,7 +853,7 @@ Keep the number of sails, the hull shape, and the lighthouse position unchanged.
 
 Check three things first: **does the boat keep its shape, does the sea still look like paper, and does the ending settle?** Once the short shot works, try a longer journey. For your own product film, return to the advertising prompt above, replace its subject with your product, and start with one clear reveal.
 
-SeaImagine provides text and image creation entry points. Its public model page lists 5–30 seconds in five-second steps and 480p/720p options. Refine one short shot at a time, or use [SeaImagine Create](https://seaimagine.com/create/) to explore other image and video projects. The exercise above has not been generation-tested; advanced controls such as multiple references and video editing depend on the current interface. See [the practical workflow and capability notes](docs/seaimagine-workflow.md).
+Start with text or an image in SeaImagine, refine one short shot, then build a longer sequence. Use [SeaImagine Create](https://seaimagine.com/create/) to prepare references or explore another image or video project.
 
 **[Start creating with this prompt →](https://seaimagine.com/model/seedance-2-5/)**
 
@@ -912,22 +875,18 @@ Name one primary identity or product anchor, list its invariant properties befor
 
 This repository supports 15 languages. The shared multilingual set keeps the same six scene IDs so teams can compare instruction following, UI text, speech, audio, and cultural localization without changing the production brief.
 
-### Are these prompts free to use?
-
-The repository is released under the [MIT License](LICENSE). Generated output may still involve separate rights for source images, people, voices, music, trademarks, locations, claims, and the platform or model used to create it.
-
 ## Contributing
 
 New original scenarios, careful localizations, accessibility improvements, and reproducible visual references are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for the prompt format, localization requirements, originality rules, and review checklist.
 
-## Sources and usage
+## Sources and use
 
-- [Official Seedance 2.5 capability page](https://seed.bytedance.com/en/seedance2_5)
-- [Seedance 2.5 Text-to-Video on SeaImagine](https://seaimagine.com/model/seedance-2-5/)
-- [Seedance 2.5 Image-to-Video on SeaImagine](https://seaimagine.com/model/seedance-2-5/)
-- [Official Seedance 2.0 launch notes](https://seed.bytedance.com/en/blog/seedance-2-0-official-launch)
-- [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) — reviewed for broad use-case discovery; no prompt text, branded example, named style, or visual asset was copied.
+Community authors and original posts are linked beside each example. Model names follow the authors’ descriptions; the generation platforms and popularity have not been independently verified. Listed media specifications describe uploaded files. Official frames come from the [model launch article](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5); their timestamps locate frames within those demonstration files.
 
-The 120 library recipes and six retained PNG reference/illustration assets come from the Flaq source collection; SeaImagine adaptation and the AI-created cover are new. See [provenance and license boundaries](docs/PROVENANCE.md). The X showcase separately credits external posts, videos, thumbnails, and short prompt excerpts; its copyable editorial variants are clearly labeled. Linking a community video does not make it a repository-owned asset or grant permission to reuse it. Review generated output and input rights before commercial use.
+Editorial adaptations, expanded official-scene exercises and original prompts are practice material. They have not been generation-tested in this project and are not the actual instructions used to produce the displayed videos. Covers, brand artwork and featured illustrations were made with image tools as visual references, rather than Seedance video results.
 
-The reproducible visual briefs are documented in [Original Image Prompt Notes](assets/IMAGE_PROMPTS.md).
+Available features, duration and resolution depend on the current product interface. Check permissions for source images, likenesses and audio before use. Eligible code and text are provided under the [MIT License](LICENSE); external videos, extracted frames, thumbnails and quotations retain their owners’ rights.
+
+[Provenance](docs/PROVENANCE.md) · [Community records](docs/x-showcase-sources.md) · [Verification notes](docs/current-source-check.md) · [Official model page](https://seed.bytedance.com/en/seedance2_5)
+
+Image briefs: [references and storyboard](assets/IMAGE_PROMPTS.md) · [cover](assets/COVER_PROMPT.md) · [featured illustrations](assets/FEATURED_IMAGE_PROMPTS.md) · [paper sea](assets/BRAND_IMAGE_PROMPT.md)

@@ -2,21 +2,21 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Un tramway orange suit des rails courbes dans une rue qui passe du croquis aux maquettes en papier, puis aux bâtiments réalistes éclairés de lumière chaude. Couverture créée avec l’IA, pas une vidéo Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
+![Un tramway orange suit des rails courbes dans une rue qui passe du croquis aux maquettes en papier, puis aux bâtiments réalistes éclairés de lumière chaude.](assets/seaimagine-seedance-hero-v5.jpg)
 
 Une scène originale évoque la création, de l’esquisse des structures aux matières, à la lumière et au mouvement.
 
-Cette édition SeaImagine reprend le dépôt Flaq de notre entreprise : 120 recettes, dont 60 en chinois et 60 en anglais. Les compléments en 14 langues proposent six exercices chacun ; les 120 recettes ne sont pas toutes traduites dans chaque langue.
+La collection comprend 120 recettes : 60 en chinois et 60 en anglais. Commencez par les six exercices en français et adaptez-les à vos idées.
 
 ## Commencer par un seul plan
 
-Choisissez une scène dans l’index, copiez le prompt, puis adaptez le sujet, les matières et le mouvement de caméra. Utilisez une image dont vous détenez les droits nécessaires. Dans SeaImagine, choisissez un mode d’entrée et une durée disponibles ; vérifiez le résultat avant de le prolonger.
+Choisissez un des exercices en français ci-dessous, puis adaptez le sujet, les matières et le mouvement de caméra. Dans SeaImagine, sélectionnez le mode et la durée, puis examinez une courte séquence avant de poursuivre.
 
 [Six exercices en français](prompts/i18n/prompt-library.fr.md) · [Index des 120 recettes · en chinois simplifié](prompts/README.md)
 
 ## Apprendre des vidéos de la communauté
 
-Le modèle est celui déclaré par l’auteur. Ces vidéos sont des œuvres de créateurs externes ; nous n’avons pas vérifié si elles ont été générées avec SeaImagine. Cliquez sur la miniature pour voir la vidéo et consultez le prompt dans la publication originale. Il s’agit de références éditoriales, pas d’un classement de popularité vérifié.
+Ouvrez les miniatures pour observer le mouvement et le son. Chaque exemple renvoie aussi à la publication de son auteur.
 
 ### Cuisine et synchronisation sonore
 
@@ -52,9 +52,7 @@ Conservez la couleur et la coupe du vêtement ; reliez les tenues par des mouvem
 
 ![Image de référence de thé pétillant](assets/product-sparkling-tea-reference.png)
 
-Image de référence provenant du dépôt source Flaq, pas un résultat vidéo. Vous pouvez l’utiliser directement comme image d’entrée pour cet exercice.
-
-Préparez une image de référence d’une bouteille sans marque. Cet exercice n’est pas le prompt des vidéos ci-dessus ; aucun test de génération n’est revendiqué. Raccourcissez ou découpez la séquence selon les limites de l’interface.
+Préparez une image de bouteille sans marque en vous inspirant de l’image ci-dessus. Commencez par cinq secondes de gouttes et de bulles ; pour la séquence complète, adaptez la durée aux options de l’interface.
 
 ```text
 Utiliser la bouteille en verre de l'Image 1 comme unique référence produit. Conserver sa silhouette, son bouchon, les proportions de l'étiquette vierge, le niveau du liquide ambré, la condensation et la direction de la lumière. Ne générer aucun texte.
@@ -68,9 +66,7 @@ Son : bouchon, fines bulles, glace et rythme original minimal. Pas de bouteille 
 
 ![Un voilier doré sur une mer de papier, éclairé par un phare.](assets/seaimagine-paper-sea.jpg)
 
-Illustration originale créée avec une IA pour ce dépôt ; ce n’est pas une image issue d’une vidéo Seedance.
-
-Reprenez les principes du produit — préserver la forme, décrire la matière et guider la caméra — pour raconter une petite histoire. Dans SeaImagine, partez d’un texte et essayez cette proposition de 5 secondes. Cet exercice n’a pas fait l’objet d’une génération vérifiée.
+Reprenez les principes du produit — préserver la forme, décrire la matière et guider la caméra — pour raconter une petite histoire. Dans SeaImagine, partez d’un texte et essayez cette proposition de 5 secondes.
 
 ```text
 5 secondes, un seul plan. Un voilier en papier doré avance lentement sur des vagues de papier bleu canard. La caméra le suit à hauteur basse ; un phare lointain diffuse une lumière chaude. Conserver la coque, la voile et les fibres du papier. Finir en douceur. Sans texte, logo, bateau supplémentaire ni déformation.
@@ -78,6 +74,10 @@ Reprenez les principes du produit — préserver la forme, décrire la matière 
 
 [SeaImagine · Seedance 2.5](https://seaimagine.com/fr/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/fr/create/)
 
-[Six exercices en français](prompts/i18n/prompt-library.fr.md) · [Index des 120 recettes · en chinois simplifié](prompts/README.md) · [Guide de création · en anglais](docs/seaimagine-workflow.md) · [Sources et attribution · en anglais](docs/PROVENANCE.md)
+[Six exercices en français](prompts/i18n/prompt-library.fr.md) · [Index des 120 recettes · en chinois simplifié](prompts/README.md) · [Guide de création · en anglais](docs/seaimagine-workflow.md)
 
-[Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+[SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+
+## Sources et utilisation des images
+
+La couverture, la mer de papier et la référence produit sont des images fixes créées par IA, et non des résultats vidéo. Les exercices sont des adaptations éditoriales, pas les instructions originales des vidéos présentées, et n’ont pas été testés par génération. Les modèles des vidéos externes sont indiqués d’après leurs auteurs. Consultez les droits et conditions dans les [sources (en anglais)](docs/PROVENANCE.md) et la [licence (en anglais)](LICENSE).

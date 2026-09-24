@@ -2,21 +2,21 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Tàu điện màu cam đi theo đường ray cong; phố chuyển từ nét phác thảo sang mô hình giấy rồi thành những tòa nhà chân thực trong ánh đèn ấm. Ảnh bìa tạo bằng AI, không phải video Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
+![Tàu điện màu cam đi theo đường ray cong; phố chuyển từ nét phác thảo sang mô hình giấy rồi thành những tòa nhà chân thực trong ánh đèn ấm.](assets/seaimagine-seedance-hero-v5.jpg)
 
 Một cảnh nguyên bản thể hiện ý tưởng sáng tạo, từ phác thảo cấu trúc đến chất liệu, ánh sáng và chuyển động.
 
-Bản SeaImagine được biên soạn từ kho Flaq của công ty: 120 công thức, gồm 60 bằng tiếng Trung và 60 bằng tiếng Anh. Các tệp bổ sung cho 14 ngôn ngữ có sáu bài thực hành mỗi ngôn ngữ; không phải toàn bộ 120 công thức đều đã được dịch.
+Kho gồm 120 công thức: 60 bằng tiếng Trung và 60 bằng tiếng Anh. Hãy bắt đầu với sáu bài thực hành tiếng Việt rồi điều chỉnh theo ý tưởng của bạn.
 
 ## Bắt đầu với một cảnh quay
 
-Chọn cảnh trong mục lục, sao chép prompt rồi thay chủ thể, chất liệu và chuyển động máy quay. Hãy chuẩn bị ảnh mà bạn có quyền sử dụng. Chọn chế độ đầu vào và thời lượng được hỗ trợ trong SeaImagine; kiểm tra kết quả trước khi kéo dài video.
+Chọn một bài thực hành tiếng Việt bên dưới rồi thay đổi chủ thể, chất liệu và chuyển động máy quay. Trong SeaImagine, chọn cách nhập và thời lượng, sau đó xem một đoạn ngắn trước khi làm tiếp.
 
 [Sáu bài thực hành tiếng Việt](prompts/i18n/prompt-library.vi.md) · [Mục lục 120 công thức · tiếng Trung giản thể](prompts/README.md)
 
 ## Học từ video cộng đồng
 
-Tên mô hình dựa trên lời của người đăng. Đây là tác phẩm của các nhà sáng tạo bên ngoài; chúng tôi chưa xác minh liệu các video có được tạo qua SeaImagine hay không. Nhấp vào ảnh xem trước để xem video và đọc prompt trong bài gốc của tác giả. Đây là các ví dụ do biên tập chọn, không phải bảng xếp hạng độ phổ biến đã xác minh.
+Mở ảnh thu nhỏ để quan sát chuyển động và âm thanh. Mỗi ví dụ đều có liên kết đến bài đăng gốc của tác giả.
 
 ### Nấu ăn và nhịp âm thanh
 
@@ -54,9 +54,7 @@ Giữ nguyên màu và cấu trúc áo; nối các bộ đồ bằng những chu
 
 ![Ảnh tham chiếu trà có ga](assets/product-sparkling-tea-reference.png)
 
-Ảnh tham chiếu từ kho nguồn Flaq, không phải kết quả video. Bạn có thể dùng trực tiếp làm ảnh đầu vào cho bài thực hành này.
-
-Chuẩn bị một ảnh tham chiếu của chai không có thương hiệu. Đây là bài thực hành, không phải prompt của các video trên; không khẳng định đã thử tạo kết quả. Rút ngắn hoặc chia cảnh theo giới hạn của giao diện.
+Chuẩn bị ảnh một chai không có nhãn hiệu, tham khảo hình phía trên. Bắt đầu với năm giây giọt nước và bọt khí; khi làm cả chuỗi, điều chỉnh thời lượng theo các lựa chọn trong giao diện.
 
 ```text
 Dùng chai thủy tinh trong ở Hình 1 làm điểm neo sản phẩm duy nhất. Giữ nguyên đường nét, nắp, tỷ lệ nhãn trống, mức chất lỏng màu hổ phách, hơi nước và hướng sáng chính. Không tạo chữ.
@@ -70,9 +68,7 @@ Dùng chai thủy tinh trong ở Hình 1 làm điểm neo sản phẩm duy nhấ
 
 ![Thuyền buồm giấy màu vàng trên biển giấy dưới ánh đèn hải đăng.](assets/seaimagine-paper-sea.jpg)
 
-Minh họa gốc được tạo bằng AI cho kho này; không phải kết quả video của Seedance.
-
-Áp dụng cách giữ hình dáng, mô tả chất liệu và điều khiển máy quay trong ví dụ sản phẩm vào một câu chuyện nhỏ. Mở SeaImagine, bắt đầu tạo video từ văn bản và thử ý tưởng 5 giây dưới đây. Đây là bài tập chưa được kiểm chứng bằng kết quả tạo video.
+Áp dụng cách giữ hình dáng, mô tả chất liệu và điều khiển máy quay trong ví dụ sản phẩm vào một câu chuyện nhỏ. Mở SeaImagine, bắt đầu tạo video từ văn bản và thử ý tưởng 5 giây dưới đây.
 
 ```text
 5 giây, một cảnh quay liên tục. Thuyền buồm giấy màu vàng chậm rãi đi qua những con sóng giấy xanh ngọc đậm. Máy quay bám theo thuyền từ góc thấp; ngọn hải đăng phía xa tỏa ánh sáng ấm. Giữ nguyên thân thuyền, cánh buồm và thớ giấy. Kết thúc bằng chuyển động dừng nhẹ nhàng. Không chữ, logo, thuyền thừa hay biến dạng.
@@ -80,6 +76,10 @@ Minh họa gốc được tạo bằng AI cho kho này; không phải kết qu�
 
 [SeaImagine · Seedance 2.5](https://seaimagine.com/vi/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/vi/create/)
 
-[Sáu bài thực hành tiếng Việt](prompts/i18n/prompt-library.vi.md) · [Mục lục 120 công thức · tiếng Trung giản thể](prompts/README.md) · [Hướng dẫn tạo video · tiếng Anh](docs/seaimagine-workflow.md) · [Nguồn và ghi công · tiếng Anh](docs/PROVENANCE.md)
+[Sáu bài thực hành tiếng Việt](prompts/i18n/prompt-library.vi.md) · [Mục lục 120 công thức · tiếng Trung giản thể](prompts/README.md) · [Hướng dẫn tạo video · tiếng Anh](docs/seaimagine-workflow.md)
 
-[Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+[SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+
+## Nguồn và cách sử dụng tư liệu
+
+Ảnh bìa, biển giấy và ảnh tham chiếu sản phẩm là ảnh tĩnh được tạo bằng AI, không phải kết quả video. Các bài tập là nội dung biên soạn hoặc phóng tác, không phải chỉ dẫn gốc của video minh họa và chưa được kiểm thử bằng cách tạo video. Tên mô hình của video bên ngoài dựa trên thông tin tác giả cung cấp. Xem quyền và điều kiện sử dụng tại [Nguồn tư liệu (tiếng Anh)](docs/PROVENANCE.md) và [Giấy phép (tiếng Anh)](LICENSE).

@@ -2,21 +2,21 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![オレンジ色の路面電車が曲線の線路を進み、街並みは線画から紙模型、暖かな光に照らされた写実的な建物へと変化します。AI制作の表紙で、Seedanceの動画出力ではありません。](assets/seaimagine-seedance-hero-v5.jpg)
+![オレンジ色の路面電車が曲線の線路を進み、街並みは線画から紙模型、暖かな光に照らされた写実的な建物へと変化します。](assets/seaimagine-seedance-hero-v5.jpg)
 
 構造のスケッチから質感、光、動きへと発展する創作のアイデアを、オリジナルの風景で表現しました。
 
-社内の Flaq 元リポジトリを SeaImagine 向けに編集したものです。120本のレシピは中国語60本と英語60本で構成され、14言語の補足資料には各6本の練習用プロンプトがあります。120本すべてを各言語に翻訳したものではありません。
+120本のレシピを中国語60本・英語60本で収録。日本語の練習6本から、身近な題材で始められます。
 
 ## まずはワンカットから
 
-索引で用途を選び、プロンプトをコピーして、被写体・素材・カメラの動きを置き換えます。画像を使う場合は、使用権限のある画像を用意してください。SeaImagine の画面で対応する入力方式と尺を確認し、生成結果を見てから延長します。
+まずは下の日本語の練習から題材を選び、被写体・素材・カメラの動きを置き換えましょう。SeaImagine で入力方式と尺を選び、短い映像を確認しながら仕上げます。
 
 [日本語の練習6本](prompts/i18n/prompt-library.ja.md) · [120本の索引 · 簡体字中国語](prompts/README.md)
 
 ## コミュニティの動画から学ぶ
 
-モデル名は投稿者の説明に基づきます。外部の作者による作品であり、SeaImagine を使って生成されたかどうかは確認していません。サムネイルから動画を開き、作者の原投稿で元のプロンプトを確認できます。編集上の参考例であり、人気順位を検証した一覧ではありません。
+サムネイルから映像を開き、動きや音の組み立てを見てみましょう。作者の原投稿にもリンクしています。
 
 ### 調理と音のタイミング
 
@@ -54,9 +54,7 @@
 
 ![炭酸ティーの参照画像](assets/product-sparkling-tea-reference.png)
 
-Flaq 元リポジトリの参照画像です。動画の生成結果ではありません。この練習の入力画像としてそのまま使えます。
-
-無地のボトルを写した参照画像を1枚用意してください。以下は練習用で、上の動画の元プロンプトではなく、生成検証済みともしていません。画面の制限に合わせて尺を短くするか、複数カットに分けます。
+上の画像を参考に、無地のボトルを写した画像を1枚用意します。まずは水滴と気泡の5秒から始め、全体を作る場合は画面で選べる尺に合わせて調整しましょう。
 
 ```text
 画像1の透明なガラス瓶を唯一の商品基準にする。瓶の形、キャップ、無地ラベルの比率、琥珀色の液面、結露、主光源を維持し、文字は生成しない。
@@ -70,9 +68,7 @@ Flaq 元リポジトリの参照画像です。動画の生成結果ではあり
 
 ![紙の海を進む金色の帆船と、暖かな灯台。](assets/seaimagine-paper-sea.jpg)
 
-本リポジトリ用に AI で制作したオリジナルイラストです。Seedance の動画出力ではありません。
-
-商品例で練習した「形を保つ」「質感を指定する」「カメラを動かす」を、小さな物語に使ってみましょう。SeaImagine で文字から動画を作成し、まずは次の 5 秒の演出案を試せます。生成結果を保証するものではありません。
+商品例で練習した「形を保つ」「質感を指定する」「カメラを動かす」を、小さな物語に使ってみましょう。SeaImagine で文字から動画を作成し、まずは次の 5 秒の演出案を試せます。
 
 ```text
 5秒、ワンカット。金色の紙の帆船が青緑色の紙の波をゆっくり進む。低い位置からカメラが船を追い、遠くの灯台が暖かく照らす。船体、帆、紙の繊維を保ち、最後は穏やかに停止。文字、ロゴ、船の追加、変形は不要。
@@ -80,6 +76,10 @@ Flaq 元リポジトリの参照画像です。動画の生成結果ではあり
 
 [SeaImagine · Seedance 2.5](https://seaimagine.com/ja/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/ja/create/)
 
-[日本語の練習6本](prompts/i18n/prompt-library.ja.md) · [120本の索引 · 簡体字中国語](prompts/README.md) · [作成手順 · 英語](docs/seaimagine-workflow.md) · [出典と帰属 · 英語](docs/PROVENANCE.md)
+[日本語の練習6本](prompts/i18n/prompt-library.ja.md) · [120本の索引 · 簡体字中国語](prompts/README.md) · [作成手順 · 英語](docs/seaimagine-workflow.md)
 
-[Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+[SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+
+## 出典と利用について
+
+表紙・紙の海・商品参照画像は AI 制作の静止画で、動画の生成結果ではありません。本庫の練習は編集した教材であり、掲載動画の元指示とは異なり、生成実測もしていません。外部作品のモデル名は作者の説明に基づきます。素材の権利・利用条件は[出典一覧（英語）](docs/PROVENANCE.md)と[ライセンス（英語）](LICENSE)をご確認ください。

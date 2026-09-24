@@ -2,21 +2,21 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Eine orange Straßenbahn folgt gebogenen Schienen; die Straße wandelt sich von Skizzen über Papiermodelle zu realistischen, warm beleuchteten Gebäuden. KI-Cover, kein Seedance-Video.](assets/seaimagine-seedance-hero-v5.jpg)
+![Eine orange Straßenbahn folgt gebogenen Schienen; die Straße wandelt sich von Skizzen über Papiermodelle zu realistischen, warm beleuchteten Gebäuden.](assets/seaimagine-seedance-hero-v5.jpg)
 
 Eine eigene Szene veranschaulicht die Gestaltungsidee: von der Strukturskizze zu Materialien, Licht und Bewegung.
 
-Die SeaImagine-Ausgabe basiert auf dem Flaq-Repository unseres Unternehmens: 120 Rezepte, davon 60 auf Chinesisch und 60 auf Englisch. Ergänzungen in 14 Sprachen enthalten jeweils sechs Übungen. Die 120 Rezepte wurden nicht vollständig in jede Sprache übersetzt.
+Die Sammlung umfasst 120 Rezepte: 60 auf Chinesisch und 60 auf Englisch. Mit sechs deutschen Übungen kannst du direkt eigene Ideen ausprobieren.
 
 ## Mit einer Einstellung beginnen
 
-Wähle eine Szene im Verzeichnis, kopiere den Prompt und passe Motiv, Materialien und Kamerabewegung an. Verwende nur Bilder, für die du die nötigen Rechte hast. Wähle in SeaImagine einen verfügbaren Eingabemodus und eine unterstützte Dauer; prüfe das Ergebnis vor einer Verlängerung.
+Wähle eine der deutschen Übungen unten und passe Motiv, Material und Kamerabewegung an. Stelle in SeaImagine Eingabemodus und Dauer ein und prüfe zunächst eine kurze Sequenz.
 
 [Sechs deutsche Übungen](prompts/i18n/prompt-library.de.md) · [Verzeichnis der 120 Rezepte · vereinfachtes Chinesisch](prompts/README.md)
 
 ## Von Community-Videos lernen
 
-Die Modellangabe stammt vom jeweiligen Autor. Diese Videos stammen von externen Kreativen; wir haben nicht geprüft, ob sie mit SeaImagine erstellt wurden. Klicke auf das Vorschaubild für das Video und lies den Prompt im Originalbeitrag. Die Auswahl ist redaktionell und keine geprüfte Beliebtheitsrangliste.
+Öffne die Vorschaubilder und achte auf Bewegung und Ton. Bei jedem Beispiel findest du den Originalbeitrag des Urhebers.
 
 ### Kochen und passgenaue Geräusche
 
@@ -52,9 +52,7 @@ Farbe und Schnitt bleiben gleich; ähnliche Bewegungen verbinden die verschieden
 
 ![Referenzbild einer Flasche sprudelnden Tees](assets/product-sparkling-tea-reference.png)
 
-Referenzbild aus dem Flaq-Quellrepository, kein Videoergebnis. Du kannst es direkt als Eingabebild für diese Übung verwenden.
-
-Bereite ein Referenzbild einer Flasche ohne Marke vor. Dies ist eine Übung, nicht der Prompt der obigen Videos; ein Generierungstest wird nicht behauptet. Kürze oder teile die Sequenz entsprechend den Grenzen der Oberfläche.
+Bereite anhand des Bildes oben ein Referenzbild einer Flasche ohne Markenaufdruck vor. Beginne mit fünf Sekunden für Tropfen und Bläschen; passe die vollständige Sequenz an die verfügbaren Laufzeiten an.
 
 ```text
 Verwende die Glasflasche aus Bild 1 als einzigen Produktanker. Silhouette, Verschluss, Proportionen des leeren Etiketts, Füllhöhe, Kondenswasser und Hauptlichtrichtung bleiben unverändert. Kein Text.
@@ -68,9 +66,7 @@ Ton: Deckel, Kohlensäure, Eis und minimaler Originalrhythmus. Keine Zusatzflasc
 
 ![Ein goldenes Segelboot auf einem Papiermeer im Licht eines Leuchtturms.](assets/seaimagine-paper-sea.jpg)
 
-Originalillustration, mit KI für dieses Repository erstellt; keine Videoausgabe von Seedance.
-
-Übertrage die Übungen am Produkt — Form erhalten, Material beschreiben und Kamera führen — auf eine kleine Geschichte. Starte in SeaImagine mit Text und probiere diese Idee für 5 Sekunden aus. Die Übung wurde nicht durch eine Videogenerierung überprüft.
+Übertrage die Übungen am Produkt — Form erhalten, Material beschreiben und Kamera führen — auf eine kleine Geschichte. Starte in SeaImagine mit Text und probiere diese Idee für 5 Sekunden aus.
 
 ```text
 5 Sekunden, eine durchgehende Einstellung. Ein goldenes Papiersegelboot fährt langsam über petrolblaue Papierwellen. Die Kamera folgt aus niedriger Position; ein ferner Leuchtturm spendet warmes Licht. Rumpf, Segel und Papierfasern bleiben unverändert. Sanfter Abschluss. Keine Schrift, Logos, zusätzlichen Boote oder Verformungen.
@@ -78,6 +74,10 @@ Originalillustration, mit KI für dieses Repository erstellt; keine Videoausgabe
 
 [SeaImagine · Seedance 2.5](https://seaimagine.com/de/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/de/create/)
 
-[Sechs deutsche Übungen](prompts/i18n/prompt-library.de.md) · [Verzeichnis der 120 Rezepte · vereinfachtes Chinesisch](prompts/README.md) · [Anleitung · Englisch](docs/seaimagine-workflow.md) · [Quellen und Zuordnung · Englisch](docs/PROVENANCE.md)
+[Sechs deutsche Übungen](prompts/i18n/prompt-library.de.md) · [Verzeichnis der 120 Rezepte · vereinfachtes Chinesisch](prompts/README.md) · [Anleitung · Englisch](docs/seaimagine-workflow.md)
 
-[Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+[SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+
+## Quellen und Nutzung
+
+Titelbild, Papiermeer und Produktreferenz sind mit KI erstellte Standbilder, keine Videoergebnisse. Die Übungen sind redaktionelle Bearbeitungen, nicht die ursprünglichen Anweisungen der gezeigten Videos, und wurden nicht durch Generierung getestet. Modellangaben externer Videos stammen von den Urhebern. Rechte und Nutzungsbedingungen stehen in den [Quellenangaben (Englisch)](docs/PROVENANCE.md) und der [Lizenz (Englisch)](LICENSE).

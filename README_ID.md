@@ -2,21 +2,21 @@
 
 [English](README.md) · [简体中文](README_ZH.md) · [繁體中文](README_TW.md) · [日本語](README_JA.md) · [Português](README_PT.md) · [Español](README_ES.md) · [Deutsch](README_DE.md) · [Русский](README_RU.md) · [Français](README_FR.md) · [한국어](README_KO.md) · [ไทย](README_TH.md) · [Tiếng Việt](README_VI.md) · [العربية](README_AR.md) · [Bahasa Indonesia](README_ID.md) · [Italiano](README_IT.md)
 
-![Trem oranye mengikuti rel melengkung; jalan berubah dari sketsa menjadi model kertas, lalu bangunan realistis dengan cahaya hangat. Sampul buatan AI, bukan video Seedance.](assets/seaimagine-seedance-hero-v5.jpg)
+![Trem oranye mengikuti rel melengkung; jalan berubah dari sketsa menjadi model kertas, lalu bangunan realistis dengan cahaya hangat.](assets/seaimagine-seedance-hero-v5.jpg)
 
 Adegan orisinal menggambarkan gagasan berkarya, dari sketsa struktur menuju material, pencahayaan, dan gerakan.
 
-Edisi SeaImagine ini diadaptasi dari repositori Flaq perusahaan kami: 120 resep, terdiri dari 60 berbahasa Mandarin dan 60 berbahasa Inggris. Suplemen dalam 14 bahasa masing-masing memuat enam latihan; bukan terjemahan lengkap seluruh 120 resep.
+Koleksi ini berisi 120 resep: 60 dalam bahasa Mandarin dan 60 dalam bahasa Inggris. Mulailah dengan enam latihan bahasa Indonesia, lalu sesuaikan dengan ide Anda.
 
 ## Mulai dari satu adegan
 
-Pilih adegan di indeks, salin prompt, lalu sesuaikan subjek, bahan, dan gerakan kamera. Siapkan gambar yang berhak Anda gunakan. Pilih mode masukan dan durasi yang tersedia di SeaImagine; periksa hasil sebelum memperpanjangnya.
+Pilih latihan bahasa Indonesia di bawah, lalu ubah subjek, bahan, dan gerakan kamera. Di SeaImagine, pilih mode masukan serta durasi, kemudian periksa klip pendek sebelum melanjutkan.
 
 [Enam latihan bahasa Indonesia](prompts/i18n/prompt-library.id.md) · [Indeks 120 resep · bahasa Mandarin sederhana](prompts/README.md)
 
 ## Belajar dari video komunitas
 
-Nama model mengikuti keterangan pembuat. Video ini merupakan karya kreator eksternal; kami belum memverifikasi apakah video tersebut dibuat melalui SeaImagine. Klik pratinjau untuk menonton video dan baca prompt di unggahan asli. Pilihan ini merupakan referensi editorial, bukan peringkat popularitas yang telah diverifikasi.
+Buka gambar mini untuk mengamati gerakan dan suara. Setiap contoh menyertakan tautan ke unggahan asli pembuatnya.
 
 ### Memasak dan ritme suara
 
@@ -54,9 +54,7 @@ Pertahankan warna dan struktur pakaian; sambungkan setiap gaya dengan gerakan ya
 
 ![Gambar referensi teh berkarbonasi](assets/product-sparkling-tea-reference.png)
 
-Gambar referensi dari repositori sumber Flaq, bukan hasil video. Anda dapat langsung menggunakannya sebagai gambar masukan untuk latihan ini.
-
-Siapkan satu gambar referensi botol tanpa merek. Ini latihan, bukan prompt video di atas, dan tidak ada klaim hasilnya telah diuji. Persingkat atau bagi adegan sesuai batas antarmuka.
+Siapkan gambar botol tanpa merek dengan mengacu pada gambar di atas. Mulai dengan lima detik tetesan air dan gelembung; untuk rangkaian lengkap, sesuaikan durasi dengan pilihan di antarmuka.
 
 ```text
 Gunakan botol kaca pada Gambar 1 sebagai satu-satunya acuan produk. Pertahankan siluet, tutup, proporsi label kosong, tinggi cairan kuning keemasan, embun, dan arah cahaya utama. Jangan buat teks.
@@ -70,9 +68,7 @@ Audio: tutup, gelembung, es, dan ritme orisinal minimal. Tanpa botol tambahan, l
 
 ![Perahu layar emas di lautan kertas dengan cahaya hangat mercusuar.](assets/seaimagine-paper-sea.jpg)
 
-Ilustrasi orisinal yang dibuat dengan AI untuk repositori ini; bukan hasil video Seedance.
-
-Terapkan latihan produk — menjaga bentuk, menjelaskan tekstur, dan mengarahkan kamera — pada cerita kecil. Buka SeaImagine, mulai dari teks, lalu coba ide 5 detik berikut. Ini latihan yang hasil generasinya belum diuji.
+Terapkan latihan produk — menjaga bentuk, menjelaskan tekstur, dan mengarahkan kamera — pada cerita kecil. Buka SeaImagine, mulai dari teks, lalu coba ide 5 detik berikut.
 
 ```text
 5 detik, satu pengambilan gambar tanpa potongan. Perahu layar kertas emas bergerak perlahan di atas ombak kertas biru kehijauan. Kamera mengikuti dari sudut rendah; mercusuar jauh memancarkan cahaya hangat. Pertahankan lambung, layar, dan serat kertas. Akhiri dengan berhenti perlahan. Tanpa teks, logo, perahu tambahan, atau perubahan bentuk.
@@ -80,6 +76,10 @@ Terapkan latihan produk — menjaga bentuk, menjelaskan tekstur, dan mengarahkan
 
 [SeaImagine · Seedance 2.5](https://seaimagine.com/id/model/seedance-2-5/) · [SeaImagine · Create](https://seaimagine.com/id/create/)
 
-[Enam latihan bahasa Indonesia](prompts/i18n/prompt-library.id.md) · [Indeks 120 resep · bahasa Mandarin sederhana](prompts/README.md) · [Panduan pembuatan · bahasa Inggris](docs/seaimagine-workflow.md) · [Sumber dan atribusi · bahasa Inggris](docs/PROVENANCE.md)
+[Enam latihan bahasa Indonesia](prompts/i18n/prompt-library.id.md) · [Indeks 120 resep · bahasa Mandarin sederhana](prompts/README.md) · [Panduan pembuatan · bahasa Inggris](docs/seaimagine-workflow.md)
 
-[Flaq · GitHub](https://github.com/flaqai/awesome_seedance_2_5) · [SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+[SeaImagine · GitHub](https://github.com/seaimagineai/awesome-seedance-2-5-prompts)
+
+## Sumber dan penggunaan materi
+
+Sampul, laut kertas, dan referensi produk adalah gambar diam yang dibuat dengan AI, bukan hasil video. Latihan merupakan adaptasi editorial, bukan perintah asli video yang ditampilkan, dan belum diuji melalui generasi. Nama model video eksternal mengikuti keterangan pembuatnya. Lihat hak dan ketentuan penggunaan dalam [Sumber (bahasa Inggris)](docs/PROVENANCE.md) dan [Lisensi (bahasa Inggris)](LICENSE).
