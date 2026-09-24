@@ -69,7 +69,7 @@ def check_case_resources(home, records, resource_keys, filename):
         if record['id'].startswith('official-'):
             source_explanation=case.split('<details>',1)[0]
             require(any(block.strip() for block in re.findall(r'```text[ \t]*\n(.*?)```',source_explanation,re.S)),
-                    f"{filename}: {record['id']} missing visible official prompt summary")
+                    f"{filename}: {record['id']} missing visible complete official-scene exercise")
             for image_path in record.get('image_paths',[]):
                 require(image_path in case,f"{filename}: {record['id']} missing its still {image_path}")
             for other in records:
@@ -93,6 +93,24 @@ for filename in ['README.md', 'README_ZH.md']:
     home=(ROOT/filename).read_text()
     check_case_resources(home,entries,['original_post','video_url','thumbnail_url'],filename)
     check_case_resources(home,official,['video_url','image_path','source_url'],filename)
+    galleries=[table for table in re.findall(r'<table>(.*?)</table>',home,re.S)
+               if '<a id="x01-galley-food-comedy"></a>' in table]
+    require(len(galleries)==1,f'{filename}: expected one two-column X gallery')
+    if galleries:
+        rows=re.findall(r'<tr>(.*?)</tr>',galleries[0],re.S)
+        require(len(rows)==6 and all(len(re.findall(r'<td\b',row))==2 for row in rows),
+                f'{filename}: X gallery must have six rows of two cases')
+    require(not re.search(r'^\| (?:Example|案例) \|',home,re.M),
+            f'{filename}: remove the separate X case index')
+    feature_title='Nine copy-ready Seedance 2.5 prompts' if filename=='README.md' else '精选原创提示词'
+    feature=home.split('## '+feature_title+'\n',1)
+    require(len(feature)==2,f'{filename}: missing featured recipes')
+    if len(feature)==2:
+        section=feature[1].split('\n## ',1)[0]
+        require(re.findall(r'^### (\d+)\.',section,re.M)==[str(n) for n in range(1,10)],
+                f'{filename}: expected nine numbered featured recipes')
+        require(len(re.findall(r'```text\n',section))==9,
+                f'{filename}: each featured recipe needs its complete prompt')
     for asset in ['cinematic-rescue-reference.png','product-sparkling-tea-reference.png','paper-fox-story-reference.png','night-garden-storyboard.png']:
         require(home.count(f'assets/{asset}')==1,f'{filename}: expected one display of {asset}')
     headings=list(re.finditer(r'^## (.+)$',home,re.M))

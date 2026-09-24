@@ -24,7 +24,7 @@ A SeaImagine edition of the company’s [Flaq prompt library](https://github.com
 
 ## Choose a starting point
 
-[Copy a short example](#three-copy-ready-seedance-25-prompts) · [Browse by goal](docs/use-case-matrix.en.md) · [Official demos](docs/official-examples.md) · [Generate on SeaImagine](https://seaimagine.com/model/seedance-2-5/) · [All languages](docs/languages.md)
+[Copy a short example](#nine-copy-ready-seedance-25-prompts) · [Browse by goal](docs/use-case-matrix.en.md) · [Official demos](docs/official-examples.md) · [Generate on SeaImagine](https://seaimagine.com/model/seedance-2-5/) · [All languages](docs/languages.md)
 
 New to video prompting? Try one fixed product and one camera move first. The bottle example below includes its input image. Community videos demonstrate creative approaches; their generation platform has not been independently verified.
 
@@ -34,24 +34,11 @@ Twelve community posts with a video, an explicit Seedance 2.5 label, and a compl
 
 The model attribution is the poster's claim; these are community examples, external creator works; their generation platform has not been independently verified. Published video dimensions describe the uploaded file, not necessarily generation settings. The 120 original library recipes remain a separate collection.
 
-| Example | Use case | Original post & full prompt | Video |
-|---|---|---|---|
-| [X01 · Food ASMR with a comic payoff](#x01-galley-food-comedy) | Food / 3D animation | [@Goodmanprotocol](https://x.com/Goodmanprotocol/status/2099186117769822462) | [▶ MP4](https://video.twimg.com/amplify_video/2099186062715404288/vid/avc1/1920x1080/H8uxwKxVsSU09_LW.mp4?tag=29) |
-| [X02 · One garment, multiple fashion hooks](#x02-one-garment-fashion) | Fashion / Ecommerce | [@Goodmanprotocol](https://x.com/Goodmanprotocol/status/2095216981624721691) | [▶ MP4](https://video.twimg.com/amplify_video/2095216899445649408/vid/avc1/1920x1080/LZt4YKiTkMag5Db1.mp4?tag=29) |
-| [X03 · A rainy selfie interrupted by a kitten](#x03-rainy-pet-selfie) | Pets / UGC | [@Strength04_X](https://x.com/Strength04_X/status/2098256490238755226) | [▶ MP4](https://video.twimg.com/amplify_video/2098256097547309056/vid/avc1/1920x1080/mPxvxfjQ4VcrZg5r.mp4?tag=29) |
-| [X04 · A marker turns the street into animation](#x04-live-action-doodle) | Mixed media / VFX | [@Strength04_X](https://x.com/Strength04_X/status/2095748874942263601) | [▶ MP4](https://video.twimg.com/amplify_video/2095748601087688705/vid/avc1/1280x720/vqE5gA1Hrf63bAyB.mp4?tag=29) |
-| [X05 · Everyday moments with a MiniDV look](#x05-minidv-everyday) | Lifestyle / Documentary aesthetic | [@john_my07](https://x.com/john_my07/status/2090287853532266748) | [▶ MP4](https://video.twimg.com/amplify_video/2090287723961847808/vid/avc1/1920x1080/sNtaxz9M_3wvzoTP.mp4?tag=29) |
-| [X06 · Two-person convenience-store Vlog](#x06-two-person-vlog) | Lifestyle / Dialogue / Continuity | [@Strength04_X](https://x.com/Strength04_X/status/2097968347430482177) | [▶ MP4](https://video.twimg.com/amplify_video/2097967562604875776/vid/avc1/1920x1080/EB48uw1_u7MU2RJl.mp4?tag=29) |
-| [X07 · A talent-show reveal built around the beat drop](#x07-talent-show-reversal) | Performance / Comedy | [@Strength04_X](https://x.com/Strength04_X/status/2090399966988550435) | [▶ MP4](https://video.twimg.com/amplify_video/2090399674129940480/vid/avc1/854x480/8-BwGw71f6WF0sF4.mp4?tag=29) |
-| [X08 · A flower-pressing tutorial with tactile ASMR](#x08-pressed-flower-tutorial) | Craft / Tutorial / ASMR | [@Strength04_X](https://x.com/Strength04_X/status/2084269139556761919) | [▶ MP4](https://video.twimg.com/amplify_video/2084268630556983296/vid/avc1/1920x1080/kPWIx5WQsdO1yzGR.mp4?tag=29) |
-| [X09 · An energy-powered action scene with readable geography](#x09-energy-action-geography) | Action / VFX / Storytelling | [@Strength04_X](https://x.com/Strength04_X/status/2096147092188311749) | [▶ MP4](https://video.twimg.com/amplify_video/2096146403064254464/vid/avc1/1280x720/MZwL0tlYUawV8djb.mp4?tag=29) |
-| [X10 · A day-trip Vlog with a coherent beginning and ending](#x10-day-trip-story-arc) | Travel / Character continuity | [@Goodmanprotocol](https://x.com/Goodmanprotocol/status/2087165084397420849) | [▶ MP4](https://video.twimg.com/amplify_video/2087164966864556033/vid/avc1/1280x720/CxZZE_2r3pzjndH-.mp4?tag=29) |
-| [X11 · A kindness micro-story that tests object continuity](#x11-visible-object-handover) | Narrative / Prop ownership | [@AIwithkhan](https://x.com/AIwithkhan/status/2096424933366931946) | [▶ MP4](https://video.twimg.com/amplify_video/2096424851888300032/vid/avc1/1280x720/LYNMJekyiU57XaaC.mp4?tag=29) |
-| [X12 · A tropical neighborhood told through small sounds](#x12-tropical-location-sound) | Location sound / Localized lifestyle | [@RishuaVR](https://x.com/RishuaVR/status/2089204108175741157) | [▶ MP4](https://video.twimg.com/amplify_video/2089204070997532672/vid/avc1/1280x720/tqcN58TfdD156uJn.mp4?tag=29) |
-
-**New picks:** [Stage reveal](#x07-talent-show-reversal) · [Craft ASMR](#x08-pressed-flower-tutorial) · [Action VFX](#x09-energy-action-geography) · [Travel diary](#x10-day-trip-story-arc) · [Prop continuity](#x11-visible-object-handover) · [Location sound](#x12-tropical-location-sound)
-
 For a focused first experiment, use the short prop-handover or location-sound variant. For multi-shot work, study the travel diary or stage reveal. Timings are creative briefs: use durations supported by your provider, or split the sequence into shorter shots.
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 <a id="x01-galley-food-comedy"></a>
 
@@ -85,6 +72,9 @@ Use expressive original character designs, quiet sea ambience and a single closi
 
 </details>
 
+</td>
+<td width="50%" valign="top">
+
 <a id="x02-one-garment-fashion"></a>
 
 ### X02 · One garment, multiple fashion hooks
@@ -115,6 +105,11 @@ Keep fabric weight believable. Add outfit names and captions after generation.
 ```
 
 </details>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 <a id="x03-rainy-pet-selfie"></a>
 
@@ -148,6 +143,9 @@ Use room sound and rain. Preserve one continuous viewpoint and the same animal.
 
 </details>
 
+</td>
+<td width="50%" valign="top">
+
 <a id="x04-live-action-doodle"></a>
 
 ### X04 · A marker turns the street into animation
@@ -178,6 +176,11 @@ Match contact shadows to the afternoon sun. Use street ambience and short pen so
 ```
 
 </details>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 <a id="x05-minidv-everyday"></a>
 
@@ -211,6 +214,9 @@ Keep only location sound and natural speech. Maintain stable hands, cup and back
 
 </details>
 
+</td>
+<td width="50%" valign="top">
+
 <a id="x06-two-person-vlog"></a>
 
 ### X06 · Two-person convenience-store Vlog
@@ -243,6 +249,10 @@ Use modest phone shake, short conversational pauses and shop ambience. No extern
 
 </details>
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 <a id="x07-talent-show-reversal"></a>
 
@@ -275,6 +285,9 @@ Keep cuts aligned with musical accents. Avoid age transformation, impossible joi
 ```
 
 </details>
+
+</td>
+<td width="50%" valign="top">
 
 <a id="x08-pressed-flower-tutorial"></a>
 
@@ -309,6 +322,11 @@ Record paper friction, tweezer taps and screw turns. No music or on-screen lette
 
 </details>
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <a id="x09-energy-action-geography"></a>
 
 ### X09 · An energy-powered action scene with readable geography
@@ -339,6 +357,9 @@ Use a short low-frequency pulse at contact and natural room reverb. No gore, ide
 ```
 
 </details>
+
+</td>
+<td width="50%" valign="top">
 
 <a id="x10-day-trip-story-arc"></a>
 
@@ -372,6 +393,11 @@ Allow brief reframing delays and natural expressions. Keep transit noise, footst
 
 </details>
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 <a id="x11-visible-object-handover"></a>
 
 ### X11 · A kindness micro-story that tests object continuity
@@ -404,6 +430,9 @@ Use one gentle handheld move, neighborhood ambience and no music. Exactly one gl
 
 </details>
 
+</td>
+<td width="50%" valign="top">
+
 <a id="x12-tropical-location-sound"></a>
 
 ### X12 · A tropical neighborhood told through small sounds
@@ -435,13 +464,18 @@ Mix near sounds clearly: glass, chair scrape and cloth movement. Keep birds and 
 
 </details>
 
+</td>
+</tr>
+</table>
+
+
 Videos and thumbnails remain on the original media host. If a media URL changes, use its X post link. External media and quoted excerpts retain their respective owners' rights and are not covered by this repository's MIT license. See the [source records and selection notes](docs/x-showcase-sources.md).
 
 ## Official demonstrations
 
-Start with **prompt instructions and real frames from the same official example**, then expand a practice exercise to apply the technique to your own story. Every image below is an unretouched frame from a video linked in the [ByteDance Seed launch article](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5). These are official demonstrations, not illustrations generated for this library or SeaImagine test results.
+Start with **real official frames and complete exercises for the same scene**, then expand a practice exercise to apply the technique to your own story. Every image below is an unretouched frame from a video linked in the [ByteDance Seed launch article](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5). These are official demonstrations, not illustrations generated for this library or SeaImagine test results.
 
-The code blocks briefly paraphrase the official prompts. They are **not the complete original prompts or reproduction recipes**. Follow each source for the full instructions and required inputs. The expandable exercises are original adaptations that have not been generation-tested.
+Each complete prompt below is written by this library for the same scene, with input roles, timing, camera movement, sound and constraints. **It is not the verbatim official prompt or the actual instruction used to generate the displayed frames.** Added details are editorial choices and have not been generation-tested. The source links contain the official originals; expandable exercises apply the techniques to different stories.
 
 <a id="official-route"></a>
 
@@ -451,11 +485,18 @@ The code blocks briefly paraphrase the official prompts. They are **not the comp
 |---|---|
 | ![Dressing room, frame at 3 seconds in the official video](assets/official-route-1.jpg) | ![On stage, frame at 24 seconds in the official video](assets/official-route-2.jpg) |
 
-**Corresponding prompt instructions, briefly paraphrased**
+**Complete prompt (expanded by this library)**
 
 ```text
-Follow a singer continuously through the dressing room, corridor, and stage.
-Include a microphone handover and interactions along the route. Move behind the singer on stage, then pull back to reveal the audience.
+Create a 30-second, 16:9 live-action-style performance film in one continuous shot. Follow one original female singer from a dressing room through a corridor onto a red-and-black stage. Keep her face, curls, dark green outfit and earpiece consistent.
+
+0–6s: Begin beside the dressing-room mirror in a medium shot. She checks her earpiece while a staff member signals from the doorway. Retreat slowly to leave room for her to stand and turn; do not create a duplicate person in the mirror.
+6–13s: Track backward ahead of her into the corridor, maintaining a medium framing. A staff member offers one microphone from the side. Show her hand receiving it clearly, with only one transfer.
+13–21s: Two dancers join at the corridor exit, leaving a clear path. Follow their walk toward the stage; use the doorway and changing illumination to explain the transition, without cuts or blackouts.
+21–27s: She reaches the spotlight with the dancers on either side. Move along a wide arc to her rear three-quarter view, revealing the performance space while preserving readable silhouettes.
+27–30s: Pull back gently to include singer, stage and audience, then settle as she takes her opening pose.
+
+Sound: footsteps, fabric and the microphone handover, followed by increasingly distinct applause. Use an original instrumental bed, no existing song or imitated singer. No dialogue, captions or recognizable branding. Preserve believable weight and hand contact. No costume changes, duplicate microphones, wall penetration or teleportation.
 ```
 
 **What to learn from the frames:** Compare the intimate backstage setting with the open stage space. The stills show two points along the route; use the source video to examine the continuous camera movement.
@@ -487,11 +528,19 @@ Keep the same person, cup, and continuous space. No cuts, teleportation, or addi
 |---|---|
 | ![Performance scene, frame at 12 seconds in the official video](assets/official-references-1.jpg) | ![Choir passage, frame at 27 seconds in the official video](assets/official-references-2.jpg) |
 
-**Corresponding prompt instructions, briefly paraphrased**
+**Complete prompt (expanded by this library)**
 
 ```text
-Assign separate reference images to the venue, pianist, lead singer, strings, choir, and audience.
-Establish the full scene, move through the performances and choir, and end with audience applause.
+Create a 30-second, 16:9 original chamber-concert film using six reference images you have permission to use. Image 1 defines the hall and seating; Image 2 the lead singer; Image 3 the pianist and piano; Image 4 the string section; Image 5 the choir; Image 6 the audience. Each image controls only its assigned subject. Use an interface that supports six separately assigned images, or reduce the reference set and rewrite the assignments first.
+
+Fixed layout: singer front center, piano on screen left, strings on the right, choir on rear risers. Preserve identities, counts, instruments and spatial relationships. Use warm golden overhead light and believable hall materials, without decorative lettering.
+0–6s: Push slowly from a high wide view behind the audience to establish the stage and seats.
+6–12s: Cut to a side medium shot of the pianist. Match visible keystrokes to original piano audio; the singer remains in the background.
+12–18s: Cut to the strings and move laterally, keeping bow hair in contact with strings and instruments intact.
+18–25s: Show singer and choir together singing wordless vowel harmonies with synchronized mouth movements, no lyrics or captions.
+25–30s: Pull back from this position. Performers lower their hands after the final note; audience applause follows, never precedes it.
+
+Use moderate hall reverberation and distinct piano, strings and voices, without existing compositions or real-person voice imitation. Keep screen direction stable. No exchanged instruments, duplicated performers or audience members appearing on stage.
 ```
 
 **What to learn from the frames:** Compare the stage layout and performers to identify which subjects need separate references. Checking whether they match the inputs also requires examining the official reference images.
@@ -524,11 +573,17 @@ Keep the character's appearance, flower varieties, and shop layout unchanged thr
 |---|---|
 | ![Coffee and breakfast viewpoint comparison, frame at 6 seconds in the official video](assets/official-camera-1.jpg) | ![Egg-cooking viewpoint comparison, frame at 9 seconds in the official video](assets/official-camera-2.jpg) |
 
-**Corresponding prompt instructions, briefly paraphrased**
+**Complete prompt (expanded by this library)**
 
 ```text
-Preserve the breakfast clip's people, actions, and visual style; change only the camera movement.
-Plan timed views near the cookware, tracking the egg, moving overhead, and returning to a two-person shot.
+Edit a 15-second original breakfast clip with two people. Change only camera position and movement. The input must include breakfast preparation, an egg flipping, and the people arranging the counter. Inspect the source action timing and align the segments below to it before editing. Preserve identities, clothing, action order, utensil counts, kitchen layout, visual style and the original soundtrack.
+
+0–4s: Glide slowly forward from a low position beside the counter, showing toaster and coffee cup before turning smoothly toward the pan. Route around handles and arms; preserve counter scale and do not pass through objects.
+4–7s: During the source egg flip, move to an oblique position above the pan rim and track slightly sideways. Preserve the original speed, trajectory and landing point. If the flip occurs elsewhere, move this segment to that moment rather than making the actor repeat or anticipate it.
+7–11s: Rise smoothly to an oblique overhead view that reveals the pan, plate and cup positions. Preserve lighting direction and food state; do not make occluded objects disappear.
+11–15s: Retreat gradually to a medium two-shot including the counter. Settle after the original action ends, retaining source gaze, handoffs and final positions.
+
+Keep source sound synchronized and retain total duration. No replacement background, added acting, new score, text or transition effects. No duplicate people, eggs or floating utensils. Present the same breakfast action from a different viewpoint instead of restaging it.
 ```
 
 **What to learn from the frames:** The official video includes its own side-by-side comparison. These frames show the breakfast scene and egg-cooking action from different viewpoints. Frame timestamps locate images in the demonstration file; they are not the prompt's timeline instructions.
@@ -611,9 +666,15 @@ The official Seedance 2.5 page highlights video generation up to 30 seconds in o
 
 For the full method, see [Seedance 2.5 Prompting Guide: From Brief to Usable Video](docs/prompting-guide.md).
 
-## Three copy-ready Seedance 2.5 prompts
+## Nine copy-ready Seedance 2.5 prompts
 
-### Cinematic storm rescue training
+The first six recipes originate in the Flaq source library; the final three are new SeaImagine exercises. Recipes 1–3 use the provided starting images; recipes 4–9 can start from text alone. None has been generation-tested in this project. These homepage exercises do not change the 120-entry full library.
+
+**Match the duration setting:** some inherited recipes use 24 seconds. Where the interface offers five-second increments, retime the complete sequence or split it into shots. Prompt timestamps do not override interface settings.
+
+<a id="cinematic-storm-rescue-training"></a>
+
+### 1. Cinematic storm rescue training
 
 ![Input reference: Cinematic storm rescue training](assets/cinematic-rescue-reference.png)
 
@@ -630,7 +691,9 @@ Use the input image as the first frame and only visual anchor. Preserve the iden
 Audio: stereo rain, waves, engine, two short safety calls, and a very soft low string tone at the end. No casualties, added people, altered boat parts, teleporting camera, text, logos, or watermark.
 ```
 
-### Premium unbranded sparkling-tea ad
+<a id="premium-unbranded-sparkling-tea-ad"></a>
+
+### 2. Premium unbranded sparkling-tea ad
 
 ![Input reference: Premium unbranded sparkling-tea ad](assets/product-sparkling-tea-reference.png)
 
@@ -647,7 +710,9 @@ Use the bottle in the input image as the only product anchor. Preserve its silho
 Audio: cap click, fine carbonation, light ice sound, minimal fresh rhythm. No fake text, extra bottles, label drift, melting glass, trademarks, or watermark.
 ```
 
-### Paper fox leaves a sketchbook
+<a id="paper-fox-leaves-a-sketchbook"></a>
+
+### 3. Paper fox leaves a sketchbook
 
 ![Input reference: Paper fox leaves a sketchbook](assets/paper-fox-story-reference.png)
 
@@ -663,6 +728,96 @@ Use the input image as the art and character anchor. Preserve the red paper fox'
 00:27-00:30: It stops at the window with a consistent reflection. Raise the camera and finish on an open-ended sense of departure.
 
 Audio: rain, paper folds, wood contact, and minimal glockenspiel. No extra animals, redesign, franchise resemblance, text, logos, or watermark.
+```
+
+### 4. An early-morning bakery | tactile food preparation
+
+**Mode:** Text-to-Video · Focus: hand movements and small production sounds
+
+```text
+A 30-second, 16:9 photorealistic short in an artisan bakery. The subject is an original adult baker wearing a beige apron and dark gray shirt, with neatly tied-back hair. Keep the person's identity, clothing, and workbench layout consistent throughout.
+
+00:00-00:07: Morning backlight enters through a window. In macro view, both hands place risen dough on a flour-dusted wooden counter. A palm presses gently and the dough slowly springs back.
+00:07-00:14: An overhead camera glides across the counter. The baker scores three even lines with a bread lame; flour particles briefly lift into the sidelight.
+00:14-00:22: Match-cut to the oven interior. The crust gradually expands and turns golden brown in the heat. Show believable baking changes without exaggerated time-lapse deformation.
+00:22-00:30: The loaf is placed on a cooling rack. Push in slowly as the baker breaks off a small piece, revealing a soft crumb. Steam rises naturally. Finish on a still-life composition of bread and morning light.
+
+Audio only: dough touching the counter, the blade scoring the surface, the oven door, cracking crust, and distant morning city ambience. No narration, music, text, branding, extra fingers, or intersecting food geometry.
+```
+
+### 5. Rooftop jazz | music and continuous blocking
+
+**Mode:** Text-to-Video · Focus: three performers' positions and synchronized sound
+
+```text
+Create a 30-second original rooftop jazz-trio performance at blue hour, with a softly blurred city skyline. Three adult musicians play upright bass, jazz drums, and trumpet. They wear unbranded dark contemporary formal clothing. Keep the number of people and instrument positions fixed.
+
+00:00-00:08: Begin in macro view on the bass strings. Plucking fingers precisely match the bass notes. Rise along the instrument to reveal all three musicians' positions.
+00:08-00:16: Arc toward the drummer. Brushes circle across the snare while the trumpeter inhales in the background. Rack focus smoothly from the brushes to the trumpeter's eyes.
+00:16-00:24: The trumpet introduces the main melody. Move between the musicians and make a half-circle orbit. A rooftop breeze moves their clothing; instrument reflections change realistically with camera position.
+00:24-00:30: The trio finishes with a short shared phrase. Pull back slowly to a wide shot as distant city lights come on. Let the last trumpet note decay naturally in the air.
+
+Audio must be one original jazz passage at a consistent tempo. Bass, brush, and trumpet movements must match the notes. Retain rooftop wind and distant traffic. No screaming audience, fake playing, deformed instruments, text, or watermark.
+```
+
+### 6. A commuter backpack | a casual phone review
+
+**Mode:** Text-to-Video; optionally add a product reference · Focus: conversational delivery and object continuity
+
+```text
+A 24-second vertical 9:16 video with a natural smartphone-selfie look. An original adult city commuter quickly demonstrates an unbranded dark-green backpack at an apartment entrance. The tone is friendly and genuine, not a studio commercial. Preserve the person's face and clothing, the backpack color, and its pocket count.
+
+00:00-00:05: Handheld medium close-up. Looking into the camera, the commuter says in natural Mandarin: “这是我最近每天都在背的通勤包。” Allow a natural pause and mild, controlled handheld movement.
+00:05-00:12: Cut to first-person view. Place a 13-inch laptop, water bottle, and folded umbrella into the bag in that order. Each object appears once; the zipper and pocket capacity remain plausible.
+00:12-00:18: The commuter puts on the backpack and leaves the apartment. A mirror briefly shows a side silhouette. The straps bear weight naturally without drifting or changing shape.
+00:18-00:24: Return to selfie framing inside the elevator. The commuter lightly taps a strap and says: “装得下，但不会显得很笨重。” The elevator opens; end as the person walks toward a bright corridor.
+
+Audio: natural Mandarin speech, zipper movement, objects being packed, and an elevator chime. No exaggerated background music. Mouth movements match speech; each line is spoken once. No subtitles, brands, additional objects, or duplicate people in the mirror.
+```
+
+### 7. Light and shadow in a museum | one clear science demonstration
+
+**Mode:** Text-to-Video · **Aspect ratio:** 16:9 · **Duration:** 20 seconds · Focus: explain one principle through a readable experiment
+
+```text
+A 20-second, 16:9 photorealistic museum science demonstration. On a dark-blue exhibit table, arrange a small warm-white point light, a matte white sphere, and a vertical white screen from left to right. A thin black rod supports the sphere. The screen always stays to its right. Show only an adult educator's right hand in a light-gray sleeve; no face. Demonstrate a real optical relationship: moving an object toward the light makes its shadow on the screen larger. Generate no text, diagrams, or additional celestial objects.
+
+00:00-00:05: A fixed three-quarter side medium shot establishes the light, sphere, and screen together. The light illuminates the sphere's left half; a complete circular shadow appears at the screen's center. Hold for two seconds so viewers can read the apparatus. One calm English narrator says: “Light travels in straight lines. The ball blocks it, casting a shadow.”
+00:05-00:11: Keep the same camera position without a cut. The right hand holds the black rod below the sphere and slowly moves the sphere about ten centimeters toward the light along a straight line. Neither light nor screen moves. The circular shadow grows continuously while its center remains nearly fixed. The hand never passes between the light and sphere or obscures the main shadow. Narration: “Move the ball toward the light, and its shadow grows.”
+00:11-00:16: The hand returns the sphere along exactly the same path. Its shadow smoothly shrinks back to the initial size. No skipped motion. Narration: “Move it back, and the shadow shrinks again.”
+00:16-00:20: The hand releases the support and exits. All three objects remain still. Pull back slightly, keeping the complete apparatus and shadow visible. End on a wide view that clearly explains their spatial relationship.
+
+Audio: the same natural English narrator, quiet finger contact with the support, and subtle reverberation in an otherwise calm gallery. No music. No flickering light, deforming sphere, shadow growth opposite to the stated movement, appearing or disappearing equipment, subtitles, logos, watermarks, or invented scientific conclusions.
+```
+
+### 8. A courtyard reading room after rain | an architectural walkthrough
+
+**Mode:** Text-to-Video · **Aspect ratio:** 16:9 · **Duration:** 20 seconds · Focus: continuous, understandable space
+
+```text
+A 20-second, 16:9 photorealistic architectural walkthrough in one continuous shot. A single-story courtyard reading room has a south entrance, a straight corridor toward the courtyard ahead, and an already open wide wooden door on the right leading into the reading room. The room's north glass wall faces the same courtyard. There is exactly one small maple and one stone path in the courtyard. Materials are pale plaster, oak, and light-gray stone flooring. Rain has just stopped; soft daylight enters from the courtyard. No people, branding, or signage.
+
+00:00-00:05: Start just inside the south entrance at about 1.5 meters above the floor. With a natural wide-angle view, move slowly forward. Keep the maple ahead visible while the open wooden door on the corridor's right approaches the foreground. The stone floor has restrained damp reflections, not large puddles.
+00:05-00:10: Slow down beside the door and turn smoothly about 90 degrees right, passing through the doorway into the reading room. Show the doorframe passing the image edges so the connection between corridor and room is clear. Do not pass through walls or hide a cut.
+00:10-00:15: Move slowly along the room beside the window. Two beige reading chairs and one low round oak table come into view in sequence; a bookshelf stays against the solid wall on the left. Rack focus from the nearby chair back to the courtyard through the north window. Outside, retain the same maple and stone path seen earlier.
+00:15-00:20: Stop inside the reading room and turn slightly left. Compose the table in the foreground, chairs in the middle, and courtyard in the background. Maple leaves stir lightly; a final raindrop falls from the eaves. Hold the final two seconds without further rotation.
+
+Audio: subtle room ambience, rain dripping outside, rustling leaves, and one distant bird call. No unseen person's footsteps, narration, or music. Preserve room scale, door and window positions, and furniture counts. No melting walls, extra exits, mirrored rooms, strong fisheye distortion, text, or watermark.
+```
+
+### 9. A small world beside a dewdrop | macro nature observation
+
+**Mode:** Text-to-Video · **Aspect ratio:** 16:9 · **Duration:** 15 seconds · Focus: small-subject anatomy, restrained motion, and depth of field
+
+```text
+A 15-second, 16:9 photorealistic macro nature film in one continuous shot. At dawn, one red seven-spotted ladybird rests on a horizontally extending green leaf, facing right. It has six legs, two short antennae, and symmetrical red wing cases. Keep every black spot in the same position. There is exactly one dewdrop on the right side of the leaf near its tip. Softly blurred grass fills the background; low morning sunlight comes from behind on the left, passing through the leaf.
+
+00:00-00:04: Hold a side-on macro composition. Focus on the ladybird's head and front feet while keeping nearby veins and the dewdrop recognizable. Its antennae move slightly and its front feet test the leaf without abrupt travel. Background grass moves very gently.
+00:04-00:09: The ladybird crawls slowly right along a vein for about one body length. Track parallel at matching speed, preserving subject size and the side view. Six legs alternately contact the leaf, with believable weight and no penetrating feet. Stop beside the drop without touching it or opening the wings.
+00:09-00:12: The insect stays in place, antennae moving subtly. Slowly rack focus from its head to the dewdrop. The drop shows a naturally inverted refracted green background, not extra animals, lettering, or an exaggerated landscape. A faint breeze bends the leaf slightly; the drop remains attached.
+00:12-00:15: Smoothly return focus to the ladybird's head and stop camera movement. It raises and replaces one front foot. End quietly with insect and droplet together in frame. It does not fly away; the scene never changes.
+
+Audio: gentle morning wind, sparse distant birds, and very low environmental ambience. Do not turn tiny footsteps into loud tapping. No speech, music, or dramatic sound hits. No added or missing legs, shifting spots, softening wing cases, floating water, enlarging insect, sudden zooms, text, logos, or watermarks.
 ```
 
 ## Full prompt library

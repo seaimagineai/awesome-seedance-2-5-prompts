@@ -22,3 +22,5 @@ Historical upstream checks remain dated 2026-09-20. See [current research](curre
 FLAQ API billing and affiliate promotions were removed because they are not evidence of SeaImagine’s product terms. No API schema, no-subscription offer or guaranteed uptime is inferred from the source repository.
 
 本库保留源库完整配方与参考素材，同时调整品牌入口、封面和使用说明。原作者、模型官方、社区作者与本次编辑的贡献分别标注；“已收录”“网页可访问”和“实际生成通过”是不同状态。
+
+Homepage additions: three new SeaImagine text-led exercises (museum light and shadow, courtyard architecture, macro nature) supplement the six inherited featured recipes. They are separate from the unchanged 120-recipe core. The three official teaching prompts are now detailed editorial expansions for the same scenes, not verbatim official prompts or the render instructions for the official stills; all expansions remain untested.
