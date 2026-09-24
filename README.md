@@ -670,6 +670,8 @@ For the full method, see [Seedance 2.5 Prompting Guide: From Brief to Usable Vid
 
 The first six recipes originate in the Flaq source library; the final three are new SeaImagine exercises. Recipes 1–3 use the provided starting images; recipes 4–9 can start from text alone. None has been generation-tested in this project. These homepage exercises do not change the 120-entry full library.
 
+Illustrations for recipes 4–9 were created with an AI image tool to show composition, materials and atmosphere. They are not tested Seedance video outputs and do not change the input modes below. [Image-generation prompts](assets/FEATURED_IMAGE_PROMPTS.md).
+
 **Match the duration setting:** some inherited recipes use 24 seconds. Where the interface offers five-second increments, retime the complete sequence or split it into shots. Prompt timestamps do not override interface settings.
 
 <a id="cinematic-storm-rescue-training"></a>
@@ -732,6 +734,8 @@ Audio: rain, paper folds, wood contact, and minimal glockenspiel. No extra anima
 
 ### 4. An early-morning bakery | tactile food preparation
 
+[![Baker pressing dough in dawn light, with tactile flour and wood](assets/featured-bakery.jpg)](assets/featured-bakery.jpg)
+
 **Mode:** Text-to-Video · Focus: hand movements and small production sounds
 
 ```text
@@ -746,6 +750,8 @@ Audio only: dough touching the counter, the blade scoring the surface, the oven 
 ```
 
 ### 5. Rooftop jazz | music and continuous blocking
+
+[![Rooftop jazz trio at blue hour: double bass, drum brushes and trumpet](assets/featured-rooftop-jazz.jpg)](assets/featured-rooftop-jazz.jpg)
 
 **Mode:** Text-to-Video · Focus: three performers' positions and synchronized sound
 
@@ -762,6 +768,8 @@ Audio must be one original jazz passage at a consistent tempo. Bass, brush, and 
 
 ### 6. A commuter backpack | a casual phone review
 
+<a href="assets/featured-commuter-backpack.jpg"><img src="assets/featured-commuter-backpack.jpg" alt="Commuter showing an unbranded dark green backpack at an apartment doorway" width="360"></a>
+
 **Mode:** Text-to-Video; optionally add a product reference · Focus: conversational delivery and object continuity
 
 ```text
@@ -776,6 +784,8 @@ Audio: natural Mandarin speech, zipper movement, objects being packed, and an el
 ```
 
 ### 7. Light and shadow in a museum | one clear science demonstration
+
+[![Lamp, white sphere and an enlarged shadow on a screen](assets/featured-museum-light.jpg)](assets/featured-museum-light.jpg)
 
 **Mode:** Text-to-Video · **Aspect ratio:** 16:9 · **Duration:** 20 seconds · Focus: explain one principle through a readable experiment
 
@@ -792,6 +802,8 @@ Audio: the same natural English narrator, quiet finger contact with the support,
 
 ### 8. A courtyard reading room after rain | an architectural walkthrough
 
+[![Reading chairs and a rain-washed maple courtyard seen through an oak doorway](assets/featured-courtyard-library.jpg)](assets/featured-courtyard-library.jpg)
+
 **Mode:** Text-to-Video · **Aspect ratio:** 16:9 · **Duration:** 20 seconds · Focus: continuous, understandable space
 
 ```text
@@ -806,6 +818,8 @@ Audio: subtle room ambience, rain dripping outside, rustling leaves, and one dis
 ```
 
 ### 9. A small world beside a dewdrop | macro nature observation
+
+[![Ladybird on a leaf facing a dewdrop in the morning light](assets/featured-ladybird-dew.jpg)](assets/featured-ladybird-dew.jpg)
 
 **Mode:** Text-to-Video · **Aspect ratio:** 16:9 · **Duration:** 15 seconds · Focus: small-subject anatomy, restrained motion, and depth of field
 

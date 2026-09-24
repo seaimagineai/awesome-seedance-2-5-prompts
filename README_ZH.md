@@ -717,6 +717,8 @@
 
 前六条沿用 Flaq 源库的原创配方，后三条为 SeaImagine 新增创作。前三条附起始参考图，第 4–9 条可直接从文字开始。九条均未在本项目生成实测；它们是首页练习，不改变完整场景库的 120 条收录。
 
+第 4–9 条的配图为 AI 制作的场景图例，用来参考构图、材质和氛围，非 Seedance 视频实测结果；不改变下方提示词的输入方式。[配图生成提示词](assets/FEATURED_IMAGE_PROMPTS.md)。
+
 **先对齐时长：**提示词中的 24 秒、27 秒等是创作时间安排，不是品牌页面的参数档位。品牌公开页列出每档 5 秒的选项；使用时应调整整段时间轴，或拆成多个镜头。提示词不能替代界面设置。
 
 ### 1. 暴雨海岸救援演练｜电影长镜头
@@ -779,6 +781,8 @@
 
 ### 4. 清晨面包坊｜面包制作与细节声效
 
+[![晨光下的烘焙师轻压面团，面粉与木台质感清晰](assets/featured-bakery.jpg)](assets/featured-bakery.jpg)
+
 **模式：** 文生视频 · 重点：手作动作与细节声音
 
 ```text
@@ -793,6 +797,8 @@
 ```
 
 ### 5. 屋顶爵士现场｜音乐表演与连续调度
+
+[![蓝调时刻的屋顶爵士三重奏：贝斯、鼓刷与小号](assets/featured-rooftop-jazz.jpg)](assets/featured-rooftop-jazz.jpg)
 
 **模式：** 文生视频 · 重点：三人位置与音画同步
 
@@ -809,6 +815,8 @@
 
 ### 6. 城市通勤背包｜手机自拍视频测评
 
+<a href="assets/featured-commuter-backpack.jpg"><img src="assets/featured-commuter-backpack.jpg" alt="公寓门口的通勤者展示深绿色无品牌背包" width="360"></a>
+
 **模式：** 文生视频；有产品图时可增加参考 · 重点：生活化表达与物件一致性
 
 ```text
@@ -823,6 +831,8 @@
 ```
 
 ### 7. 博物馆里的光与影｜科普演示
+
+[![灯、白色球体与屏幕上的放大投影](assets/featured-museum-light.jpg)](assets/featured-museum-light.jpg)
 
 **模式：** 文生视频 · **建议画幅：** 16:9 · **时长：** 20 秒 · 重点：用一个清晰实验讲明白一个知识点
 
@@ -839,6 +849,8 @@
 
 ### 8. 雨后庭院书屋｜建筑空间导览
 
+[![从木门望向两把阅读椅与雨后枫树庭院](assets/featured-courtyard-library.jpg)](assets/featured-courtyard-library.jpg)
+
 **模式：** 文生视频 · **建议画幅：** 16:9 · **时长：** 20 秒 · 重点：交代连续空间，不靠房间突然变化制造惊喜
 
 ```text
@@ -853,6 +865,8 @@
 ```
 
 ### 9. 露珠中的小世界｜微距自然观察
+
+[![晨光中的瓢虫停在叶片上，面向一颗露珠](assets/featured-ladybird-dew.jpg)](assets/featured-ladybird-dew.jpg)
 
 **模式：** 文生视频 · **建议画幅：** 16:9 · **时长：** 15 秒 · 重点：保持微小主体的结构，控制动作与景深
 
